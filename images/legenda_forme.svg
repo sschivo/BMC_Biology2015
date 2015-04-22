@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1437.8477"
+   height="125.7285"
+   id="svg3817"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="legenda_forme.svg">
+  <defs
+     id="defs3819" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.71648337"
+     inkscape:cx="574.35034"
+     inkscape:cy="-89.39058"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1589"
+     inkscape:window-height="942"
+     inkscape:window-x="222"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3822">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(154.11818,-311.06201)">
+    <g
+       id="g4420"
+       transform="translate(-302.86816,99.095112)">
+      <rect
+         y="277.3313"
+         x="150.75005"
+         height="49.995064"
+         width="49.995064"
+         id="rect3825"
+         style="fill:#646464;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4396"
+         y="311.15695"
+         x="210.71819"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="311.15695"
+           x="210.71819"
+           id="tspan4398"
+           sodipodi:role="line">Cytokine</tspan></text>
+    </g>
+    <g
+       id="g4425"
+       transform="translate(-69.541461,3.978534)">
+      <path
+         transform="matrix(0.94974874,0,0,0.94974873,12.25512,110.95571)"
+         d="m 198.57142,301.64789 c 0,14.5961 -11.83247,26.42857 -26.42857,26.42857 -14.59609,0 -26.42857,-11.83247 -26.42857,-26.42857 0,-14.5961 11.83248,-26.42857 26.42857,-26.42857 14.5961,0 26.42857,11.83247 26.42857,26.42857 z"
+         sodipodi:ry="26.428572"
+         sodipodi:rx="26.428572"
+         sodipodi:cy="301.64789"
+         sodipodi:cx="172.14285"
+         id="path4335"
+         style="fill:#646464;fill-opacity:1;stroke:#000000;stroke-width:4.21164036;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4400"
+         y="409.37509"
+         x="209.37444"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="409.37509"
+           x="209.37444"
+           id="tspan4402"
+           sodipodi:role="line">Kinase</tspan></text>
+    </g>
+    <g
+       id="g4430"
+       transform="translate(128.07211,-91.137962)">
+      <rect
+         y="476.64328"
+         x="150.32895"
+         height="31.83725"
+         width="50.837254"
+         id="rect4337"
+         style="fill:#646464;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4404"
+         y="504.49158"
+         x="210.71819"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="504.49158"
+           x="210.71819"
+           id="tspan4406"
+           sodipodi:role="line">Other</tspan></text>
+    </g>
+    <g
+       id="g4435"
+       transform="translate(313.58695,-186.25447)">
+      <rect
+         transform="matrix(0.70710679,-0.70710678,0.70710679,0.70710678,0,0)"
+         y="521.75409"
+         x="-309.34869"
+         height="36.139221"
+         width="36.139221"
+         id="rect3825-2"
+         style="fill:#646464;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4408"
+         y="596.50653"
+         x="209.37444"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="596.50653"
+           x="209.37444"
+           id="tspan4410"
+           sodipodi:role="line">Phosphatase</tspan></text>
+    </g>
+    <g
+       id="g4440"
+       transform="translate(604.96467,-281.37096)">
+      <path
+         transform="matrix(0.82327005,0,0,0.82099945,28.670099,108.56938)"
+         d="m 203.77305,699.42255 c 0,22.45004 -11.24782,40.64939 -25.12271,40.64939 -13.87488,0 -25.1227,-18.19935 -25.1227,-40.64939 0,-22.45004 11.24782,-40.64939 25.1227,-40.64939 13.87489,0 25.12271,18.19935 25.12271,40.64939 z"
+         sodipodi:ry="40.649391"
+         sodipodi:rx="25.122705"
+         sodipodi:cy="699.42255"
+         sodipodi:cx="178.65034"
+         id="path4357"
+         style="fill:#646464;fill-opacity:1;stroke:#000000;stroke-width:4.86538696;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4412"
+         y="691.13086"
+         x="209.37444"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="691.13086"
+           x="209.37444"
+           id="tspan4414"
+           sodipodi:role="line">Receptor</tspan></text>
+    </g>
+    <g
+       id="g4445"
+       transform="translate(844.40195,-376.48745)">
+      <path
+         transform="matrix(0,0.82874901,-0.69669967,0,663.03503,629.8551)"
+         d="m 203.77305,699.42255 c 0,22.45004 -11.24782,40.64939 -25.12271,40.64939 -13.87488,0 -25.1227,-18.19935 -25.1227,-40.64939 0,-22.45004 11.24782,-40.64939 25.1227,-40.64939 13.87489,0 25.12271,18.19935 25.12271,40.64939 z"
+         sodipodi:ry="40.649391"
+         sodipodi:rx="25.122705"
+         sodipodi:cy="699.42255"
+         sodipodi:cx="178.65034"
+         id="path4357-8"
+         style="fill:#646464;fill-opacity:1;stroke:#000000;stroke-width:5.26411867;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4416"
+         y="789.84106"
+         x="212.60881"
+         style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="789.84106"
+           x="212.60881"
+           id="tspan4418"
+           sodipodi:role="line">Transcr. factor</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-154.92334"
+       y="347.53076"
+       id="text4450"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4452"
+         x="-154.92334"
+         y="347.53076">Protein category</tspan></text>
+  </g>
+</svg>

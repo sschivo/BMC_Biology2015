@@ -1,0 +1,2154 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  22 APR 2015 16:04
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**Paper.tex -synctex=1
+(./Paper.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(./bmcart.cls
+Document Class: bmcart 2012/06/27BioMed Central class (VS)
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\mathindent=\dimen103
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+\c@thanks=\count88
+\bmcfloat@box=\box26
+\c@author=\count89
+\c@address=\count90
+\sv@mathsurround=\dimen104
+\fm@box=\box27
+\c@addressref=\count91
+\thanks@box=\box28
+\abstract@box=\box29
+\authors@list=\toks15
+\keywords@list=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks20
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks21
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen116
+\captionmargin@=\dimen117
+\captionwidth=\dimen118
+\caption@tempdima=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip \abovecaptionsk
+ip \parbox [t]{\hsize }{\floatcaption@size {\floatcaptionname@size #1}\hskip .5
+em #2\par }\vskip \belowcaptionskip .
+\c@ContinuedFloat=\count104
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count105
+\sf@farskip=\skip46
+\sf@captopadj=\dimen123
+\sf@capskip=\skip47
+\sf@nearskip=\skip48
+\c@subfigure=\count106
+\c@subfigure@save=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@subtable@save=\count110
+\c@lotdepth=\count111
+\sf@top=\skip49
+\sf@bottom=\skip50
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count112
+\calc@Bcount=\count113
+\calc@Adimen=\dimen124
+\calc@Bdimen=\dimen125
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count114
+\calc@Cskip=\skip53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen126
+\extrarowheight=\dimen127
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count115
+\rotFPtop=\skip56
+\rotFPbot=\skip57
+\rot@float@box=\box32
+\rot@mess@toks=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen128
+\TX@old@table=\dimen129
+\TX@old@col=\dimen130
+\TX@target=\dimen131
+\TX@delta=\dimen132
+\TX@cols=\count116
+\TX@ftn=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen133
+)
+(/usr/share/texlive/texmf-dist/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip58
+\layoutsbox=\box33
+\l@youtunitlength=\skip59
+\l@youtlinethick=\skip60
+\l@youtlinethickii=\skip61
+\l@ysetupparskip=\skip62
+\l@ysetupbaselineskip=\skip63
+\l@yonem=\skip64
+\l@yonex=\skip65
+\l@ylmarg=\skip66
+\l@yrmarg=\skip67
+\l@yitmindent=\skip68
+\l@ylblwidth=\skip69
+\l@ylblsep=\skip70
+\l@ylparindent=\skip71
+\l@ytsep=\skip72
+\l@ypskip=\skip73
+\l@yptsep=\skip74
+\l@ypsep=\skip75
+\l@yitmsep=\skip76
+\l@ytok=\toks27
+\l@youtpw=\count117
+\l@youtph=\count118
+\l@youthpi=\count119
+\l@youthpii=\count120
+\l@youthpiii=\count121
+\l@youthpiv=\count122
+\l@youthpv=\count123
+\l@youthpvi=\count124
+\l@youthpvii=\count125
+\l@youtparskip=\count126
+\l@youtvpi=\count127
+\l@youtvpii=\count128
+\l@youtvpiii=\count129
+\l@youtvpiv=\count130
+\l@youtvpv=\count131
+\l@youtvpvi=\count132
+\l@youtvpvii=\count133
+\l@youthdo=\count134
+\l@youthdi=\count135
+\l@youthdii=\count136
+\l@youthdiii=\count137
+\l@youthdiv=\count138
+\l@youthdv=\count139
+\l@youthdvi=\count140
+\l@youthdvii=\count141
+\l@youtvdo=\count142
+\l@youtvdi=\count143
+\l@youtvdii=\count144
+\l@youtvdiii=\count145
+\l@youtvdiv=\count146
+\l@youtvdv=\count147
+\l@youtvdvi=\count148
+\l@youtvdvii=\count149
+\l@youtvdviii=\count150
+\l@youtxci=\count151
+\l@youtxcii=\count152
+\l@youtxciii=\count153
+\l@youtxciv=\count154
+\l@youtxcv=\count155
+\l@youtxcvi=\count156
+\l@youtyci=\count157
+\l@youtycii=\count158
+\l@youtyciii=\count159
+\l@youtyciv=\count160
+\l@youtycv=\count161
+\l@youtycvi=\count162
+\l@youtycvii=\count163
+\l@youtycviii=\count164
+\l@youtxco=\count165
+\l@youtyco=\count166
+\l@ytempdima=\skip77
+\stockwidth=\skip78
+\stockheight=\skip79
+\trimedge=\skip80
+\trimtop=\skip81
+\uppermargin=\skip82
+\spinemargin=\skip83
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count167
+\LTcapwidth=\dimen135
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count168
+\LT@rows=\count169
+\c@LT@tables=\count170
+\c@LT@chunks=\count171
+\LT@p@ftn=\toks28
+)
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks29
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box38
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen136
+\pgf@y=\dimen137
+\pgf@xa=\dimen138
+\pgf@ya=\dimen139
+\pgf@xb=\dimen140
+\pgf@yb=\dimen141
+\pgf@xc=\dimen142
+\pgf@yc=\dimen143
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count172
+\c@pgf@countb=\count173
+\c@pgf@countc=\count174
+\c@pgf@countd=\count175
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count176
+\pgfsyssoftpath@bigbuffer@items=\count177
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen144
+\pgfmath@count=\count178
+\pgfmath@box=\box39
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count179
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen145
+\pgf@picmaxx=\dimen146
+\pgf@picminy=\dimen147
+\pgf@picmaxy=\dimen148
+\pgf@pathminx=\dimen149
+\pgf@pathmaxx=\dimen150
+\pgf@pathminy=\dimen151
+\pgf@pathmaxy=\dimen152
+\pgf@xx=\dimen153
+\pgf@xy=\dimen154
+\pgf@yx=\dimen155
+\pgf@yy=\dimen156
+\pgf@zx=\dimen157
+\pgf@zy=\dimen158
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen159
+\pgf@path@lasty=\dimen160
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen161
+\pgf@shorten@start@additional=\dimen162
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box40
+\pgf@hbox=\box41
+\pgf@layerbox@main=\box42
+\pgf@picture@serial@count=\count180
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen163
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen164
+\pgf@pt@y=\dimen165
+\pgf@pt@temp=\dimen166
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen167
+\pgf@sys@shading@range@num=\count181
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box43
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box44
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen168
+\pgf@nodesepend=\dimen169
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count182
+\pgfplotmarksize=\dimen172
+)
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
+\tikz@figbox=\box45
+\tikz@tempbox=\box46
+\tikztreelevel=\count183
+\tikznumberofchildren=\count184
+\tikznumberofcurrentchild=\count185
+\tikz@fig@count=\count186
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count187
+\pgfmatrixcurrentcolumn=\count188
+\pgf@matrix@numberofcolumns=\count189
+)
+\tikz@expandcount=\count190
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.c
+ode.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.t
+ex
+File: pgflibraryshapes.misc.code.tex 2008/10/07 v2.10 (rcs-revision 1.3)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.cod
+e.tex
+File: pgflibraryshapes.symbols.code.tex 2009/10/27 v2.10 (rcs-revision 1.3)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
+.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.callouts.code.tex
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.co
+de.tex))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
+s.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.c
+ode.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box47
+\pgfnodeparttwobox=\box48
+\pgfnodepartthreebox=\box49
+\pgfnodepartfourbox=\box50
+\pgfnodeparttwentybox=\box51
+\pgfnodepartnineteenbox=\box52
+\pgfnodeparteighteenbox=\box53
+\pgfnodepartseventeenbox=\box54
+\pgfnodepartsixteenbox=\box55
+\pgfnodepartfifteenbox=\box56
+\pgfnodepartfourteenbox=\box57
+\pgfnodepartthirteenbox=\box58
+\pgfnodeparttwelvebox=\box59
+\pgfnodepartelevenbox=\box60
+\pgfnodeparttenbox=\box61
+\pgfnodepartninebox=\box62
+\pgfnodeparteightbox=\box63
+\pgfnodepartsevenbox=\box64
+\pgfnodepartsixbox=\box65
+\pgfnodepartfivebox=\box66
+)))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
+s.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
+\arrowsize=\dimen179
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box67
+\fn@width=\dimen180
+)
+\@indexfile=\write4
+\openout4 = `Paper.idx'.
+
+
+Writing index file Paper.idx
+(./Paper.aux)
+\openout1 = `Paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count191
+\scratchdimen=\dimen181
+\scratchbox=\box68
+\nofMPsegments=\count192
+\nofMParguments=\count193
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen182
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
+\everyMPtoPDFconversion=\toks39
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+
+Package layouts Warning: Layout scale set to 0.5 on input line 105.
+
+ABD: EveryShipout initializing macros
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
+(Font)              size <12> substituted on input line 110.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 112.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 133.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 133.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 133.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 133.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\address@aff1=\toks40
+\address@aff2=\toks41
+\address@aff3=\toks42
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 256.
+
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 323.
+
+
+
+Overfull \hbox (1.0pt too wide) has occurred while \output is active
+ [] 
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+LaTeX Warning: Reference `fig:large-model-no-hypotheses' on page 2 undefined on
+ input line 472.
+
+
+LaTeX Warning: Reference `fig:large-model-graph1' on page 2 undefined on input 
+line 489.
+
+
+LaTeX Warning: Reference `fig:large-model-graph2' on page 2 undefined on input 
+line 498.
+
+[2]
+
+LaTeX Warning: Reference `fig:large-model-graph4' on page 3 undefined on input 
+line 524.
+
+[3] [4] [5] [6] [7] (./Paper.bbl [8]) [9]
+<images/screenshotTNFmodelSmall.png, id=54, 1506.62875pt x 986.68625pt>
+File: images/screenshotTNFmodelSmall.png Graphic file (type png)
+
+<use images/screenshotTNFmodelSmall.png>
+Package pdftex.def Info: images/screenshotTNFmodelSmall.png used on input line 
+903.
+(pdftex.def)             Requested size: 324.8978pt x 212.76573pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 915--915
+[][] [] 
+ []
+
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/modeling_methods_spectrum_anim
+o.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allow
+ed
+<images/modeling_methods_spectrum_animo.pdf, id=55, 509.7334pt x 220.46227pt>
+File: images/modeling_methods_spectrum_animo.pdf Graphic file (type pdf)
+
+<use images/modeling_methods_spectrum_animo.pdf>
+Package pdftex.def Info: images/modeling_methods_spectrum_animo.pdf used on inp
+ut line 921.
+(pdftex.def)             Requested size: 324.8978pt x 140.52348pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 926--926
+[][] [] 
+ []
+
+<images/drosophila_model5.png, id=56, 2195.20125pt x 1469.49pt>
+File: images/drosophila_model5.png Graphic file (type png)
+
+<use images/drosophila_model5.png>
+Package pdftex.def Info: images/drosophila_model5.png used on input line 935.
+(pdftex.def)             Requested size: 176.89198pt x 118.41365pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 949--949
+[][] [] 
+ []
+
+
+<images/large_network_merged_no_hypotheses_oneImage.png, id=57, 787.94376pt x 9
+74.64125pt>
+File: images/large_network_merged_no_hypotheses_oneImage.png Graphic file (type
+ png)
+ <use images/large_network_merged_no_hypotheses_oneImage.png>
+Package pdftex.def Info: images/large_network_merged_no_hypotheses_oneImage.png
+ used on input line 965.
+(pdftex.def)             Requested size: 324.8978pt x 401.88089pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 976--976
+[][] [] 
+ []
+
+<images/large_network_legendg_oneImage.png, id=58, 770.88pt x 824.07875pt>
+File: images/large_network_legendg_oneImage.png Graphic file (type png)
+
+<use images/large_network_legendg_oneImage.png>
+Package pdftex.def Info: images/large_network_legendg_oneImage.png used on inpu
+t line 985.
+(pdftex.def)             Requested size: 324.8978pt x 347.31786pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1003--1003
+[][] [] 
+ []
+
+<images/abstraction_ta_mek-erk3_oneImage.png, id=59, 685.56125pt x 216.81pt>
+File: images/abstraction_ta_mek-erk3_oneImage.png Graphic file (type png)
+
+<use images/abstraction_ta_mek-erk3_oneImage.png>
+Package pdftex.def Info: images/abstraction_ta_mek-erk3_oneImage.png used on in
+put line 1021.
+(pdftex.def)             Requested size: 252.6989pt x 79.91739pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1038--1038
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/small_model_oneImage.png, id=60, 1192.455pt x 799.98875pt>
+File: images/small_model_oneImage.png Graphic file (type png)
+
+<use images/small_model_oneImage.png>
+Package pdftex.def Info: images/small_model_oneImage.png used on input line 105
+4.
+(pdftex.def)             Requested size: 324.8978pt x 217.96515pt.
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1076--1076
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10
+
+ <./images/screenshotTNFmodelSmall.png>] [11 <./images/modeling_methods_spectru
+m_animo.pdf> <./images/drosophila_model5.png (PNG copy)>] [12 <./images/large_n
+etwork_merged_no_hypotheses_oneImage.png>] [13 <./images/large_network_legendg_
+oneImage.png>] [14 <./images/abstraction_ta_mek-erk3_oneImage.png> <./images/sm
+all_model_oneImage.png>]
+Overfull \hbox (6.48907pt too wide) in paragraph at lines 1118--1118
+[]|\OT1/cmss/bx/n/7 Qualitative
+ []
+
+
+Overfull \hbox (5.29321pt too wide) in paragraph at lines 1118--1118
+\OT1/cmss/bx/n/7 granularity|| 
+ []
+
+
+Overfull \hbox (0.82802pt too wide) in paragraph at lines 1144--1144
+[]|[]\OT1/cmss/m/n/7 Statecharts| 
+ []
+
+[15
+
+] [16
+
+] [1
+
+
+
+] (./Paper.toc)
+\tf@toc=\write5
+\openout5 = `Paper.toc'.
+
+ [2
+
+]
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1306--1313
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1313--1320
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1320--1323
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1323--1326
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1326--1348
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1348--1368
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1368--1373
+ [] [] [] 
+ []
+
+[1
+
+
+] [2]
+
+LaTeX Warning: Reference `csv-import-format' on page 3 undefined on input line 
+1397.
+
+[3
+
+] [4
+
+]
+<images/animo_simulation_workflow.pdf, id=193, 1233.40805pt x 1202.60732pt>
+File: images/animo_simulation_workflow.pdf Graphic file (type pdf)
+
+<use images/animo_simulation_workflow.pdf>
+Package pdftex.def Info: images/animo_simulation_workflow.pdf used on input lin
+e 1528.
+(pdftex.def)             Requested size: 361.0pt x 351.97684pt.
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1527--1535
+ [][]$[]$ 
+ []
+
+[5]
+\mysquareLow=\box69
+\mysquareHigh=\box70
+ <images/mek_activity_time_tables2.pdf, id=197, 1452.08893pt x 515.96762pt>
+File: images/mek_activity_time_tables2.pdf Graphic file (type pdf)
+
+<use images/mek_activity_time_tables2.pdf>
+Package pdftex.def Info: images/mek_activity_time_tables2.pdf used on input lin
+e 1612.
+(pdftex.def)             Requested size: 129.95961pt x 46.17526pt.
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1586--1658
+ [][]$[]$ 
+ []
+
+<images/JNK1_1level2.png, id=198, 1744.5175pt x 969.6225pt>
+File: images/JNK1_1level2.png Graphic file (type png)
+
+<use images/JNK1_1level2.png>
+Package pdftex.def Info: images/JNK1_1level2.png used on input line 1669.
+(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
+
+Overfull \hbox (90.25pt too wide) in paragraph at lines 1669--1669
+[] [] 
+ []
+
+<images/JNK1_10levels2.png, id=199, 1744.5175pt x 969.6225pt>
+File: images/JNK1_10levels2.png Graphic file (type png)
+
+<use images/JNK1_10levels2.png>
+Package pdftex.def Info: images/JNK1_10levels2.png used on input line 1670.
+(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
+
+Overfull \hbox (90.25pt too wide) in paragraph at lines 1670--1670
+[][] [] 
+ []
+
+<images/JNK1_50levels2.png, id=200, 1744.5175pt x 969.6225pt>
+File: images/JNK1_50levels2.png Graphic file (type png)
+
+<use images/JNK1_50levels2.png>
+Package pdftex.def Info: images/JNK1_50levels2.png used on input line 1671.
+(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
+
+Overfull \hbox (90.25pt too wide) in paragraph at lines 1671--1671
+[] [] 
+ []
+
+<images/JNK1_100levels2.png, id=201, 1744.5175pt x 969.6225pt>
+File: images/JNK1_100levels2.png Graphic file (type png)
+
+<use images/JNK1_100levels2.png>
+Package pdftex.def Info: images/JNK1_100levels2.png used on input line 1672.
+(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
+
+Overfull \hbox (90.25pt too wide) in paragraph at lines 1672--1672
+[][] [] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1667--1675
+ [][]$[]$ 
+ []
+
+[6 <./images/animo_simulation_workflow.pdf>] [7 <./images/mek_activity_time_tab
+les2.pdf> <./images/lowerbound.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/lowerbound.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./images/upperbound_green.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/upperbound_green.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] [8 <./images/JNK1_1level2.png (PNG copy)> <./images/JNK1_10levels2.png (PNG 
+copy)> <./images/JNK1_50levels2.png (PNG copy)> <./images/JNK1_100levels2.png (
+PNG copy)>]
+\reprGraphHeight=\skip88
+
+<images/drosophila_model_repressilator.png, id=236, 899.36pt x 943.525pt>
+File: images/drosophila_model_repressilator.png Graphic file (type png)
+
+<use images/drosophila_model_repressilator.png>
+Package pdftex.def Info: images/drosophila_model_repressilator.png used on inpu
+t line 1697.
+(pdftex.def)             Requested size: 134.89818pt x 141.52264pt.
+File: images/drosophila_model_repressilator.png Graphic file (type png)
+
+<use images/drosophila_model_repressilator.png>
+Package pdftex.def Info: images/drosophila_model_repressilator.png used on inpu
+t line 1701.
+(pdftex.def)             Requested size: 134.89818pt x 141.52264pt.
+
+Overfull \hbox (8.54597pt too wide) in paragraph at lines 1701--1701
+ [] 
+ []
+
+
+Overfull \hbox (216.5967pt too wide) in paragraph at lines 1701--1701
+[] 
+ []
+
+<images/CRY_oscillations.png, id=237, 1744.5175pt x 969.6225pt>
+File: images/CRY_oscillations.png Graphic file (type png)
+
+<use images/CRY_oscillations.png>
+Package pdftex.def Info: images/CRY_oscillations.png used on input line 1702.
+(pdftex.def)             Requested size: 216.6022pt x 120.38878pt.
+
+Overfull \hbox (63.17336pt too wide) in paragraph at lines 1702--1702
+[] [] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1699--1709
+ [][]$[]$ 
+ []
+
+<images/Circadian/clk.png, id=238, 1744.5175pt x 969.6225pt>
+File: images/Circadian/clk.png Graphic file (type png)
+
+<use images/Circadian/clk.png>
+Package pdftex.def Info: images/Circadian/clk.png used on input line 1725.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1725--1725
+[] 
+ []
+
+<images/Circadian/CLK.png, id=239, 1744.5175pt x 969.6225pt>
+File: images/Circadian/CLK.png Graphic file (type png)
+
+<use images/Circadian/CLK.png>
+Package pdftex.def Info: images/Circadian/CLK.png used on input line 1726.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1726--1726
+[] 
+ []
+
+<images/Circadian/CRY.png, id=240, 1744.5175pt x 969.6225pt>
+File: images/Circadian/CRY.png Graphic file (type png)
+
+<use images/Circadian/CRY.png>
+Package pdftex.def Info: images/Circadian/CRY.png used on input line 1727.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1727--1727
+[] 
+ []
+
+<images/Circadian/cwo.png, id=241, 1744.5175pt x 969.6225pt>
+File: images/Circadian/cwo.png Graphic file (type png)
+
+<use images/Circadian/cwo.png>
+Package pdftex.def Info: images/Circadian/cwo.png used on input line 1728.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1728--1728
+[] 
+ []
+
+<images/Circadian/CWO.png, id=242, 1744.5175pt x 969.6225pt>
+File: images/Circadian/CWO.png Graphic file (type png)
+
+<use images/Circadian/CWO.png>
+Package pdftex.def Info: images/Circadian/CWO.png used on input line 1729.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1729--1729
+[] 
+ []
+
+<images/Circadian/CYC-CLK.png, id=243, 1744.5175pt x 969.6225pt>
+File: images/Circadian/CYC-CLK.png Graphic file (type png)
+
+<use images/Circadian/CYC-CLK.png>
+Package pdftex.def Info: images/Circadian/CYC-CLK.png used on input line 1730.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1730--1730
+[] 
+ []
+
+<images/Circadian/pdp1.png, id=244, 1744.5175pt x 969.6225pt>
+File: images/Circadian/pdp1.png Graphic file (type png)
+
+<use images/Circadian/pdp1.png>
+Package pdftex.def Info: images/Circadian/pdp1.png used on input line 1731.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1731--1731
+[] 
+ []
+
+<images/Circadian/PDP1.png, id=245, 1744.5175pt x 969.6225pt>
+File: images/Circadian/PDP1.png Graphic file (type png)
+
+<use images/Circadian/PDP1.png>
+Package pdftex.def Info: images/Circadian/PDP1.png used on input line 1732.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1732--1732
+[] 
+ []
+
+<images/Circadian/per.png, id=246, 1744.5175pt x 969.6225pt>
+File: images/Circadian/per.png Graphic file (type png)
+
+<use images/Circadian/per.png>
+Package pdftex.def Info: images/Circadian/per.png used on input line 1733.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1733--1733
+[] 
+ []
+
+<images/Circadian/PER.png, id=247, 1744.5175pt x 969.6225pt>
+File: images/Circadian/PER.png Graphic file (type png)
+
+<use images/Circadian/PER.png>
+Package pdftex.def Info: images/Circadian/PER.png used on input line 1734.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1734--1734
+[] 
+ []
+
+<images/Circadian/PER-TIM.png, id=248, 1744.5175pt x 969.6225pt>
+File: images/Circadian/PER-TIM.png Graphic file (type png)
+
+<use images/Circadian/PER-TIM.png>
+Package pdftex.def Info: images/Circadian/PER-TIM.png used on input line 1735.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1735--1735
+[] 
+ []
+
+<images/Circadian/tim.png, id=249, 1744.5175pt x 969.6225pt>
+File: images/Circadian/tim.png Graphic file (type png)
+
+<use images/Circadian/tim.png>
+Package pdftex.def Info: images/Circadian/tim.png used on input line 1736.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1736--1736
+[] 
+ []
+
+<images/Circadian/TIM.png, id=250, 1744.5175pt x 969.6225pt>
+File: images/Circadian/TIM.png Graphic file (type png)
+
+<use images/Circadian/TIM.png>
+Package pdftex.def Info: images/Circadian/TIM.png used on input line 1737.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1737--1737
+[] 
+ []
+
+<images/Circadian/vri.png, id=251, 1744.5175pt x 969.6225pt>
+File: images/Circadian/vri.png Graphic file (type png)
+
+<use images/Circadian/vri.png>
+Package pdftex.def Info: images/Circadian/vri.png used on input line 1738.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1738--1738
+[] 
+ []
+
+<images/Circadian/VRI.png, id=252, 1744.5175pt x 969.6225pt>
+File: images/Circadian/VRI.png Graphic file (type png)
+
+<use images/Circadian/VRI.png>
+Package pdftex.def Info: images/Circadian/VRI.png used on input line 1739.
+(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
+
+Overfull \hbox (223.45549pt too wide) in paragraph at lines 1739--1739
+[] 
+ []
+
+
+Overfull \hbox (33.48022pt too wide) in paragraph at lines 1724--1744
+ [][][] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1722--1746
+ [][]$[]$ 
+ []
+
+[9
+
+ <./images/drosophila_model_repressilator.png (PNG copy)> <./images/CRY_oscilla
+tions.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:large-model-graph3' on page 10 undefined on input
+ line 1907.
+
+
+LaTeX Warning: Reference `fig:large-model-graph4' on page 10 undefined on input
+ line 1907.
+
+[10 <./images/Circadian/clk.png (PNG copy)> <./images/Circadian/CLK.png (PNG co
+py)> <./images/Circadian/CRY.png (PNG copy)> <./images/Circadian/cwo.png (PNG c
+opy)> <./images/Circadian/CWO.png (PNG copy)> <./images/Circadian/CYC-CLK.png (
+PNG copy)> <./images/Circadian/pdp1.png (PNG copy)> <./images/Circadian/PDP1.pn
+g (PNG copy)> <./images/Circadian/per.png (PNG copy)> <./images/Circadian/PER.p
+ng (PNG copy)> <./images/Circadian/PER-TIM.png (PNG copy)> <./images/Circadian/
+tim.png (PNG copy)> <./images/Circadian/TIM.png (PNG copy)> <./images/Circadian
+/vri.png (PNG copy)> <./images/Circadian/VRI.png (PNG copy)>] [11]
+<images/large_network_tnfa2.pdf, id=262, 574.06958pt x 662.475pt>
+File: images/large_network_tnfa2.pdf Graphic file (type pdf)
+
+<use images/large_network_tnfa2.pdf>
+Package pdftex.def Info: images/large_network_tnfa2.pdf used on input line 2007
+.
+(pdftex.def)             Requested size: 252.6989pt x 291.6112pt.
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2005--2011
+ []$[]$ 
+ []
+
+<images/large_network_egf3.pdf, id=263, 549.50105pt x 652.03598pt>
+File: images/large_network_egf3.pdf Graphic file (type pdf)
+
+<use images/large_network_egf3.pdf>
+Package pdftex.def Info: images/large_network_egf3.pdf used on input line 2016.
+
+(pdftex.def)             Requested size: 252.6989pt x 299.85065pt.
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2014--2021
+ [][]$[]$ 
+ []
+
+<images/large_network_hypotheses7.png, id=264, 1305.87875pt x 925.4575pt>
+File: images/large_network_hypotheses7.png Graphic file (type png)
+
+<use images/large_network_hypotheses7.png>
+Package pdftex.def Info: images/large_network_hypotheses7.png used on input lin
+e 2030.
+(pdftex.def)             Requested size: 361.0pt x 255.82195pt.
+
+<images/legenda_forme.pdf, id=265, 1154.59161pt x 100.95999pt>
+File: images/legenda_forme.pdf Graphic file (type pdf)
+
+<use images/legenda_forme.pdf>
+Package pdftex.def Info: images/legenda_forme.pdf used on input line 2031.
+(pdftex.def)             Requested size: 242.47139pt x 21.20221pt.
+
+<images/legenda_colori.pdf, id=266, 679.44618pt x 71.63889pt>
+File: images/legenda_colori.pdf Graphic file (type pdf)
+
+<use images/legenda_colori.pdf>
+Package pdftex.def Info: images/legenda_colori.pdf used on input line 2031.
+(pdftex.def)             Requested size: 142.6879pt x 15.0446pt.
+
+Overfull \hbox (24.15929pt too wide) in paragraph at lines 2031--2035
+ [][][][] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2028--2037
+ [][]$[]$ 
+ []
+
+<images/TNFa100/MK2.png, id=267, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/MK2.png>
+<images/TNFa100/JNK1.png, id=268, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/JNK1.png>
+<images/TNFa100/IKK_120.png, id=269, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/IKK_120.png>
+<images/TNFa100/IKK_1440.png, id=270, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/IKK_1440.png>
+<images/TNFa100/casp8.png, id=271, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/casp8.png>
+<images/TNFa100/casp3.png, id=272, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/casp3.png>
+<images/TNFa100/MEK.png, id=273, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/MEK.png>
+<images/TNFa100/ERK.png, id=274, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/ERK.png>
+<images/TNFa100/Akt.png, id=275, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/Akt.png>
+<images/TNFa100/IRS1s_120.png, id=276, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/IRS1s_120.png>
+<images/TNFa100/IRS1y_120.png, id=277, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/IRS1y_120.png>
+<images/TNFa100/FKHR_720.png, id=278, 1744.5175pt x 969.6225pt>
+<use images/TNFa100/FKHR_720.png> <use images/TNFa100/MK2.png>
+<use images/TNFa100/JNK1.png> <use images/TNFa100/IKK_120.png>
+<use images/TNFa100/IKK_1440.png> <use images/TNFa100/casp8.png>
+<use images/TNFa100/casp3.png> <use images/TNFa100/MEK.png>
+<use images/TNFa100/ERK.png> <use images/TNFa100/Akt.png>
+<use images/TNFa100/IRS1s_120.png> <use images/TNFa100/IRS1y_120.png>
+<use images/TNFa100/FKHR_720.png>
+File: images/TNFa100/MK2.png Graphic file (type png)
+ <use images/TNFa100/MK2.png>
+Package pdftex.def Info: images/TNFa100/MK2.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/JNK1.png Graphic file (type png)
+<use images/TNFa100/JNK1.png>
+Package pdftex.def Info: images/TNFa100/JNK1.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/IKK_120.png Graphic file (type png)
+<use images/TNFa100/IKK_120.png>
+Package pdftex.def Info: images/TNFa100/IKK_120.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/IKK_1440.png Graphic file (type png)
+<use images/TNFa100/IKK_1440.png>
+Package pdftex.def Info: images/TNFa100/IKK_1440.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/casp8.png Graphic file (type png)
+<use images/TNFa100/casp8.png>
+Package pdftex.def Info: images/TNFa100/casp8.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/casp3.png Graphic file (type png)
+<use images/TNFa100/casp3.png>
+Package pdftex.def Info: images/TNFa100/casp3.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/MEK.png Graphic file (type png)
+<use images/TNFa100/MEK.png>
+Package pdftex.def Info: images/TNFa100/MEK.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/ERK.png Graphic file (type png)
+<use images/TNFa100/ERK.png>
+Package pdftex.def Info: images/TNFa100/ERK.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/Akt.png Graphic file (type png)
+<use images/TNFa100/Akt.png>
+Package pdftex.def Info: images/TNFa100/Akt.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/IRS1s_120.png Graphic file (type png)
+<use images/TNFa100/IRS1s_120.png>
+Package pdftex.def Info: images/TNFa100/IRS1s_120.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/IRS1y_120.png Graphic file (type png)
+<use images/TNFa100/IRS1y_120.png>
+Package pdftex.def Info: images/TNFa100/IRS1y_120.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+File: images/TNFa100/FKHR_720.png Graphic file (type png)
+<use images/TNFa100/FKHR_720.png>
+Package pdftex.def Info: images/TNFa100/FKHR_720.png used on input line 2056.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2056--2056
+[] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2042--2060
+ [][]$[]$ 
+ []
+
+<images/EGF100/MK2.png, id=279, 1744.5175pt x 969.6225pt>
+<use images/EGF100/MK2.png>
+<images/EGF100/JNK1.png, id=280, 1744.5175pt x 969.6225pt>
+<use images/EGF100/JNK1.png>
+<images/EGF100/IKK.png, id=281, 1744.5175pt x 969.6225pt>
+<use images/EGF100/IKK.png>
+<images/EGF100/casp8.png, id=282, 1744.5175pt x 969.6225pt>
+<use images/EGF100/casp8.png>
+<images/EGF100/casp3.png, id=283, 1744.5175pt x 969.6225pt>
+<use images/EGF100/casp3.png>
+<images/EGF100/MEK.png, id=284, 1744.5175pt x 969.6225pt>
+<use images/EGF100/MEK.png>
+<images/EGF100/ERK.png, id=285, 1744.5175pt x 969.6225pt>
+<use images/EGF100/ERK.png>
+<images/EGF100/Akt_120.png, id=286, 1744.5175pt x 969.6225pt>
+<use images/EGF100/Akt_120.png>
+<images/EGF100/Akt_1440.png, id=287, 1744.5175pt x 969.6225pt>
+<use images/EGF100/Akt_1440.png>
+<images/EGF100/IRS1s_120.png, id=288, 1744.5175pt x 969.6225pt>
+<use images/EGF100/IRS1s_120.png>
+<images/EGF100/IRS1y_120.png, id=289, 1744.5175pt x 969.6225pt>
+<use images/EGF100/IRS1y_120.png>
+<images/EGF100/IRS1y_720.png, id=290, 1744.5175pt x 969.6225pt>
+<use images/EGF100/IRS1y_720.png>
+<images/EGF100/FKHR_120.png, id=291, 1744.5175pt x 969.6225pt>
+<use images/EGF100/FKHR_120.png>
+<images/EGF100/FKHR_720.png, id=292, 1744.5175pt x 969.6225pt>
+<use images/EGF100/FKHR_720.png> <use images/EGF100/MK2.png>
+<use images/EGF100/JNK1.png> <use images/EGF100/IKK.png>
+<use images/EGF100/casp8.png> <use images/EGF100/casp3.png>
+<use images/EGF100/MEK.png> <use images/EGF100/ERK.png>
+<use images/EGF100/Akt_120.png> <use images/EGF100/Akt_1440.png>
+<use images/EGF100/IRS1s_120.png> <use images/EGF100/IRS1y_120.png>
+<use images/EGF100/IRS1y_720.png> <use images/EGF100/FKHR_120.png>
+<use images/EGF100/FKHR_720.png>
+File: images/EGF100/MK2.png Graphic file (type png)
+ <use images/EGF100/MK2.png>
+Package pdftex.def Info: images/EGF100/MK2.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/JNK1.png Graphic file (type png)
+<use images/EGF100/JNK1.png>
+Package pdftex.def Info: images/EGF100/JNK1.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/IKK.png Graphic file (type png)
+<use images/EGF100/IKK.png>
+Package pdftex.def Info: images/EGF100/IKK.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/casp8.png Graphic file (type png)
+<use images/EGF100/casp8.png>
+Package pdftex.def Info: images/EGF100/casp8.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/casp3.png Graphic file (type png)
+<use images/EGF100/casp3.png>
+Package pdftex.def Info: images/EGF100/casp3.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/MEK.png Graphic file (type png)
+<use images/EGF100/MEK.png>
+Package pdftex.def Info: images/EGF100/MEK.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/ERK.png Graphic file (type png)
+<use images/EGF100/ERK.png>
+Package pdftex.def Info: images/EGF100/ERK.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/Akt_120.png Graphic file (type png)
+<use images/EGF100/Akt_120.png>
+Package pdftex.def Info: images/EGF100/Akt_120.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/Akt_1440.png Graphic file (type png)
+<use images/EGF100/Akt_1440.png>
+Package pdftex.def Info: images/EGF100/Akt_1440.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/IRS1s_120.png Graphic file (type png)
+<use images/EGF100/IRS1s_120.png>
+Package pdftex.def Info: images/EGF100/IRS1s_120.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/IRS1y_120.png Graphic file (type png)
+<use images/EGF100/IRS1y_120.png>
+Package pdftex.def Info: images/EGF100/IRS1y_120.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/IRS1y_720.png Graphic file (type png)
+<use images/EGF100/IRS1y_720.png>
+Package pdftex.def Info: images/EGF100/IRS1y_720.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/FKHR_120.png Graphic file (type png)
+<use images/EGF100/FKHR_120.png>
+Package pdftex.def Info: images/EGF100/FKHR_120.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+File: images/EGF100/FKHR_720.png Graphic file (type png)
+<use images/EGF100/FKHR_720.png>
+Package pdftex.def Info: images/EGF100/FKHR_720.png used on input line 2080.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2080--2080
+[] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2064--2084
+ [][]$[]$ 
+ []
+
+<images/TNFa100_EGF100/MK2.png, id=293, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/MK2.png>
+<images/TNFa100_EGF100/JNK1.png, id=294, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/JNK1.png>
+<images/TNFa100_EGF100/IKK.png, id=295, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/IKK.png>
+<images/TNFa100_EGF100/casp8.png, id=296, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/casp8.png>
+<images/TNFa100_EGF100/casp3.png, id=297, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/casp3.png>
+<images/TNFa100_EGF100/MEK.png, id=298, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/MEK.png>
+<images/TNFa100_EGF100/ERK.png, id=299, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/ERK.png>
+<images/TNFa100_EGF100/Akt.png, id=300, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/Akt.png>
+<images/TNFa100_EGF100/IRS1s_120.png, id=301, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/IRS1s_120.png>
+<images/TNFa100_EGF100/IRS1s_720.png, id=302, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/IRS1s_720.png>
+<images/TNFa100_EGF100/IRS1y.png, id=303, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/IRS1y.png>
+<images/TNFa100_EGF100/FKHR_240.png, id=304, 1744.5175pt x 969.6225pt>
+<use images/TNFa100_EGF100/FKHR_240.png> <use images/TNFa100_EGF100/MK2.png>
+<use images/TNFa100_EGF100/JNK1.png> <use images/TNFa100_EGF100/IKK.png>
+<use images/TNFa100_EGF100/casp8.png> <use images/TNFa100_EGF100/casp3.png>
+<use images/TNFa100_EGF100/MEK.png> <use images/TNFa100_EGF100/ERK.png>
+<use images/TNFa100_EGF100/Akt.png> <use images/TNFa100_EGF100/IRS1s_120.png>
+<use images/TNFa100_EGF100/IRS1s_720.png>
+<use images/TNFa100_EGF100/IRS1y.png> <use images/TNFa100_EGF100/FKHR_240.png>
+File: images/TNFa100_EGF100/MK2.png Graphic file (type png)
+
+<use images/TNFa100_EGF100/MK2.png>
+Package pdftex.def Info: images/TNFa100_EGF100/MK2.png used on input line 2102.
+
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/JNK1.png Graphic file (type png)
+<use images/TNFa100_EGF100/JNK1.png>
+Package pdftex.def Info: images/TNFa100_EGF100/JNK1.png used on input line 2102
+.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/IKK.png Graphic file (type png)
+<use images/TNFa100_EGF100/IKK.png>
+Package pdftex.def Info: images/TNFa100_EGF100/IKK.png used on input line 2102.
+
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/casp8.png Graphic file (type png)
+<use images/TNFa100_EGF100/casp8.png>
+Package pdftex.def Info: images/TNFa100_EGF100/casp8.png used on input line 210
+2.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/casp3.png Graphic file (type png)
+<use images/TNFa100_EGF100/casp3.png>
+Package pdftex.def Info: images/TNFa100_EGF100/casp3.png used on input line 210
+2.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/MEK.png Graphic file (type png)
+<use images/TNFa100_EGF100/MEK.png>
+Package pdftex.def Info: images/TNFa100_EGF100/MEK.png used on input line 2102.
+
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/ERK.png Graphic file (type png)
+<use images/TNFa100_EGF100/ERK.png>
+Package pdftex.def Info: images/TNFa100_EGF100/ERK.png used on input line 2102.
+
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/Akt.png Graphic file (type png)
+<use images/TNFa100_EGF100/Akt.png>
+Package pdftex.def Info: images/TNFa100_EGF100/Akt.png used on input line 2102.
+
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/IRS1s_120.png Graphic file (type png)
+<use images/TNFa100_EGF100/IRS1s_120.png>
+Package pdftex.def Info: images/TNFa100_EGF100/IRS1s_120.png used on input line
+ 2102.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/IRS1s_720.png Graphic file (type png)
+<use images/TNFa100_EGF100/IRS1s_720.png>
+Package pdftex.def Info: images/TNFa100_EGF100/IRS1s_720.png used on input line
+ 2102.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/IRS1y.png Graphic file (type png)
+<use images/TNFa100_EGF100/IRS1y.png>
+Package pdftex.def Info: images/TNFa100_EGF100/IRS1y.png used on input line 210
+2.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+File: images/TNFa100_EGF100/FKHR_240.png Graphic file (type png)
+<use images/TNFa100_EGF100/FKHR_240.png>
+Package pdftex.def Info: images/TNFa100_EGF100/FKHR_240.png used on input line 
+2102.
+(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
+
+Overfull \hbox (238.26132pt too wide) in paragraph at lines 2102--2102
+[] 
+ []
+
+
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2088--2106
+ [][]$[]$ 
+ []
+
+
+AED: lastpage setting LastPage
+[12
+
+
+ <./images/large_network_tnfa2.pdf>] [13 <./images/large_network_egf3.pdf>]
+[14 <./images/large_network_hypotheses7.png> <./images/legenda_forme.pdf> <./im
+ages/legenda_colori.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/legenda_colori.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] [15 <./images/TNFa100/MK2.png (PNG copy)> <./images/TNFa100/JNK1.png (PNG co
+py)> <./images/TNFa100/IKK_120.png (PNG copy)> <./images/TNFa100/IKK_1440.png (
+PNG copy)> <./images/TNFa100/casp8.png (PNG copy)> <./images/TNFa100/casp3.png 
+(PNG copy)> <./images/TNFa100/MEK.png (PNG copy)> <./images/TNFa100/ERK.png (PN
+G copy)> <./images/TNFa100/Akt.png (PNG copy)> <./images/TNFa100/IRS1s_120.png 
+(PNG copy)> <./images/TNFa100/IRS1y_120.png (PNG copy)> <./images/TNFa100/FKHR_
+720.png (PNG copy)>] [16 <./images/EGF100/MK2.png (PNG copy)> <./images/EGF100/
+JNK1.png (PNG copy)> <./images/EGF100/IKK.png (PNG copy)> <./images/EGF100/casp
+8.png (PNG copy)> <./images/EGF100/casp3.png (PNG copy)> <./images/EGF100/MEK.p
+ng (PNG copy)> <./images/EGF100/ERK.png (PNG copy)> <./images/EGF100/Akt_120.pn
+g (PNG copy)> <./images/EGF100/Akt_1440.png (PNG copy)> <./images/EGF100/IRS1s_
+120.png (PNG copy)> <./images/EGF100/IRS1y_120.png (PNG copy)> <./images/EGF100
+/IRS1y_720.png (PNG copy)> <./images/EGF100/FKHR_120.png (PNG copy)> <./images/
+EGF100/FKHR_720.png (PNG copy)>] [17 <./images/TNFa100_EGF100/MK2.png (PNG copy
+)> <./images/TNFa100_EGF100/JNK1.png (PNG copy)> <./images/TNFa100_EGF100/IKK.p
+ng (PNG copy)> <./images/TNFa100_EGF100/casp8.png (PNG copy)> <./images/TNFa100
+_EGF100/casp3.png (PNG copy)> <./images/TNFa100_EGF100/MEK.png (PNG copy)> <./i
+mages/TNFa100_EGF100/ERK.png (PNG copy)> <./images/TNFa100_EGF100/Akt.png (PNG 
+copy)> <./images/TNFa100_EGF100/IRS1s_120.png (PNG copy)> <./images/TNFa100_EGF
+100/IRS1s_720.png (PNG copy)> <./images/TNFa100_EGF100/IRS1y.png (PNG copy)> <.
+/images/TNFa100_EGF100/FKHR_240.png (PNG copy)>] (./Paper.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16214 strings out of 493304
+ 311261 string characters out of 6139871
+ 432808 words of memory out of 5000000
+ 19237 multiletter control sequences out of 15000+600000
+ 18960 words of font info for 71 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 49i,19n,56p,2046b,818s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb>
+Output written on Paper.pdf (35 pages, 6282460 bytes).
+PDF statistics:
+ 445 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+

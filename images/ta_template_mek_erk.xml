@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_1.dtd'>
+<nta>
+	<declaration>
+// Place global declarations here.
+clock globalTime;
+const int INFINITE = -1;
+const int N_REACTANTS = 2;
+broadcast chan A_reacting, B_reacting, C_reacting, ERK_reacting, MEK_reacting;
+int A,B,C, A_act, B_act, C_act, A_qty, B_qty, C_qty, A_max_qnty, B_max_qnty, C_max_qnty, A_perc, B_perc, C_perc, A_mux, B_mux, C_mux;
+
+//reactant1 = MEK
+int MEK_act := 0;
+int MEK;
+int MEK_qty := 15;
+int MEK_max_qnty := 15;
+int MEK_perc := 0;
+
+//reactant0 = ERK
+int ERK_act := 0;
+int ERK_qty := 15;
+int ERK_max_qnty := 15;
+int ERK_perc := 0;
+int ERK_mux := 0;
+
+
+
+//Round the number a to integer (a is on a scale 10 times larger, to include 1 decimal digit. Thus, to represent 1.5 a contains 15)
+int round(int a) {
+	int res = a / 10;
+	int m = a % 10;
+	if (m &gt; 4) {
+		res = res + 1;
+	}
+	return res;
+}
+
+//What percentage is a with respect to b?
+int percentage(int a, int b) {
+	if (b == 0) return 0;
+	else return 10 * round(a * 100 * 10 / b);
+}
+</declaration>
+	<template>
+		<name x="5" y="5">Reaction_A_B_C</name>
+		<parameter>int &amp;input_reactant1_qty, int &amp;input_reactant1_act, int &amp;output_reactant1_qty, int &amp;output_reactant1_act, int &amp;output_reactant1_max_qnty, int &amp;output_reactant1_perc, int &amp;output_reactant2_qty, int &amp;output_reactant2_act, int &amp;output_reactant2_max_qnty, int &amp;output_reactant2_perc, const int timeL[16], const int timeU[16], const int delta1, const int delta2, broadcast chan &amp;input1_reacting, broadcast chan &amp;output1_reacting, broacast chan &amp;output2_reacting</parameter>
+		<declaration>// Place local declarations here.
+clock c;
+//int my_qty;
+
+void updateB() {
+	output_reactant1_act := output_reactant1_act + delta1;
+	output_reactant1_perc := percentage(output_reactant1_act, output_reactant1_qty);
+}
+
+void updateC() {
+	output_reactant2_qty := output_reactant2_qty + delta2;
+	output_reactant2_perc := percentage(output_reactant2_act, output_reactant2_qty);
+}
+
+bool areWeAtTheLimits() {
+	int res;
+
+	res := output_reactant1_act + delta1;
+	if (res &lt; 0 || res &gt; output_reactant1_qty) {
+		return true;
+	}
+
+	res := output_reactant2_qty + delta2;
+	if (res &lt; 0 || res &gt; output_reactant2_max_qnty) {
+		return true;
+	}
+	return false;
+}
+
+</declaration>
+		<location id="id0" x="-1096" y="-624">
+			<urgent/>
+		</location>
+		<location id="id1" x="-1400" y="-1088">
+			<name x="-1496" y="-1112">not_reacting</name>
+		</location>
+		<location id="id2" x="-840" y="-896">
+			<name x="-912" y="-920">resetting</name>
+			<urgent/>
+		</location>
+		<location id="id3" x="-1400" y="-696">
+			<name x="-1464" y="-720">reacting</name>
+			<label kind="invariant" x="-1568" y="-688">timeU[A] == INFINITE
+|| c &lt;= timeU[A]</label>
+		</location>
+		<location id="id4" x="-1400" y="-944">
+			<name x="-1440" y="-968">start</name>
+			<urgent/>
+		</location>
+		<init ref="id4"/>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1016" y="-640">C_reacting!</label>
+			<label kind="assignment" x="-1016" y="-616">updateC(), c := 0,
+B_mux := 0, C_mux := 0</label>
+			<nail x="-840" y="-624"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1296" y="-784">C_reacting?</label>
+			<nail x="-1384" y="-704"/>
+			<nail x="-1296" y="-760"/>
+			<nail x="-984" y="-760"/>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1368" y="-1232">A_reacting?</label>
+			<label kind="assignment" x="-1272" y="-1232">c := 0</label>
+			<nail x="-1400" y="-1208"/>
+			<nail x="-784" y="-1208"/>
+			<nail x="-784" y="-896"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1296" y="-824">B_reacting?</label>
+			<nail x="-1296" y="-800"/>
+			<nail x="-984" y="-800"/>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1368" y="-1192">B_reacting?</label>
+			<label kind="assignment" x="-1272" y="-1192">c := 0</label>
+			<nail x="-1400" y="-1168"/>
+			<nail x="-792" y="-1168"/>
+			<nail x="-792" y="-896"/>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1368" y="-1152">C_reacting?</label>
+			<label kind="assignment" x="-1272" y="-1152">c := 0</label>
+			<nail x="-1400" y="-1128"/>
+			<nail x="-800" y="-1128"/>
+			<nail x="-800" y="-896"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id2"/>
+			<label kind="synchronisation" x="-1296" y="-860">A_reacting?</label>
+			<nail x="-1296" y="-840"/>
+			<nail x="-984" y="-840"/>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id3"/>
+			<label kind="guard" x="-1536" y="-920">!areWeAtTheLimits()
+&amp;&amp; timeL[A] != INFINITE</label>
+			<label kind="assignment" x="-1536" y="-888">c := 0</label>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id1"/>
+			<label kind="guard" x="-1496" y="-1032">areWeAtTheLimits()
+|| timeL[A] == INFINITE</label>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id1"/>
+			<label kind="guard" x="-1272" y="-1108">areWeAtTheLimits() || timeL[A] == INFINITE</label>
+			<nail x="-840" y="-1088"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id0"/>
+			<label kind="guard" x="-1296" y="-672">c &gt;= timeL[A]
+&amp;&amp; B_mux == 0 &amp;&amp; C_mux == 0</label>
+			<label kind="synchronisation" x="-1296" y="-640">B_reacting!</label>
+			<label kind="assignment" x="-1296" y="-616">updateB(),
+B_mux := 1, C_mux := 1</label>
+			<nail x="-1312" y="-624"/>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id3"/>
+			<label kind="guard" x="-1296" y="-928">!areWeAtTheLimits()
+&amp;&amp; (timeU[A] != INFINITE &amp;&amp; c &gt; timeU[A])</label>
+			<label kind="assignment" x="-1296" y="-896">c := timeU[A]</label>
+			<nail x="-1304" y="-896"/>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id3"/>
+			<label kind="guard" x="-1296" y="-744">!areWeAtTheLimits()
+&amp;&amp; ((timeU[A] == INFINITE &amp;&amp; timeL[A] != INFINITE)
+|| (timeU[A] != INFINITE &amp;&amp; c &lt;= timeU[A]))</label>
+			<nail x="-864" y="-824"/>
+			<nail x="-864" y="-696"/>
+		</transition>
+	</template>
+	<template>
+		<name x="5" y="5">Reaction_MEK_ERK</name>
+		<parameter>int &amp;input_reactant1_qty, int &amp;input_reactant1_act, int &amp;output_reactant1_qty, int &amp;output_reactant1_act, int &amp;output_reactant1_max_qnty, int &amp;output_reactant1_perc, const int timeL[16], const int timeU[16], const int delta1, broadcast chan &amp;input1_reacting, broadcast chan &amp;output1_reacting</parameter>
+		<declaration>// Place local declarations here.
+clock c;
+//int my_qty;
+
+void updateERK() {
+	output_reactant1_act := output_reactant1_act + delta1;
+	output_reactant1_perc := percentage(output_reactant1_act, output_reactant1_qty);
+}
+
+bool areWeAtTheLimits() {
+	int res;
+
+	res := output_reactant1_act + delta1;
+	if (res &lt; 0 || res &gt; output_reactant1_qty) {
+		return true;
+	}
+	return false;
+}
+
+</declaration>
+		<location id="id5" x="-1400" y="-1088">
+			<name x="-1504" y="-1112">not_reacting</name>
+		</location>
+		<location id="id6" x="-1016" y="-896">
+			<name x="-1088" y="-920">resetting</name>
+			<committed/>
+		</location>
+		<location id="id7" x="-1400" y="-696">
+			<name x="-1472" y="-720">reacting</name>
+			<label kind="invariant" x="-1520" y="-680">timeU[MEK] == INFINITE
+|| c &lt;= timeU[MEK]</label>
+		</location>
+		<location id="id8" x="-1400" y="-944">
+			<name x="-1448" y="-968">start</name>
+			<committed/>
+		</location>
+		<init ref="id8"/>
+		<transition>
+			<source ref="id5"/>
+			<target ref="id6"/>
+			<label kind="synchronisation" x="-1368" y="-1152">MEK_reacting?</label>
+			<label kind="assignment" x="-1248" y="-1152">c := 0</label>
+			<nail x="-1400" y="-1128"/>
+			<nail x="-984" y="-1128"/>
+			<nail x="-984" y="-896"/>
+		</transition>
+		<transition>
+			<source ref="id7"/>
+			<target ref="id6"/>
+			<label kind="synchronisation" x="-1304" y="-824">MEK_reacting?</label>
+			<nail x="-1296" y="-804"/>
+			<nail x="-1088" y="-804"/>
+		</transition>
+		<transition>
+			<source ref="id8"/>
+			<target ref="id7"/>
+			<label kind="guard" x="-1496" y="-912">timeL[MEK] != INFINITE</label>
+			<label kind="assignment" x="-1496" y="-896">c := 0</label>
+		</transition>
+		<transition>
+			<source ref="id8"/>
+			<target ref="id5"/>
+			<label kind="guard" x="-1496" y="-1032">timeL[MEK] == INFINITE</label>
+		</transition>
+		<transition>
+			<source ref="id6"/>
+			<target ref="id5"/>
+			<label kind="guard" x="-1304" y="-1112">timeL[MEK] == INFINITE</label>
+			<nail x="-1016" y="-1088"/>
+		</transition>
+		<transition>
+			<source ref="id7"/>
+			<target ref="id6"/>
+			<label kind="guard" x="-1304" y="-672">c &gt;= timeL[MEK]</label>
+			<label kind="synchronisation" x="-1304" y="-656">ERK_reacting!</label>
+			<label kind="assignment" x="-1304" y="-640">updateERK(), c := 0</label>
+			<nail x="-1312" y="-624"/>
+			<nail x="-1016" y="-624"/>
+		</transition>
+		<transition>
+			<source ref="id6"/>
+			<target ref="id7"/>
+			<label kind="guard" x="-1304" y="-936">timeL[MEK] != INFINITE &amp;&amp;
+timeU[MEK] != INFINITE &amp;&amp;
+c &gt; timeU[MEK]</label>
+			<label kind="assignment" x="-1304" y="-896">c := timeU[MEK]</label>
+			<nail x="-1304" y="-896"/>
+		</transition>
+		<transition>
+			<source ref="id6"/>
+			<target ref="id7"/>
+			<label kind="guard" x="-1304" y="-752">timeL[MEK] != INFINITE &amp;&amp;
+(timeU[MEK] == INFINITE ||
+(timeU[MEK] != INFINITE
+ &amp;&amp; c &lt;= timeU[MEK]))</label>
+			<nail x="-1048" y="-824"/>
+			<nail x="-1048" y="-696"/>
+		</transition>
+	</template>
+	<system>
+//Reaction reactant1 (A) --&gt; reactant0 (B)
+const int A_B_tLower[16] := {INFINITE, 95, 48, 32, 24, 19, 16, 14, 12, 11, 10, 9, 8, 7, 7, 6};
+const int A_B_tUpper[16] := {INFINITE, 105, 53, 35, 26, 21, 18, 15, 13, 12, 11, 10, 9, 8, 8, 7};
+
+r_A_B = Reaction_A_B(A_qty, A_act, B_qty, B_act, B_max_qnty, B_perc, A_B_tLower, A_B_tUpper, 1, A_reacting, B_reacting);
+
+system r_A_B;
+
+</system>
+</nta>

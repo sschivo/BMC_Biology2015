@@ -1,0 +1,554 @@
+\begin{thebibliography}{30}
+% BibTex style file: bmc-mathphys.bst (version 1.01), 2012-01-06
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{animo-ieee}
+\begin{botherref}
+\oauthor{\bsnm{Schivo}, \binits{S.}},
+\oauthor{\bsnm{Scholma}, \binits{J.}},
+\oauthor{\bsnm{Wanders}, \binits{B.}},
+\oauthor{\bsnm{Camacho}, \binits{R.A.U.}},
+\oauthor{\bparticle{van~der} \bsnm{Vet}, \binits{P.E.}},
+\oauthor{\bsnm{Karperien}, \binits{M.}},
+\oauthor{\bsnm{Langerak}, \binits{R.}},
+\oauthor{\bparticle{van~de} \bsnm{Pol}, \binits{J.}},
+\oauthor{\bsnm{Post}, \binits{J.N.}}:
+Modelling biological pathway dynamics with {Timed Automata}.
+IEEE Journal of Biomedical and Health Informatics
+\textbf{In press}
+(2013)
+\end{botherref}
+\endbibitem
+
+%%% 2
+\bibitem{animo-gene}
+\begin{barticle}
+\bauthor{\bsnm{Scholma}, \binits{J.}},
+\bauthor{\bsnm{Schivo}, \binits{S.}},
+\bauthor{\bsnm{Camacho}, \binits{R.A.U.}},
+\bauthor{\bparticle{van~de} \bsnm{Pol}, \binits{J.}},
+\bauthor{\bsnm{Karperien}, \binits{M.}},
+\bauthor{\bsnm{Post}, \binits{J.N.}}:
+\batitle{Biological networks 101: Computational modeling for molecular
+  biologists}.
+\bjtitle{Gene}
+\bvolume{533}(\bissue{1}),
+\bfpage{379}--\blpage{384}
+(\byear{2014})
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{drosophila-ode-model}
+\begin{barticle}
+\bauthor{\bsnm{Fathallah-Shaykh}, \binits{H.M.}},
+\bauthor{\bsnm{Bona}, \binits{J.L.}},
+\bauthor{\bsnm{Kadener}, \binits{S.}}:
+\batitle{Mathematical model of the drosophila circadian clock: Loop regulation
+  and transcriptional integration}.
+\bjtitle{Biophysical Journal}
+\bvolume{97}(\bissue{9}),
+\bfpage{2399}--\blpage{2408}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{kegg}
+\begin{barticle}
+\bauthor{\bsnm{Kanehisa}, \binits{M.}},
+\bauthor{\bsnm{Goto}, \binits{S.}}:
+\batitle{{KEGG: Kyoto Encyclopedia of Genes and Genomes}}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{28}(\bissue{1}),
+\bfpage{27}--\blpage{30}
+(\byear{2000})
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{phosphosite}
+\begin{barticle}
+\bauthor{\bsnm{Hornbeck}, \binits{P.V.}},
+\bauthor{\bsnm{Chabra}, \binits{I.}},
+\bauthor{\bsnm{Kornhauser}, \binits{J.M.}},
+\bauthor{\bsnm{Skrzypek}, \binits{E.}},
+\bauthor{\bsnm{Zhang}, \binits{B.}}:
+\batitle{{PhosphoSite}: A bioinformatics resource dedicated to physiological
+  protein phosphorylation}.
+\bjtitle{Proteomics}
+\bvolume{4}(\bissue{6}),
+\bfpage{1551}--\blpage{1561}
+(\byear{2004})
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{pathway-compendium}
+\begin{barticle}
+\bauthor{\bsnm{Gaudet}, \binits{S.}},
+\bauthor{\bsnm{Janes}, \binits{K.A.}},
+\bauthor{\bsnm{Albeck}, \binits{J.G.}},
+\bauthor{\bsnm{Pace}, \binits{E.A.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}},
+\bauthor{\bsnm{Sorger}, \binits{P.K.}}:
+\batitle{{A compendium of signals and responses triggered by prodeath and
+  prosurvival cytokines.}}
+\bjtitle{Mol Cell Proteomics}
+\bvolume{4}(\bissue{10}),
+\bfpage{1569}--\blpage{1590}
+(\byear{2005})
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{pathway-autocrine}
+\begin{barticle}
+\bauthor{\bsnm{Janes}, \binits{K.A.}},
+\bauthor{\bsnm{Gaudet}, \binits{S.}},
+\bauthor{\bsnm{Albeck}, \binits{J.G.}},
+\bauthor{\bsnm{Nielsen}, \binits{U.B.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}},
+\bauthor{\bsnm{Sorger}, \binits{P.K.}}:
+\batitle{The response of human epithelial cells to {TNF} involves an inducible
+  autocrine cascade}.
+\bjtitle{Cell}
+\bvolume{124}(\bissue{6}),
+\bfpage{1225}--\blpage{1239}
+(\byear{2006})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{jnk-signaling}
+\begin{barticle}
+\bauthor{\bsnm{Davis}, \binits{R.J.}}:
+\batitle{Signal transduction by the {JNK} group of {MAP} kinases}.
+\bjtitle{Cell}
+\bvolume{103}(\bissue{2}),
+\bfpage{239}--\blpage{252}
+(\byear{2000})
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{cfos-cjun}
+\begin{barticle}
+\bauthor{\bsnm{Bannister}, \binits{A.J.}},
+\bauthor{\bsnm{Brown}, \binits{H.J.}},
+\bauthor{\bsnm{Sutherland}, \binits{J.A.}},
+\bauthor{\bsnm{Kouzarides}, \binits{T.}}:
+\batitle{{Phosphorylation of the c-Fos and c-Jun HOB1 motif stimulates its
+  activation capacity.}}
+\bjtitle{Nucleic Acids Res}
+\bvolume{22}(\bissue{24}),
+\bfpage{5173}--\blpage{6}
+(\byear{1994})
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{ap1-il1a}
+\begin{barticle}
+\bauthor{\bsnm{Bailly}, \binits{S.}},
+\bauthor{\bsnm{Fay}, \binits{M.}},
+\bauthor{\bsnm{Isra{\"{e}}l}, \binits{N.}},
+\bauthor{\bsnm{Gougerot-Pocidalo}, \binits{M.A.}}:
+\batitle{The transcription factor {AP-1} binds to the human interleukin 1 alpha
+  promoter}.
+\bjtitle{European Cytokine Network}
+\bvolume{7}(\bissue{2}),
+\bfpage{125}--\blpage{128}
+(\byear{1996})
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem{ras-mekk1}
+\begin{barticle}
+\bauthor{\bsnm{Russell}, \binits{M.}},
+\bauthor{\bsnm{Lange-Carter}, \binits{C.A.}},
+\bauthor{\bsnm{Johnson}, \binits{G.L.}}:
+\batitle{Direct interaction between {Ras} and the kinase domain of
+  mitogen-activated protein kinase kinase kinase ({MEKK1})}.
+\bjtitle{Journal of Biological Chemistry}
+\bvolume{270}(\bissue{20}),
+\bfpage{11757}--\blpage{11760}
+(\byear{1995})
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{ras-jnk1}
+\begin{barticle}
+\bauthor{\bsnm{D{\'{e}}rijard}, \binits{B.}},
+\bauthor{\bsnm{Hibi}, \binits{M.}},
+\bauthor{\bsnm{Wu}, \binits{I.-H.}},
+\bauthor{\bsnm{Barrett}, \binits{T.}},
+\bauthor{\bsnm{Su}, \binits{B.}},
+\bauthor{\bsnm{Deng}, \binits{T.}},
+\bauthor{\bsnm{Karin}, \binits{M.}},
+\bauthor{\bsnm{Davis}, \binits{R.J.}}:
+\batitle{{JNK1}: A protein kinase stimulated by uv light and ha-ras that binds
+  and phosphorylates the c-{Jun} activation domain}.
+\bjtitle{Cell}
+\bvolume{76}(\bissue{6}),
+\bfpage{1025}--\blpage{1037}
+(\byear{1994})
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem{pathway-leastsquare}
+\begin{barticle}
+\bauthor{\bsnm{Janes}, \binits{K.A.}},
+\bauthor{\bsnm{Albeck}, \binits{J.G.}},
+\bauthor{\bsnm{Gaudet}, \binits{S.}},
+\bauthor{\bsnm{Sorger}, \binits{P.K.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}},
+\bauthor{\bsnm{Yaffe}, \binits{M.B.}}:
+\batitle{A systems model of signaling identifies a molecular basis set for
+  cytokine-induced apoptosis}.
+\bjtitle{Science}
+\bvolume{310}(\bissue{5754}),
+\bfpage{1646}--\blpage{1653}
+(\byear{2005})
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{pathway-fuzzy}
+\begin{barticle}
+\bauthor{\bsnm{Aldridge}, \binits{B.B.}},
+\bauthor{\bsnm{Saez-Rodriguez}, \binits{J.}},
+\bauthor{\bsnm{Muhlich}, \binits{J.L.}},
+\bauthor{\bsnm{Sorger}, \binits{P.K.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}}:
+\batitle{{Fuzzy logic analysis of kinase pathway crosstalk in
+  TNF/EGF/Insulin-induced signaling}}.
+\bjtitle{PLoS Comput Biol}
+\bvolume{5}(\bissue{4}),
+\bfpage{1000340}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{test-based-modelling}
+\begin{bchapter}
+\bauthor{\bsnm{Tretmans}, \binits{J.}}:
+\bctitle{Model-based testing and some steps towards test-based modelling}.
+In: \beditor{\bsnm{Bernardo}, \binits{M.}},
+\beditor{\bsnm{Issarny}, \binits{V.}} (eds.)
+\bbtitle{Formal Methods for Eternal Networked Software Systems}.
+\bsertitle{Lecture Notes in Computer Science},
+vol. \bseriesno{6659},
+pp. \bfpage{297}--\blpage{326}.
+\bpublisher{Springer},
+\blocation{Berlin / Heidelberg}
+(\byear{2011})
+\end{bchapter}
+\endbibitem
+
+%%% 16
+\bibitem{uppaal-smc}
+\begin{bchapter}
+\bauthor{\bsnm{David}, \binits{A.}},
+\bauthor{\bsnm{Larsen}, \binits{K.}},
+\bauthor{\bsnm{Legay}, \binits{A.}},
+\bauthor{\bsnm{Miku\v{c}ionis}, \binits{M.}},
+\bauthor{\bsnm{Wang}, \binits{Z.}}:
+\bctitle{Time for statistical model checking of real-time systems}.
+In: \beditor{\bsnm{Gopalakrishnan}, \binits{G.}},
+\beditor{\bsnm{Qadeer}, \binits{S.}} (eds.)
+\bbtitle{Computer Aided Verification}.
+\bsertitle{Lecture Notes in Computer Science},
+vol. \bseriesno{6806},
+pp. \bfpage{349}--\blpage{355}.
+\bpublisher{Springer},
+\blocation{Berlin / Heidelberg}
+(\byear{2011})
+\end{bchapter}
+\endbibitem
+
+%%% 17
+\bibitem{uppaal-multi-core1}
+\begin{bchapter}
+\bauthor{\bsnm{{Dalsgaard}}, \binits{A.E.}},
+\bauthor{\bsnm{{Laarman}}, \binits{A.W.}},
+\bauthor{\bsnm{{Larsen}}, \binits{K.G.}},
+\bauthor{\bsnm{{Olesen}}, \binits{M.C.}},
+\bauthor{\bsnm{{van de Pol}}, \binits{J.C.}}:
+\bctitle{Multi-core reachability for timed automata}.
+In: \beditor{\bsnm{{Jurdzinski}}, \binits{M.}},
+\beditor{\bsnm{{Nickovic}}, \binits{D.}} (eds.)
+\bbtitle{10th International Conference on Formal Modeling and Analysis of Timed
+  Systems, FORMATS 2012, London, UK}.
+\bsertitle{Lecture Notes in Computer Science},
+vol. \bseriesno{7595},
+pp. \bfpage{91}--\blpage{106}.
+\bpublisher{Springer},
+\blocation{London}
+(\byear{2012})
+\end{bchapter}
+\endbibitem
+
+%%% 18
+\bibitem{ta-siebert}
+\begin{barticle}
+\bauthor{\bsnm{Siebert}, \binits{H.}},
+\bauthor{\bsnm{Bockmayr}, \binits{A.}}:
+\batitle{Temporal constraints in the logical analysis of regulatory networks}.
+\bjtitle{Theor. Comput. Sci.}
+\bvolume{391}(\bissue{3}),
+\bfpage{258}--\blpage{275}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem{bartocci-oscillators}
+\begin{barticle}
+\bauthor{\bsnm{Bartocci}, \binits{E.}},
+\bauthor{\bsnm{Corradini}, \binits{F.}},
+\bauthor{\bsnm{Merelli}, \binits{E.}},
+\bauthor{\bsnm{Tesei}, \binits{L.}}:
+\batitle{Model checking biological oscillators}.
+\bjtitle{Electronic Notes in Theoretical Computer Science}
+\bvolume{229}(\bissue{1}),
+\bfpage{41}--\blpage{58}
+(\byear{2009}).
+\bcomment{Proceedings of the Second Workshop From Biology to Concurrency and
+  Back (FBTC 2008)}
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{oded-ode-ta-discretization}
+\begin{bchapter}
+\bauthor{\bsnm{Batt}, \binits{G.}},
+\bauthor{\bsnm{Salah}, \binits{R.B.}},
+\bauthor{\bsnm{Maler}, \binits{O.}}:
+\bctitle{On timed models of gene networks}.
+In: \bbtitle{Proceedings of the 5th International Conference on Formal Modeling
+  and Analysis of Timed Systems}.
+\bsertitle{FORMATS'07},
+pp. \bfpage{38}--\blpage{52}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{2007})
+\end{bchapter}
+\endbibitem
+
+%%% 21
+\bibitem{animo-bibe}
+\begin{bchapter}
+\bauthor{\bsnm{Schivo}, \binits{S.}},
+\bauthor{\bsnm{Scholma}, \binits{J.}},
+\bauthor{\bsnm{Wanders}, \binits{B.}},
+\bauthor{\bsnm{{Urquidi Camacho}}, \binits{R.A.}},
+\bauthor{\bparticle{van~der} \bsnm{Vet}, \binits{P.E.}},
+\bauthor{\bsnm{Karperien}, \binits{M.}},
+\bauthor{\bsnm{Langerak}, \binits{R.}},
+\bauthor{\bparticle{van~de} \bsnm{Pol}, \binits{J.}},
+\bauthor{\bsnm{Post}, \binits{J.N.}}:
+\bctitle{Modelling biological pathway dynamics with {Timed Automata}}.
+In: \bbtitle{2012 IEEE 12th International Conference on Bioinformatics \&
+  Bioengineering (BIBE)},
+pp. \bfpage{447}--\blpage{453}.
+\bpublisher{IEEE Computer Society},
+\blocation{Los Alamitos, CA, USA}
+(\byear{2012})
+\end{bchapter}
+\endbibitem
+
+%%% 22
+\bibitem{biopepa-interface}
+\begin{botherref}
+\oauthor{\bsnm{Ciocchetta}, \binits{F.}},
+\oauthor{\bsnm{Duguid}, \binits{A.}},
+\oauthor{\bsnm{Gilmore}, \binits{S.}},
+\oauthor{\bsnm{Guerriero}, \binits{M.L.}},
+\oauthor{\bsnm{Hillston}, \binits{J.}}:
+{The Bio-PEPA Tool Suite}.
+International Conference on Quantitative Evaluation of Systems,
+309--310
+(2009)
+\end{botherref}
+\endbibitem
+
+%%% 23
+\bibitem{cell-illustrator}
+\begin{barticle}
+\bauthor{\bsnm{Nagasaki}, \binits{M.}},
+\bauthor{\bsnm{Saito}, \binits{A.}},
+\bauthor{\bsnm{Jeong}, \binits{E.}},
+\bauthor{\bsnm{Li}, \binits{C.}},
+\bauthor{\bsnm{Kojima}, \binits{K.}},
+\bauthor{\bsnm{Ikeda}, \binits{E.}},
+\bauthor{\bsnm{Miyano}, \binits{S.}}:
+\batitle{Cell illustrator 4.0: a computational platform for systems biology.}
+\bjtitle{Stud Health Technol Inform}
+\bvolume{162},
+\bfpage{160}--\blpage{81}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem{copasi}
+\begin{botherref}
+\oauthor{\bsnm{Mendes}, \binits{P.}},
+\oauthor{\bsnm{Hoops}, \binits{S.}},
+\oauthor{\bsnm{Sahle}, \binits{S.}},
+\oauthor{\bsnm{Gauges}, \binits{R.}},
+\oauthor{\bsnm{Dada}, \binits{J.}},
+\oauthor{\bsnm{Kummer}, \binits{U.}}:
+{Computational modeling of biochemical networks using COPASI systems biology}.
+Methods in Molecular Biology,
+vol. 500,
+pp. 17--59.
+Humana Press,
+Totowa, NJ
+(2009).
+Chap. 2
+\end{botherref}
+\endbibitem
+
+%%% 25
+\bibitem{ginsim}
+\begin{bchapter}
+\bauthor{\bsnm{Chaouiya}, \binits{C.}},
+\bauthor{\bsnm{Remy}, \binits{E.}},
+\bauthor{\bsnm{Moss\'{e}}, \binits{B.}},
+\bauthor{\bsnm{Thieffry}, \binits{D.}}:
+\bctitle{Qualitative analysis of regulatory graphs: A computational tool based
+  on a discrete formal framework}.
+In: \beditor{\bsnm{Benvenuti}, \binits{L.}},
+\beditor{\bsnm{De~Santis}, \binits{A.}},
+\beditor{\bsnm{Farina}, \binits{L.}} (eds.)
+\bbtitle{Positive Systems}.
+\bsertitle{Lecture Notes in Control and Information Sciences},
+vol. \bseriesno{294},
+pp. \bfpage{830}--\blpage{832}.
+\bpublisher{Springer},
+\blocation{Berlin / Heidelberg}
+(\byear{2003})
+\end{bchapter}
+\endbibitem
+
+%%% 26
+\bibitem{gna}
+\begin{barticle}
+\bauthor{\bparticle{de} \bsnm{Jong}, \binits{H.}},
+\bauthor{\bsnm{Geiselmann}, \binits{J.}},
+\bauthor{\bsnm{Hernandez}, \binits{C.}},
+\bauthor{\bsnm{Page}, \binits{M.}}:
+\batitle{{Genetic Network Analyzer: qualitative simulation of genetic
+  regulatory networks}}.
+\bjtitle{Bioinformatics}
+\bvolume{19}(\bissue{3}),
+\bfpage{336}--\blpage{344}
+(\byear{2003})
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem{cytoscape}
+\begin{barticle}
+\bauthor{\bsnm{Killcoyne}, \binits{S.}},
+\bauthor{\bsnm{Carter}, \binits{G.W.}},
+\bauthor{\bsnm{Smith}, \binits{J.}},
+\bauthor{\bsnm{Boyle}, \binits{J.}}:
+\batitle{{Cytoscape: a community-based framework for network modeling.}}
+\bjtitle{Methods in molecular biology (Clifton, N.J.)}
+\bvolume{563},
+\bfpage{219}--\blpage{239}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem{uppaal}
+\begin{barticle}
+\bauthor{\bsnm{Larsen}, \binits{K.G.}},
+\bauthor{\bsnm{Pettersson}, \binits{P.}},
+\bauthor{\bsnm{Yi}, \binits{W.}}:
+\batitle{{UPPAAL} in a nutshell}.
+\bjtitle{International Journal on Software Tools for Technology Transfer
+  (STTT)}
+\bvolume{1},
+\bfpage{134}--\blpage{152}
+(\byear{1997})
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem{repressilator}
+\begin{barticle}
+\bauthor{\bsnm{Elowitz}, \binits{S.} \bsuffix{Michael~B.Leibler}}:
+\batitle{A synthetic oscillatory network of transcriptional regulators.}
+\bjtitle{Nature}
+\bvolume{403}(\bissue{6767}),
+\bfpage{335}
+(\byear{2000})
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{drosophila-cry-data}
+\begin{barticle}
+\bauthor{\bsnm{Kadener}, \binits{S.}},
+\bauthor{\bsnm{Stoleru}, \binits{D.}},
+\bauthor{\bsnm{McDonald}, \binits{M.}},
+\bauthor{\bsnm{Nawathean}, \binits{P.}},
+\bauthor{\bsnm{Rosbash}, \binits{M.}}:
+\batitle{Clockwork orange is a transcriptional repressor and a new drosophila
+  circadian pacemaker component}.
+\bjtitle{Genes \& Development}
+\bvolume{21}(\bissue{13}),
+\bfpage{1675}--\blpage{1686}
+(\byear{2007})
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}

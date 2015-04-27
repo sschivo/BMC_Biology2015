@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{32}
 % BibTex style file: bmc-mathphys.bst (version 1.01), 2012-01-06
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -78,6 +78,71 @@ IEEE Journal of Biomedical and Health Informatics
 \endbibitem
 
 %%% 3
+\bibitem{cytoscape}
+\begin{barticle}
+\bauthor{\bsnm{Killcoyne}, \binits{S.}},
+\bauthor{\bsnm{Carter}, \binits{G.W.}},
+\bauthor{\bsnm{Smith}, \binits{J.}},
+\bauthor{\bsnm{Boyle}, \binits{J.}}:
+\batitle{{Cytoscape: a community-based framework for network modeling.}}
+\bjtitle{Methods in molecular biology (Clifton, N.J.)}
+\bvolume{563},
+\bfpage{219}--\blpage{239}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem{timed-automata-alur-dill}
+\begin{barticle}
+\bauthor{\bsnm{Alur}, \binits{R.}},
+\bauthor{\bsnm{Dill}, \binits{D.L.}}:
+\batitle{A theory of timed automata}.
+\bjtitle{Theor. Comput. Sci.}
+\bvolume{126}(\bissue{2}),
+\bfpage{183}--\blpage{235}
+(\byear{1994})
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{uppaal}
+\begin{barticle}
+\bauthor{\bsnm{Larsen}, \binits{K.G.}},
+\bauthor{\bsnm{Pettersson}, \binits{P.}},
+\bauthor{\bsnm{Yi}, \binits{W.}}:
+\batitle{{UPPAAL} in a nutshell}.
+\bjtitle{International Journal on Software Tools for Technology Transfer
+  (STTT)}
+\bvolume{1},
+\bfpage{134}--\blpage{152}
+(\byear{1997})
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{animo-syncop}
+\begin{bchapter}
+\bauthor{\bsnm{{Schivo}}, \binits{S.}},
+\bauthor{\bsnm{{Scholma}}, \binits{J.}},
+\bauthor{\bsnm{{Karperien}}, \binits{H.B.J.}},
+\bauthor{\bsnm{{Post}}, \binits{J.N.}},
+\bauthor{\bsnm{{van de Pol}}, \binits{J.C.}},
+\bauthor{\bsnm{{Langerak}}, \binits{R.}}:
+\bctitle{Setting parameters for biological models with {ANIMO}}.
+In: \beditor{\bsnm{{Andr{\'e}}}, \binits{E.}},
+\beditor{\bsnm{{Frehse}}, \binits{G.}} (eds.)
+\bbtitle{Proceedings 1st International Workshop on Synthesis of Continuous
+  Parameters, Grenoble, France}.
+\bsertitle{Electronic Proceedings in Theoretical Computer Science},
+vol. \bseriesno{145},
+pp. \bfpage{35}--\blpage{47}.
+\bpublisher{Open Publishing Association}, \blocation{???}
+(\byear{2014})
+\end{bchapter}
+\endbibitem
+
+%%% 7
 \bibitem{drosophila-ode-model}
 \begin{barticle}
 \bauthor{\bsnm{Fathallah-Shaykh}, \binits{H.M.}},
@@ -92,7 +157,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 4
+%%% 8
 \bibitem{kegg}
 \begin{barticle}
 \bauthor{\bsnm{Kanehisa}, \binits{M.}},
@@ -105,7 +170,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 5
+%%% 9
 \bibitem{phosphosite}
 \begin{barticle}
 \bauthor{\bsnm{Hornbeck}, \binits{P.V.}},
@@ -122,7 +187,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 6
+%%% 10
 \bibitem{pathway-compendium}
 \begin{barticle}
 \bauthor{\bsnm{Gaudet}, \binits{S.}},
@@ -140,7 +205,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 7
+%%% 11
 \bibitem{pathway-autocrine}
 \begin{barticle}
 \bauthor{\bsnm{Janes}, \binits{K.A.}},
@@ -158,7 +223,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 8
+%%% 12
 \bibitem{jnk-signaling}
 \begin{barticle}
 \bauthor{\bsnm{Davis}, \binits{R.J.}}:
@@ -170,7 +235,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 9
+%%% 13
 \bibitem{cfos-cjun}
 \begin{barticle}
 \bauthor{\bsnm{Bannister}, \binits{A.J.}},
@@ -186,7 +251,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 10
+%%% 14
 \bibitem{ap1-il1a}
 \begin{barticle}
 \bauthor{\bsnm{Bailly}, \binits{S.}},
@@ -202,7 +267,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 11
+%%% 15
 \bibitem{ras-mekk1}
 \begin{barticle}
 \bauthor{\bsnm{Russell}, \binits{M.}},
@@ -217,7 +282,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 12
+%%% 16
 \bibitem{ras-jnk1}
 \begin{barticle}
 \bauthor{\bsnm{D{\'{e}}rijard}, \binits{B.}},
@@ -237,7 +302,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 13
+%%% 17
 \bibitem{pathway-leastsquare}
 \begin{barticle}
 \bauthor{\bsnm{Janes}, \binits{K.A.}},
@@ -255,7 +320,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 14
+%%% 18
 \bibitem{pathway-fuzzy}
 \begin{barticle}
 \bauthor{\bsnm{Aldridge}, \binits{B.B.}},
@@ -272,7 +337,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 15
+%%% 19
 \bibitem{test-based-modelling}
 \begin{bchapter}
 \bauthor{\bsnm{Tretmans}, \binits{J.}}:
@@ -289,7 +354,7 @@ pp. \bfpage{297}--\blpage{326}.
 \end{bchapter}
 \endbibitem
 
-%%% 16
+%%% 20
 \bibitem{uppaal-smc}
 \begin{bchapter}
 \bauthor{\bsnm{David}, \binits{A.}},
@@ -310,7 +375,7 @@ pp. \bfpage{349}--\blpage{355}.
 \end{bchapter}
 \endbibitem
 
-%%% 17
+%%% 21
 \bibitem{uppaal-multi-core1}
 \begin{bchapter}
 \bauthor{\bsnm{{Dalsgaard}}, \binits{A.E.}},
@@ -332,7 +397,7 @@ pp. \bfpage{91}--\blpage{106}.
 \end{bchapter}
 \endbibitem
 
-%%% 18
+%%% 22
 \bibitem{ta-siebert}
 \begin{barticle}
 \bauthor{\bsnm{Siebert}, \binits{H.}},
@@ -345,7 +410,7 @@ pp. \bfpage{91}--\blpage{106}.
 \end{barticle}
 \endbibitem
 
-%%% 19
+%%% 23
 \bibitem{bartocci-oscillators}
 \begin{barticle}
 \bauthor{\bsnm{Bartocci}, \binits{E.}},
@@ -362,7 +427,7 @@ pp. \bfpage{91}--\blpage{106}.
 \end{barticle}
 \endbibitem
 
-%%% 20
+%%% 24
 \bibitem{oded-ode-ta-discretization}
 \begin{bchapter}
 \bauthor{\bsnm{Batt}, \binits{G.}},
@@ -379,7 +444,7 @@ pp. \bfpage{38}--\blpage{52}.
 \end{bchapter}
 \endbibitem
 
-%%% 21
+%%% 25
 \bibitem{animo-bibe}
 \begin{bchapter}
 \bauthor{\bsnm{Schivo}, \binits{S.}},
@@ -401,7 +466,7 @@ pp. \bfpage{447}--\blpage{453}.
 \end{bchapter}
 \endbibitem
 
-%%% 22
+%%% 26
 \bibitem{biopepa-interface}
 \begin{botherref}
 \oauthor{\bsnm{Ciocchetta}, \binits{F.}},
@@ -416,7 +481,7 @@ International Conference on Quantitative Evaluation of Systems,
 \end{botherref}
 \endbibitem
 
-%%% 23
+%%% 27
 \bibitem{cell-illustrator}
 \begin{barticle}
 \bauthor{\bsnm{Nagasaki}, \binits{M.}},
@@ -434,7 +499,7 @@ International Conference on Quantitative Evaluation of Systems,
 \end{barticle}
 \endbibitem
 
-%%% 24
+%%% 28
 \bibitem{copasi}
 \begin{botherref}
 \oauthor{\bsnm{Mendes}, \binits{P.}},
@@ -454,7 +519,7 @@ Chap. 2
 \end{botherref}
 \endbibitem
 
-%%% 25
+%%% 29
 \bibitem{ginsim}
 \begin{bchapter}
 \bauthor{\bsnm{Chaouiya}, \binits{C.}},
@@ -476,7 +541,7 @@ pp. \bfpage{830}--\blpage{832}.
 \end{bchapter}
 \endbibitem
 
-%%% 26
+%%% 30
 \bibitem{gna}
 \begin{barticle}
 \bauthor{\bparticle{de} \bsnm{Jong}, \binits{H.}},
@@ -492,37 +557,7 @@ pp. \bfpage{830}--\blpage{832}.
 \end{barticle}
 \endbibitem
 
-%%% 27
-\bibitem{cytoscape}
-\begin{barticle}
-\bauthor{\bsnm{Killcoyne}, \binits{S.}},
-\bauthor{\bsnm{Carter}, \binits{G.W.}},
-\bauthor{\bsnm{Smith}, \binits{J.}},
-\bauthor{\bsnm{Boyle}, \binits{J.}}:
-\batitle{{Cytoscape: a community-based framework for network modeling.}}
-\bjtitle{Methods in molecular biology (Clifton, N.J.)}
-\bvolume{563},
-\bfpage{219}--\blpage{239}
-(\byear{2009})
-\end{barticle}
-\endbibitem
-
-%%% 28
-\bibitem{uppaal}
-\begin{barticle}
-\bauthor{\bsnm{Larsen}, \binits{K.G.}},
-\bauthor{\bsnm{Pettersson}, \binits{P.}},
-\bauthor{\bsnm{Yi}, \binits{W.}}:
-\batitle{{UPPAAL} in a nutshell}.
-\bjtitle{International Journal on Software Tools for Technology Transfer
-  (STTT)}
-\bvolume{1},
-\bfpage{134}--\blpage{152}
-(\byear{1997})
-\end{barticle}
-\endbibitem
-
-%%% 29
+%%% 31
 \bibitem{repressilator}
 \begin{barticle}
 \bauthor{\bsnm{Elowitz}, \binits{S.} \bsuffix{Michael~B.Leibler}}:
@@ -534,7 +569,7 @@ pp. \bfpage{830}--\blpage{832}.
 \end{barticle}
 \endbibitem
 
-%%% 30
+%%% 32
 \bibitem{drosophila-cry-data}
 \begin{barticle}
 \bauthor{\bsnm{Kadener}, \binits{S.}},

@@ -130,43 +130,43 @@
    %corref={aff1},                       % id of corresponding address, if any
    noteref={n1},                        % id's of article notes, if any
    email={s.schivo@utwente.nl}   % email address
-]{\inits{S}\fnm{Stefano} \snm{Schivo}}
+]{\inits{S}\fnm{Stefano}~\snm{Schivo}}
 \author[
    addressref={aff2},
    noteref={n1},
    email={j.scholma@utwente.nl}
-]{\inits{J}\fnm{Jetse} \snm{Scholma}}
+]{\inits{J}\fnm{Jetse}~\snm{Scholma}}
 % \author[
 %    addressref={aff3},
 %    email={b.wanders@utwente.nl}
-% ]{\inits{B}\fnm{Brend} \snm{Wanders}}
+% ]{\inits{B}\fnm{Brend}~\snm{Wanders}}
 % \author[
 %    addressref={aff2},
 %    email={rauc6788@hotmail.com}
-% ]{\inits{RA}\fnm{Ricardo A.} \snm{Urquidi Camacho}}
+% ]{\inits{RA}\fnm{Ricardo A.}~\snm{Urquidi Camacho}}
 \author[
    addressref={aff3},
    email={p.e.vandervet@utwente.nl}
-]{\inits{PE}\fnm{Paul E.} \snm{van~der~Vet}}
+]{\inits{PE}\fnm{Paul E.}~\snm{van~der~Vet}}
 \author[
    addressref={aff2},
    email={h.b.j.karperien@utwente.nl}
-]{\inits{M}\fnm{Marcel} \snm{Karperien}}
+]{\inits{M}\fnm{Marcel}~\snm{Karperien}}
 \author[
    addressref={aff2},
    %corref={aff2},
    email={j.n.post@utwente.nl}
-]{\inits{JN}\fnm{Janine N.} \snm{Post}}
+]{\inits{JN}\fnm{Janine N.}~\snm{Post}}
 \author[
    addressref={aff1},
    %corref={aff1},
    email={j.c.vandepol@utwente.nl}
-]{\inits{J}\fnm{Jaco} \snm{van~de~Pol}}
+]{\inits{J}\fnm{Jaco}~\snm{van~de~Pol}}
 \author[
    addressref={aff1},
    corref={aff1},
    email={r.langerak@utwente.nl}
-]{\inits{R}\fnm{Rom} \snm{Langerak}}
+]{\inits{R}\fnm{Rom}~\snm{Langerak}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -212,7 +212,7 @@
 %\note{Sample of title note}     % note to the article
 \note[id=n1]{Equal contributor} % note, connected to author
 \end{artnotes}
-% 
+%
 % \let\oldthefootnote\thefootnote
 % \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 % \footnotetext[1]{These authors contributed equally to this work.}
@@ -245,14 +245,11 @@ must deal with makes it nearly impossible to reason on
 the dynamics of complex systems without relying on computational
 support.
 The software tool ANIMO (Analysis of Networks with Interactive MOdelling)
-provides such computational support to the experimental biologist.
-Models built with ANIMO allow to reason about the complex networks of signaling events
-occurring in living cells.
+provides such computational support and allows to reason about the complex networks of signaling events occurring in living cells.
 The user-friendly interface allows biology experts to exploit formal methods
 without the need to become experts also in mathematical formalisms.
 \parttitle{Results}
-ANIMO allows for a model precision that is intermediate between ordinary differential equations (ODEs)
-and fuzzy logic.
+ANIMO models show a degree of precision that is intermediate between ordinary differential equations (ODEs) and fuzzy logic.
 We show this by presenting ANIMO models for two case studies: \emph{Drosophila melanogaster} circadian clock, and signal
 transduction events downstream of TNF$\alpha$ and EGF in HT-29 human
 colon carcinoma cells.
@@ -264,7 +261,7 @@ fuzzy logic respectively.
 % achieving useful insight without the need to study any mathematical formalism.
 %
 ANIMO models allow to replicate with good precision the results of both the ODE and
-fuzzy logic model. Moreover, ANIMO models require less parameters than ODEs and are more precise than
+fuzzy logic models. Moreover, ANIMO models require less parameters than ODEs and are more precise than
 fuzzy logic: for this reason, we position the modelling paradigm of ANIMO
 between ODEs and fuzzy logic.
 \end{abstract}
@@ -300,8 +297,6 @@ between ODEs and fuzzy logic.
 
 \section*{Background}\label{sec:introduction}
 \subsection*{Modelling in cell biology}
-
-
 Executable biology is a young subfield in computational modeling, aimed at constructing models that mimic
 biological phenomena \emph{in silico}. It provides an interesting paradigm for enhancing network
 diagrams with an underlying formal description of both network components and their interactions.
@@ -321,20 +316,29 @@ representations of the interactions occurring inside living cells.
 Other applications of ANIMO models include performing \emph{in silico} experiments and
 the storage and transfer of knowledge on biological networks.
 
+\subsection*{A brief introduction to ANIMO}
+The user interface of ANIMO is displayed in Figure~\ref{fig:cytoscape}, where we present an example of biological network enriched with dynamic information. ANIMO is based on Cytoscape~\cite{cytoscape}, a software tool developed to represent biological networks. On top of the static topological information displayed in Cytoscape, ANIMO represents biological interactions starting from the basic concept of \emph{activity}: each biological entity in an ANIMO model is considered to be either active or inactive. Activity is to be intended in a very broad sense: for example, an active gene is being transcribed, an active kinase can perform phosphorylations, etc. Each node in an ANIMO network represents both active and inactive entities of the same type, with the relative amount of active entities represented by the node color on a user-configurable scale. Interactions among nodes define how the biological entities in a network influence each other's activity. Only nodes whose activity is larger than 0 can have an influence on their downstream targets, and only if that influence is not counterbalanced by intervening opposite interactions. For example, the interaction $A\rightarrow B$ indicates that node A, if active, will increase the activity of node B. If we add an additional interaction to the example, $C \dashv$\hspace{0.1em}$B$, with C also active, then the activity of B will change depending on the activity levels of A and C, and on the \emph{strength} of their influence. The strength of an ANIMO interaction is a scale factor $k$ which defines the speed at which that interaction occurs: higher values of $k$ give faster interactions. These $k$-values are the only parameters needed in an ANIMO model, and can be given in either a quantitative (as real numbers) or a qualitative way, choosing among self-explanatory descriptions such as ``very slow'', ``slow'', ``medium'', ``fast'', ``very fast''.
+
+ANIMO models are analyzed to produce graphs showing how the activity of selected nodes change with time, allowing the user to obtain a view on the dynamic behavior of their network. In order to obtain these results, a model defined in ANIMO is automatically translated into its corresponding representation as a network of Timed Automata~\cite{timed-automata-alur-dill} and then analyzed \emph{behind the scenes} with the software tool UPPAAL~\cite{uppaal}. The formal language of Timed Automata allows to represent and analyze complex behaviors precisely and efficiently, but the user does not need to understand how Timed Automata or UPPAAL work, as the analysis process is made transparent. A fastidious user can still access the underlying models and perform other analyses in UPPAAL, but that is not required in order to fully profit from ANIMO.
+
+A detailed description on how the Timed Automata models defined by ANIMO work, and how the results are obtained, can be found in~\cite{animo-ieee}. The choice of parameters for ANIMO models is described in~\cite{animo-syncop}. Additional guidance on the design of ANIMO models and how to best profit from biological experimental data can be found in~\cite{animo-gene}.
+
+Figure~\ref{fig:animo-spectrum} shows the position of ANIMO into a spectrum of modeling methods: justification for this placement will be given in the Results section.
 
 
-% 
+
+%
 % In living cells, processes are regulated by networks of interacting molecules.
 % Aberrations in these networks underlie a wide range of pathologies. The development of new therapies
 % requires a thorough insight in the functioning of these networks. Obtaining such insight can be a challenging task.
 % Feedback loops and crosstalk between pathways lead to an intricate wiring of the network.
-% % Hence, it is necessary to study the ensemble of molecules involved, because the 
-% % behaviour of individual molecules is not sufficient for a complete understanding. 
+% % Hence, it is necessary to study the ensemble of molecules involved, because the
+% % behaviour of individual molecules is not sufficient for a complete understanding.
 % Since the human brain is ill-suited to grasp the non-linear dynamics of these complex networks and
 % the entailed emergent properties, the role of computational support is increasing
 % in molecular biology.
-% % 
-% % 
+% %
+% %
 % %
 % % The systems biology approach to understanding biological systems starts off from a
 % % scientific question and then follows an empirical cycle \--\ or rather a positive spiral \--\ of
@@ -347,17 +351,17 @@ the storage and transfer of knowledge on biological networks.
 %   \item to structure reasoning and discussion
 %   \item to perform \emph{in silico} experiments and derive hypotheses.
 % \end{enumerate}
-% % An \emph{in silico} model is always a simplified representation of biological reality and is never the 
+% % An \emph{in silico} model is always a simplified representation of biological reality and is never the
 % % aim in itself.
 % % Rather, it is a powerful means in the process of gaining an understanding of the biological system.
 % % Given its role in the empirical cycle, the process of modelling is especially effective
-% % when applied by the experts with respect to a certain biological system. Biologists usually have a good sense 
+% % when applied by the experts with respect to a certain biological system. Biologists usually have a good sense
 % % of cause-and-effect relationships of molecular interactions. In addition, they are the most knowledgeable
 % % on the network topology and the dynamics of the biological system they are studying.
-% % Since they also benefit most from the generation of hypotheses and from an efficient experimental design, 
+% % Since they also benefit most from the generation of hypotheses and from an efficient experimental design,
 % % biologists would be the primary candidates to construct models of their research topic.
-% 
-% 
+%
+%
 % As models are a formalization of knowledge or theories, an underlying formalism is needed to express
 % this knowledge. Different formal methods have been successfully applied to construct representations
 % of biological systems. Among these methods are Boolean logic~\cite{boolean-networks,boolean-networks-flower,boolean-networks2},
@@ -366,20 +370,20 @@ the storage and transfer of knowledge on biological networks.
 % process calculi~\cite{regev-shapiro,blenx,bio-pepa}, Timed Automata~\cite{ta-siebert,bartocci-oscillators,
 % oded-ode-ta-discretization} and Petri nets~\cite{petri-nets0,petri-nets,petri-nets2}.
 % Most of these formal methods have been implemented into software tools to aid the process
-% of modelling. Due to the lack of such a supporting tool, \tas\ have remained a less 
+% of modelling. Due to the lack of such a supporting tool, \tas\ have remained a less
 % frequently applied method.
 
 % \subsection*{\tas\ for biological models}
-% \tas\ have been developed to model the dynamic behaviour of systems with processes running in parallel~\cite{timed-automata-alur-dill}. 
-% As such, \tas\ have been applied in communication protocols and industrial control engineering~\cite{ta-audio-protocol,ta-wap-gateway,ta-ws-bap}. The 
-% parallels between these application areas and regulatory processes in cells have triggered the step towards 
+% \tas\ have been developed to model the dynamic behaviour of systems with processes running in parallel~\cite{timed-automata-alur-dill}.
+% As such, \tas\ have been applied in communication protocols and industrial control engineering~\cite{ta-audio-protocol,ta-wap-gateway,ta-ws-bap}. The
+% parallels between these application areas and regulatory processes in cells have triggered the step towards
 % their use in biology.
 % In~\cite{ta-siebert}, the authors used \tas\ to extend a classical modelling paradigm~\cite{thomas-formalism},
 % allowing to add temporal dynamics to gene network models.
 % In~\cite{bartocci-oscillators}, a model of biological oscillators was described and synchronization properties
 % were tested in this dynamic system.
 % A discretization of ODEs to \tas\ was proposed in~\cite{oded-ode-ta-discretization}, applying
-% a translation between the two formalisms to an example gene regulatory network. Two 
+% a translation between the two formalisms to an example gene regulatory network. Two
 % different approaches to transforming
 % a Petri net model into \tas\ were presented in~\cite{ta-giapponesi},
 % where the important issue of state space explosion was also addressed.
@@ -393,24 +397,24 @@ the storage and transfer of knowledge on biological networks.
 % (Analysis of Networks with Interactive MOdelling,~\cite{animo-ieee}), which aims
 % at making available the power of \tas\ to the experimental biologists without requiring
 % them to be fluent in any mathematical formalism.
-% 
-% % Mastery of most existing modelling tools requires training and experience in mathematical modelling. 
+%
+% % Mastery of most existing modelling tools requires training and experience in mathematical modelling.
 % % In this respect, a lack of tradition in quantitative
 % % reasoning and formal methods within the biological community at large is still a stumbling block for
 % % widespread application of modelling of biological systems. Here, we present an intuitive method for the
 % % construction of formal in silico models of the dynamics of molecular networks, supported by a novel,
-% % user friendly modelling tool, ANIMO (Analysis of Networks with Interactive 
+% % user friendly modelling tool, ANIMO (Analysis of Networks with Interactive
 % % MOdelling,~\cite{animo-ieee}). \tas\ are used as the underlying mathematical formalism.
-% 
+%
 % % In the Methods section, we will explain how choosing a suitable abstraction level can make the construction
 % % of models more intuitive. We will then show how ANIMO is designed to support the modelling process following
 % % this approach. Construction of a small model based on experimental data will exemplify the method that we
 % % propose. In the Results section, we first show an ANIMO model of the genes and proteins that constitute
 % % the circadian clock network in \emph{Drosophila Melanogaster}. The remainder of that section is dedicated to
 % % illustrate how a single modelling iteration in the empirical cycle is used to compile prior knowledge and
-% % experimental data into a model, perform \emph{in silico} simulations and derive meaningful testable 
+% % experimental data into a model, perform \emph{in silico} simulations and derive meaningful testable
 % % hypotheses. These hypotheses are supported by literature on interactions in different cell types.
-% 
+%
 % In this paper we present \animo2{}, an updated version of ANIMO which allows for a considerably
 % more efficient analysis of models. \animo2{} also introduces new features, such as the possibility to interrogate
 % an ANIMO model with model checking queries represented as human language sentences instead of
@@ -425,9 +429,9 @@ the storage and transfer of knowledge on biological networks.
 
 \section*{Results}\label{sec:results}
 \subsection*{Modelling oscillation}\label{sec:animo-drosophila}
-Results obtained with ANIMO are comparable to results with other modeling
-approaches. To demonstrate this, Figure~\ref{fig:drosophila-model}
-represents an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster}, based on~\cite{drosophila-ode-model},
+Results obtained with ANIMO are comparable to results from widely used modeling
+approaches. To demonstrate this, we present in Figure~\ref{fig:drosophila-model}
+an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster}, based on~\cite{drosophila-ode-model},
 where ordinary differential equations (ODEs) were used.
 The cyclic behavior of the circadian clock is based on the alternating formation and destruction of the
 CYC/CLK protein complex.
@@ -456,6 +460,8 @@ between the ANIMO model and the original ODE model is given in Supplementary Sec
 
 
 \subsection*{Using ANIMO to generate hypotheses}\label{subsec:case-study-larger}
+We now present a comparison with an existing fuzzy logic model, which we use also as an example of how ANIMO can be used to create reference networks and help to reason on complex biological events.
+
 We constructed a model of the signaling network downstream of TNF$\alpha$ and EGF, formalizing
 the crosstalk that takes place between the pathways at different levels of cellular regulation.
 We first modeled the two pathways in isolation~(Suppl. Figs.~\ref{fig:large-model-tnf}, \ref{fig:large-model-egf}),
@@ -554,16 +560,16 @@ of a signal transduction network can be used to extend previous pathway topologi
 \subsection*{Final remarks on the models}
 In the Results section, we described the construction of an ANIMO
 model of the circadian clock in \emph{Drosophila Melanogaster}. This model
-captured the dynamics of the regulatory network and led to similar 
+captured the dynamics of the regulatory network and led to similar
 conclusions as an ODE model that had been
 published previously~\cite{drosophila-ode-model}. This finding supports the use of
 the series of modeling abstractions on which ANIMO is based. The biggest
 difference between the construction of these models is that the model in~\cite{drosophila-ode-model}
 is constructed by writing a system of mathematical equations, together
 with an algorithm for simulation. In ANIMO, instead, a number of network
-nodes is drawn for the molecules involved. 
+nodes is drawn for the molecules involved.
 These nodes are then linked by directed
-interactions that represent cause-and-effect relationships, with a single parameter 
+interactions that represent cause-and-effect relationships, with a single parameter
 that defines the strength of each
 interaction. This is a more intuitive approach to construct a model.
 Further contributing to an interactive modeling process
@@ -574,9 +580,9 @@ without having to change any of the existing interactions.
 In the Results section we also showed the construction of an executable model
 of signaling events downstream of
 TNF$\alpha$ and EGF in human colon carcinoma cells. This data set has been used for
-previous modeling studies, based on partial least-squares regression and fuzzy 
+previous modeling studies, based on partial least-squares regression and fuzzy
 logic~\cite{pathway-leastsquare,pathway-fuzzy}.
-The partial least-squares regression model describes an abstract data-driven model 
+The partial least-squares regression model describes an abstract data-driven model
 that uses statistical correlations
 to relate signal transduction events to various cellular decisions. This type of modeling is
 very useful in uncovering new and unexpected relations. It is also successful in making
@@ -590,7 +596,7 @@ used as an input parameter. For example, the logical gates ``if TNF$\alpha$ is h
 high, then JNK1 is low'' were used to
 describe the dynamic behavior of JNK1. Although this leads to a representative
 description of the dynamic behavior of JNK1, peaks in protein activity at early time points were
-not reproduced by the fuzzy logic model. Moreover, it gives no insight in the molecular interactions 
+not reproduced by the fuzzy logic model. Moreover, it gives no insight in the molecular interactions
 that are involved in activation or inhibition.
 
 In this study, we used a data set based on the experiments described in~\cite{pathway-compendium}. We used the
@@ -602,9 +608,9 @@ gives a different type of insight. In the process of model construction, we exte
 prior-knowledge network with time-dependent extracellular crosstalk that has been reported
 previously~\cite{pathway-autocrine}. To come up with possible explanations for a disagreement
 between the model and the experimental data, two additional layers of
-crosstalk were introduced, at the signal transduction and transcriptional level. These modifications 
+crosstalk were introduced, at the signal transduction and transcriptional level. These modifications
 improved the fit of the model to the data and can be interpreted as novel testable hypotheses.
-Finally, we proposed new experiments that could be carried out to test these hypotheses, closing the empirical cycle. 
+Finally, we proposed new experiments that could be carried out to test these hypotheses, closing the empirical cycle.
 Together, our model sheds more light on the intricate
 entanglement between the TNF$\alpha$ and EGF pathways at multiple cellular levels.
 But above all,  the model provides an excellent starting point for further investigation.
@@ -636,7 +642,7 @@ the basis of the following parameters:
 \end{enumerate}
 Table~\ref{tab:tool-comparison} shows the comparison between ANIMO and the selected tools.
 
-Going beyond the user interface, there are a number of ``pros and cons'' for using ANIMO and \tas\ 
+Going beyond the user interface, there are a number of ``pros and cons'' for using ANIMO and \tas\
 in the biological context. First and foremost, being \tas\ an executable formal language,
 a state space can be derived from a \tas\ model. This means that state space-related analyses
 such as model checking can be performed on \tas: as explained in the Results section, this can
@@ -673,60 +679,61 @@ activity-driven processes in the ANIMO model.
 \section*{Conclusions}
 % The ultimate aim of research projects is to solve a problem or get
 % the answer to a scientific question. In biology, an in-depth understanding of
-% the relevant biological system is an important step towards this goal. Successive 
+% the relevant biological system is an important step towards this goal. Successive
 % repetitions of the empirical cycle result in a stepwise increase in understanding,
-% until the goal is reached. For complex biological systems, computational modelling is 
-% indispensable in this process. The mere act of creating 
-% a computational model based on prior knowledge, experimental data and hypotheses 
-% assists in gaining more insight in the system. 
-% 
-% %Furthermore, \emph{in silico} experiments 
-% %with the model can be used to make predictions that cannot be made by the human brain. 
-% 
-% We developed a new modelling approach by proposing a series of abstractions from the detailed 
-% molecular mechanisms of biological systems. These abstractions reduce the need for kinetic 
-% parameters, while preserving enough expressivity for a useful description of the dynamic 
-% behaviour of biological networks. A novel modelling tool, ANIMO, allows 
+% until the goal is reached. For complex biological systems, computational modelling is
+% indispensable in this process. The mere act of creating
+% a computational model based on prior knowledge, experimental data and hypotheses
+% assists in gaining more insight in the system.
+%
+% %Furthermore, \emph{in silico} experiments
+% %with the model can be used to make predictions that cannot be made by the human brain.
+%
+% We developed a new modelling approach by proposing a series of abstractions from the detailed
+% molecular mechanisms of biological systems. These abstractions reduce the need for kinetic
+% parameters, while preserving enough expressivity for a useful description of the dynamic
+% behaviour of biological networks. A novel modelling tool, ANIMO, allows
 % effective use of this approach and enables an intuitive construction of formal models.
+
+In this paper we discussed the placement of ANIMO among other modeling paradigms and tools, highlighting ANIMO's strong points. Our aim is not to promote the use of ANIMO in any modeling effort, but to show where it best shines.
 
 ANIMO is not the first modeling tool to provide an interface to a
 modeling formalism. Such interfaces exist in many other tools (as shown in Tab.~\ref{tab:tool-comparison}). With its
-focus on user-friendliness and intuitive modeling, ANIMO's main contribution lies 
+focus on user-friendliness and intuitive modeling, ANIMO's main contribution lies
 in making computational modeling more accessible to experts in biology.
 Making use of the visual
-interface provided by Cytoscape, network representations subscribe to biological conventions. 
-Model parameters are kept to a minimum and can be directly accessed by mouse-clicking on 
-nodes and edges. Because of the automatic translation of the network topology and 
-user-defined parameters into an underlying formal model, training in the use of formal methods 
+interface provided by Cytoscape, network representations subscribe to biological conventions.
+Model parameters are kept to a minimum and can be directly accessed by mouse-clicking on
+nodes and edges. Because of the automatic translation of the network topology and
+user-defined parameters into an underlying formal model, training in the use of formal methods
 is not needed.
 
 
-
-\subsection*{Future plans}
-In order to enforce the concept of user interaction as a primary focus of the tool, we plan to extend
-ANIMO by adding support for parameter sensitivity analysis and automatic parameter sweeps.
-We already allow for only one numeric parameter per reaction, but an automatic way of adjusting such
-parameters to fit experimental data will allow the user to concentrate more on defining a sensible topology for a pathway.
-Such an automatic search could be limited by setting specific bounds on reaction rates based on previous knowledge,
-or on a trade-off with performances.
-Moreover, inspired by works on automata learning~\cite{test-based-modelling}, we plan to add also the possibility
-to automatically derive a network topology based on experimental data and user-defined restrictions based on
-previous knowledge.
-
-We aim at widening the available set of model checking queries, in order to allow biologists to perform
-in silico experiments on an already fitting model and to obtain answers to more relevant questions.
-This would increase the usefulness of a model as a help to drive wet-lab investigation.
-In order to allow for meaningful in silico experiments, we plan to purposefully introduce user-defined non-deterministic 
-parts in our models, which would allow for drug dosage investigations through model checking.
-This can be done e.g. through the definition of intervals for the values of some reaction kinetic constants,
-adding considerable uncertainty in the timing of those reactions.
-A model of this type could then be interrogated with queries like ``How much X, Y and Z do we need to provide,
-and at which time points, in order to obtain targets A, B and C to be active?''.
-More useful results can be achieved through proper application of the statistical model checking part of UPPAAL~\cite{uppaal-smc} to
-an extended version of our model to include realistically significant stochastic behavior.
-Finally, in order to further improve performances, the applicability a multi-core model checking approach based on the
-works by Dalsgaard et al.~\cite{uppaal-multi-core1}
-is under study.
+%\subsection*{Future plans}
+%In order to enforce the concept of user interaction as a primary focus of the tool, we plan to extend
+%ANIMO by adding support for parameter sensitivity analysis and automatic parameter sweeps.
+%We already allow for only one numeric parameter per reaction, but an automatic way of adjusting such
+%parameters to fit experimental data will allow the user to concentrate more on defining a sensible topology for a pathway.
+%Such an automatic search could be limited by setting specific bounds on reaction rates based on previous knowledge,
+%or on a trade-off with performances.
+%Moreover, inspired by works on automata learning~\cite{test-based-modelling}, we plan to add also the possibility
+%to automatically derive a network topology based on experimental data and user-defined restrictions based on
+%previous knowledge.
+%
+%We aim at widening the available set of model checking queries, in order to allow biologists to perform
+%in silico experiments on an already fitting model and to obtain answers to more relevant questions.
+%This would increase the usefulness of a model as a help to drive wet-lab investigation.
+%In order to allow for meaningful in silico experiments, we plan to purposefully introduce user-defined non-deterministic
+%parts in our models, which would allow for drug dosage investigations through model checking.
+%This can be done e.g. through the definition of intervals for the values of some reaction kinetic constants,
+%adding considerable uncertainty in the timing of those reactions.
+%A model of this type could then be interrogated with queries like ``How much X, Y and Z do we need to provide,
+%and at which time points, in order to obtain targets A, B and C to be active?''.
+%More useful results can be achieved through proper application of the statistical model checking part of UPPAAL~\cite{uppaal-smc} to
+%an extended version of our model to include realistically significant stochastic behavior.
+%Finally, in order to further improve performances, the applicability a multi-core model checking approach based on the
+%works by Dalsgaard et al.~\cite{uppaal-multi-core1}
+%is under study.
 
 
 
@@ -744,35 +751,35 @@ is under study.
 % (Fig.~\ref{fig:abstraction-mek-erk}). In this example, MEK activity is not regulated and ERK can exist in two states,
 % inactive or active. In the network visualization, each molecular species (e.g. ERK) is depicted as a single node,
 % colored according to its activity (Fig.~\ref{subfig:mek-erk}).
-% 
+%
 % We define the relative activity level of a molecular species or reactant as the fraction of molecules in
 % the complete population of that species that are in the active (e.g. phosphorylated) state.
 % Reactants in an ANIMO model have a user-defined number of activity levels between 2 and 100, depending for example on the quality
 % of experimental data.
 % Coarse-grained models have a low number of activity levels and are less precise,
 % whereas fine-grained models have a higher number of activity levels and behave more like continuous models (see Fig.~\ref{fig:levels}).
-% 
+%
 % Variable reaction rates are accounted for by having variable time constraints to transitions, fast
 % reactions being reflected by small time values. These values depend on the current activity of the reactants involved.
 % Using basic kinetic rate laws, time constraints are pre-computed for all possible activity levels and stored in a pair of tables
 % (see Sect.~\ref{subsec:kinetics}). Each rate law relies on a single parameter that is set manually. When the activity level
 % of one of the input variables to a reaction changes, the tables are used to update the reaction rates for all reactions involving this reactant (see Fig.~\ref{fig:ta-diagram})
 % % provides an overview of the steps taken by a Timed Automaton describing the example reaction between MEK and ERK.
-\subsection*{Modeling interactions with Timed Automata}\label{subsec:timed-automata}
+\subsection*{Modeling biological interactions with Timed Automata}\label{subsec:timed-automata}
 \def\ta{TA}
 \def\tas{TA}
 
 Timed Automata have been shown to be a powerful formalism to model biological processes
 ~\cite{ta-siebert,bartocci-oscillators,oded-ode-ta-discretization}. A timed automaton consists of locations
-and transitions between these locations (see Fig.~\ref{fig:abstraction-mek-erk}), and a system of timed automata can be 
-used to model a system of interacting molecules. At any time, each automaton is in a specific location, and together 
+and transitions between these locations (see Fig.~\ref{fig:abstraction-mek-erk}), and a system of timed automata can be
+used to model a system of interacting molecules. At any time, each automaton is in a specific location, and together
 these locations represent the current state of the biological system. Each timed automaton can have one or more local clocks
-associated to it, allowing temporal control of transitions between locations. These transitions are used to 
-represent interactions between molecules. Fast interactions take less time than slow interactions 
-to perform an activation or inhibition step. We have previously described in detail how the 
-scenarios presented in Section~\ref{subsec:abstractions} can be used to calculate the timing of molecular 
+associated to it, allowing temporal control of transitions between locations. These transitions are used to
+represent interactions between molecules. Fast interactions take less time than slow interactions
+to perform an activation or inhibition step. We have previously described in detail how the
+scenarios presented in Section~\ref{subsec:abstractions} can be used to calculate the timing of molecular
 interactions to give a description of network dynamics~\cite{animo-ieee}. Figure~\ref{fig:abstraction-mek-erk}
-presents a small example that illustrates the basic properties of \tas. 
+presents a small example that illustrates the basic properties of \tas.
 This model describes the activation of ERK by MEK\footnote{All acronyms used in this paper
 and their corresponding UniProt IDs are listed in Suppl. Sect.~\ref{suppl-sec:names}.}.
 
@@ -822,7 +829,7 @@ S.S. designed and performed the experiments, developed the Cytoscape integration
 J.S. conceived, designed and performed the experiments, wrote the manuscript;
 % B.W. developed the Cytoscape integration, and designed and developed the time slider UI;
 P.E.vdV. initiated the study, conceived the Cytoscape implementation, supervised the project;
-% R.A.U.C. performed experiments; 
+% R.A.U.C. performed experiments;
 M.K. designed experiments, analyzed data and wrote the manuscript;
 J.N.P. designed experiments, analyzed data sets, contributed in particular to the application of ANIMO for large biological data, wrote the manuscript, and supervised the project;
 J.vdP. contributed to the strategy and methodology in the manuscript, in particular the connection with formal methods;
@@ -883,7 +890,7 @@ We would like to thank Christof Francke for valuable discussions.
 %       A short description of the figure content
 %       should go here.}
 %       \end{figure}
-% 
+%
 % \begin{figure}[h!]
 %   \caption{\csentence{Sample figure title.}
 %       Figure legend text.}
@@ -923,7 +930,7 @@ data from~\cite{pathway-compendium}, considering a treatment with 100~ng/ml TNF$
 \caption{\csentence{The spectrum of modeling methods, with the addition of ANIMO.}
 The precision of ANIMO models is halfway between fuzzy logic and ODE. In addition, ANIMO
 allows for an easier modeling experience thanks to a user-friendly interface based on
-the widely used network modeling software Cytoscape.}
+the widely used network modeling software Cytoscape.\label{fig:animo-spectrum}}
 \end{figure*}
 
 
@@ -1117,7 +1124,7 @@ we computed the {\sf Casp3\_{}data} series as $100\% - [\mbox{\sf pro-Casp3}]$.\
 \hline \ \\
 {\bfseries Tool} & {\bfseries Formalism} & {\bfseries Hidden formalism} & {\bfseries Visual modeling} & {\bfseries Qualitative parameters} & {\bfseries Tight coupling with topology} & {\bfseries User-chosen granularity}  \\[5mm]
 \hline \ \\
-% \noalign{\vskip 2mm} 
+% \noalign{\vskip 2mm}
 ANIMO~\cite{animo-bibe} & Timed \ \ \ Automata & Yes & Yes & Yes & Yes & Yes
       \\[5mm]
 % \noalign{\vskip 2mm}
@@ -1129,17 +1136,17 @@ Cell Illustrator~\cite{cell-illustrator} & Petri Nets & Yes & Yes & No & Yes & N
 % \noalign{\vskip 2mm}
 COPASI~\cite{copasi} & ODE, stochastic models & No & No & No & No & No
       \\[5mm]
-% \noalign{\vskip 2mm} 
+% \noalign{\vskip 2mm}
 COSBI LAB~$^1$
  & BlenX & Yes & Yes & No & Yes & No
       \\[5mm]
-% \noalign{\vskip 2mm} 
+% \noalign{\vskip 2mm}
 GINsim~\cite{ginsim} & Boolean Networks & No & Yes & Yes & Yes & Yes~$^2$
       \\[5mm]
-% \noalign{\vskip 2mm} 
+% \noalign{\vskip 2mm}
 GNA~\cite{gna}    & PLDE & No & Yes & Yes & Yes & Yes~$^2$
       \\
-% \noalign{\vskip 2mm} 
+% \noalign{\vskip 2mm}
 Rhapsody~$^3$
  & Statecharts & No & Yes & Yes & No~$^4$ & No
       \\[5mm]
@@ -1196,7 +1203,7 @@ $^4$ Statecharts represent more closely the so-called \protect\emph{transition s
 % \setlength\addedmarginsingle{0.875in}
 % \newlength\addedmargintotal
 % \setlength\addedmargintotal{2\addedmarginsingle}
-% 
+%
 % \addtolength{\oddsidemargin}{\addedmarginsingle}
 % \addtolength{\evensidemargin}{\addedmarginsingle}
 % \addtolength{\textwidth}{-\addedmargintotal}
@@ -1404,29 +1411,29 @@ file in the additional materials of the present work.
 \subsection{Modeling abstractions}\label{subsec:abstractions}
 
 In living cells, cascades of chemical and physical interactions enable propagation of signals through molecular networks.
-In this process, the activity of upstream molecules induces a change in the 
-concentration or activity of downstream molecules. For many reactions, the values of the kinetic parameters 
-are unknown or difficult to collect. This lack of knowledge hampers the feasibility 
+In this process, the activity of upstream molecules induces a change in the
+concentration or activity of downstream molecules. For many reactions, the values of the kinetic parameters
+are unknown or difficult to collect. This lack of knowledge hampers the feasibility
 of computational models that describe molecular networks in fine mechanistic detail, especially for larger networks.
-As a solution to this problem, we propose the construction of models at a higher level of abstraction, 
-thereby reducing the number of parameters involved. In choosing a suitable abstraction level, it is important to 
-retain enough descriptive power to give a meaningful formal description of the topology and the 
+As a solution to this problem, we propose the construction of models at a higher level of abstraction,
+thereby reducing the number of parameters involved. In choosing a suitable abstraction level, it is important to
+retain enough descriptive power to give a meaningful formal description of the topology and the
 associated dynamic behavior of biological networks.
 
-As a first abstraction in ANIMO models, the active and inactive forms of each network component 
+As a first abstraction in ANIMO models, the active and inactive forms of each network component
 are represented together by a single node in the network.
 Each of these nodes is characterized by its \emph{activity level}, which
-represents the fraction of active molecules of that molecular species. When a molecule is known to be 
+represents the fraction of active molecules of that molecular species. When a molecule is known to be
 constitutively active, changes in concentrations of that molecule are treated as changes in its activity level.
-Activity levels are discretized into integer variables with a user-defined granularity, ranging from 
+Activity levels are discretized into integer variables with a user-defined granularity, ranging from
 Boolean (2 levels) to near-continuous (100 levels).
 
-Detailed biochemical reaction mechanisms are abstracted to \emph{interactions}, which can 
-represent either activations ($\rightarrow$) or inhibitions ($\dashv$\hspace{0.1em}). 
-This aggregation of elementary reactions into single interaction steps reduces the number of kinetic 
+Detailed biochemical reaction mechanisms are abstracted to \emph{interactions}, which can
+represent either activations ($\rightarrow$) or inhibitions ($\dashv$\hspace{0.1em}).
+This aggregation of elementary reactions into single interaction steps reduces the number of kinetic
 parameters involved, while preserving cause-and-effect relationships.
-For example, consider a reaction in which enzyme $E$ phosphorylates and activates substrate $S$, 
-transferring a phosphate group from a molecule of ATP to a molecule of $S$. Biochemically, this reaction 
+For example, consider a reaction in which enzyme $E$ phosphorylates and activates substrate $S$,
+transferring a phosphate group from a molecule of ATP to a molecule of $S$. Biochemically, this reaction
 can be represented as
 $$
 \mbox{\it E} + \mbox{\it S} + \mbox{\it ATP} \rightleftarrows \mbox{\it ES} + \mbox{\it ATP} \rightarrow \mbox{\it ES}^{\mbox{\scriptsize \it P}} + \mbox{\it ADP} \rightleftarrows \mbox{\it E} + \mbox{\it S}^{\mbox{\scriptsize\it P}} + \mbox{\it ADP},
@@ -1436,17 +1443,17 @@ Under the assumption of ATP constantly being replenished by the cell, this react
 $$
 \mbox{\it E} \rightarrow \mbox{\it S}.
 $$
-Each occurrence of the interaction $E \rightarrow S$ will increase the activity level of $S$ by one discrete step. 
+Each occurrence of the interaction $E \rightarrow S$ will increase the activity level of $S$ by one discrete step.
 Since the activity level is defined as the active fraction of a molecular species, an increase in the active fraction
-implies a decrease in the inactive fraction. Hence, the original conservation condition is automatically  
+implies a decrease in the inactive fraction. Hence, the original conservation condition is automatically
 satisfied.
 The interaction rate, $R$, depends on the activity levels of the reactants involved and on a single kinetic
-parameter $k$ that is set by the user. 
+parameter $k$ that is set by the user.
 The three available interaction scenarios can be interpreted as abstracted kinetic rate laws:
 \begin{enumerate}
   \item $R = k \times [E]$: the interaction rate depends only on the activity level of the upstream node.
-  \item $R = k \times [E] \times [1 - S]$ (activations) or $R = k \times [E] \times [S]$ (inhibitions): the rate 
-  depends on the activity levels of both the upstream and downstream participants. Activations depend on the 
+  \item $R = k \times [E] \times [1 - S]$ (activations) or $R = k \times [E] \times [S]$ (inhibitions): the rate
+  depends on the activity levels of both the upstream and downstream participants. Activations depend on the
   presence of inactive substrate, \emph{[1 - S]}, whereas inhibitions depend on the level of active substrate,
   \emph{[S]}.
   \item $R = k \times [E_1] \times [E_2]$: this scenario can be used when the activation or inhibition
@@ -1454,7 +1461,7 @@ The three available interaction scenarios can be interpreted as abstracted kinet
   \emph{AND-gate} in Boolean logic.
 \end{enumerate}
 We will show in Section~\ref{sec:results} that the abstraction proposed here preserves ample
-expressivity to capture the dynamic behavior of a biological network. 
+expressivity to capture the dynamic behavior of a biological network.
 
 
 
@@ -1469,49 +1476,49 @@ The modeling approach described in Section~\ref{subsec:abstractions} and Section
 is implemented in the
 software tool ANIMO (Analysis of Networks with Interactive MOdeling, \cite{animo-ieee}) as
 a plug-in to the network visualization tool Cytoscape~\cite{cytoscape}. The visual interface of Cytoscape
-makes the construction, expansion and rewiring of a network topology a fast and user-friendly process. 
+makes the construction, expansion and rewiring of a network topology a fast and user-friendly process.
 
-When a new node is added to the network, it has to be initialized with the number of activity levels and 
-its initial activity. 
-For each interaction, a scenario needs to be selected, together with the corresponding kinetic parameter and 
-the interaction type: activation or inhibition. All settings can be readily adapted by double clicking, or via a 
-table of nodes or interactions. 
+When a new node is added to the network, it has to be initialized with the number of activity levels and
+its initial activity.
+For each interaction, a scenario needs to be selected, together with the corresponding kinetic parameter and
+the interaction type: activation or inhibition. All settings can be readily adapted by double clicking, or via a
+table of nodes or interactions.
 
-ANIMO automatically translates the user input to a \tas\ model, which is then simulated with the model 
+ANIMO automatically translates the user input to a \tas\ model, which is then simulated with the model
 checking tool UPPAAL~\cite{uppaal}. The results are subsequently parsed and translated to a graph that shows
-the dynamic behavior of nodes in the network. 
+the dynamic behavior of nodes in the network.
 A schematic overview of this process is given in Supplementary Section~\ref{suppl-sec:animo-ta}.
 No training or prior knowledge on the use of \tas\ or UPPAAL is needed in order to benefit from ANIMO.
 Nevertheless, the \tas\ model and the model checking process in UPPAAL can be accessed when desired by the user.
 
 The dynamic behavior of a model can be interactively explored by
 moving a time slider underneath the graph to highlight time points in a simulation. In the network view,
-each node will be colored according to its activity level at the selected time point. 
-Experimental data can be compared to the model by importing and superposing these data 
-upon an output graph from the model (Figure~\ref{fig:small-model} B,D,F). The ANIMO user workflow and the 
+each node will be colored according to its activity level at the selected time point.
+Experimental data can be compared to the model by importing and superposing these data
+upon an output graph from the model (Figure~\ref{fig:small-model} B,D,F). The ANIMO user workflow and the
 features described above are illustrated in Suppl. Video 1.
 
 
-% 
+%
 % \subsection*{Using ANIMO to build a model based on data}\label{subsec:case-study}
-% To illustrate the process of modelling with ANIMO, we show the construction of a small model based on a 
-% literature compendium of signal transduction events in HT-29 human colon carcinoma cells~\cite{pathway-compendium}. 
+% To illustrate the process of modelling with ANIMO, we show the construction of a small model based on a
+% literature compendium of signal transduction events in HT-29 human colon carcinoma cells~\cite{pathway-compendium}.
 % This data set comprises triplicate
 % measurements of 11 different protein activities or post-translational modification states at 13 time points after
 % treatment with different combinations of TNF$\alpha$, EGF and insulin.
 % The data set contains relative protein levels and activities, which is a typical situation in biochemistry.
-% 
+%
 % As a first step, we normalized measurements for each protein to the
-% maximum value in the complete experiment. This normalization results in a nondimensionalized data set that 
+% maximum value in the complete experiment. This normalization results in a nondimensionalized data set that
 % is suitable for use with ANIMO.
-% 
+%
 % In Figure~\ref{fig:small-model}, we show the stepwise construction of a model of a small part of the network that is
 % able to account for measured variations in activity of IKK, JNK1, MK2, Casp8 and Casp3 upon stimulation with 100~ng/ml TNF$\alpha$.
-% In this example we aimed for inclusion of a minimum number of nodes in the network, 
+% In this example we aimed for inclusion of a minimum number of nodes in the network,
 % while preserving biological relationships.
-% Multi-step cascades were aggregated into a single step when possible. Parameters for all interactions were 
+% Multi-step cascades were aggregated into a single step when possible. Parameters for all interactions were
 % set manually, and a close match was obtained between the model and the patterns that are present in the dataset.
-% 
+%
 % A more comprehensive model based on the same dataset is presented in Section~\ref{subsec:case-study-larger}.
 
 
@@ -1912,7 +1919,7 @@ show the modeling results with TNF set at 8 out of 100.
 \clearpage
 % \addcontentsline{toc}{section}{References}
 % \begin{thebibliography}{}
-% 
+%
 % \bibitem[Chaouiya et~al., 2003]{ginsim}
 % Chaouiya, C., Remy, E., Moss\'{e}, B., and Thieffry, D. (2003).
 % \newblock Qualitative analysis of regulatory graphs: A computational tool based
@@ -1920,75 +1927,75 @@ show the modeling results with TNF set at 8 out of 100.
 % \newblock In Benvenuti, L., De~Santis, A., and Farina, L., editors, {\em
 %   Positive Systems}, volume 294 of {\em Lecture Notes in Control and
 %   Information Sciences}, pages 830--832. Springer Berlin / Heidelberg.
-% 
+%
 % \bibitem[Ciocchetta et~al., 2009]{biopepa-interface}
 % Ciocchetta, F., Duguid, A., Gilmore, S., Guerriero, M.~L., and Hillston, J.
 %   (2009).
 % \newblock {The Bio-PEPA Tool Suite}.
 % \newblock {\em International Conference on Quantitative Evaluation of Systems},
 %   pages 309--310.
-% 
+%
 % \bibitem[de~Jong et~al., 2003]{gna}
 % de~Jong, H., Geiselmann, J., Hernandez, C., and Page, M. (2003).
 % \newblock {Genetic Network Analyzer: qualitative simulation of genetic
 %   regulatory networks}.
 % \newblock {\em Bioinformatics}, 19(3):336--344.
-% 
+%
 % \bibitem[Elowitz, 2000]{repressilator}
 % Elowitz, Michael~B.Leibler, S. (2000).
 % \newblock A synthetic oscillatory network of transcriptional regulators.
 % \newblock {\em Nature}, 403(6767):335.
-% 
+%
 % \bibitem[Fathallah-Shaykh et~al., 2009]{drosophila-ode-model}
 % Fathallah-Shaykh, H.~M., Bona, J.~L., and Kadener, S. (2009).
 % \newblock Mathematical model of the drosophila circadian clock: Loop regulation
 %   and transcriptional integration.
 % \newblock {\em Biophysical Journal}, 97(9):2399 -- 2408.
-% 
+%
 % \bibitem[Janes et~al., 2006]{pathway-autocrine}
 % Janes, K.~A., Gaudet, S., Albeck, J.~G., Nielsen, U.~B., Lauffenburger, D.~A.,
 %   and Sorger, P.~K. (2006).
 % \newblock The response of human epithelial cells to {TNF} involves an inducible
 %   autocrine cascade.
 % \newblock {\em Cell}, 124(6):1225--1239.
-% 
+%
 % \bibitem[Kadener et~al., 2007]{drosophila-cry-data}
 % Kadener, S., Stoleru, D., McDonald, M., Nawathean, P., and Rosbash, M. (2007).
 % \newblock Clockwork orange is a transcriptional repressor and a new drosophila
 %   circadian pacemaker component.
 % \newblock {\em Genes \& Development}, 21(13):1675--1686.
-% 
+%
 % \bibitem[Killcoyne et~al., 2009]{cytoscape}
 % Killcoyne, S., Carter, G.~W., Smith, J., and Boyle, J. (2009).
 % \newblock {Cytoscape: a community-based framework for network modeling.}
 % \newblock {\em Methods in molecular biology (Clifton, N.J.)}, 563:219--239.
-% 
+%
 % \bibitem[Larsen et~al., 1997]{uppaal}
 % Larsen, K.~G., Pettersson, P., and Yi, W. (1997).
 % \newblock {UPPAAL} in a nutshell.
 % \newblock {\em International Journal on Software Tools for Technology Transfer
 %   (STTT)}, 1:134--152.
-% 
+%
 % \bibitem[Mendes et~al., 2009]{copasi}
 % Mendes, P., Hoops, S., Sahle, S., Gauges, R., Dada, J., and Kummer, U. (2009).
 % \newblock {Computational modeling of biochemical networks using COPASI systems
 %   biology}.
 % \newblock volume 500 of {\em Methods in Molecular Biology}, chapter~2, pages
 %   17--59. Humana Press, Totowa, NJ.
-% 
+%
 % \bibitem[Nagasaki et~al., 2011]{cell-illustrator}
 % Nagasaki, M., Saito, A., Jeong, E., Li, C., Kojima, K., Ikeda, E., and Miyano,
 %   S. (2011).
 % \newblock Cell illustrator 4.0: a computational platform for systems biology.
 % \newblock {\em Stud Health Technol Inform}, 162:160--81.
-% 
+%
 % \bibitem[Schivo et~al., 2012]{animo-ieee}
 % Schivo, S., Scholma, J., Wanders, B., {Urquidi Camacho}, R.~A., van~der Vet,
 %   P.~E., Karperien, M., Langerak, R., van~de Pol, J., and Post, J.~N. (2012).
 % \newblock Modelling biological pathway dynamics with {Timed Automata}.
 % \newblock {\em IEEE Journal of Biomedical and Health Informatics}. IEEE Engineering
 %   in Medicine and Biology Society.
-% 
+%
 % \end{thebibliography}
 
 

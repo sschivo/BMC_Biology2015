@@ -15,11 +15,21 @@
 \@writefile{toc}{\contentsline {section}{Abstract}{1}}
 \newlabel{sec:introduction}{{}{1}}
 \citation{cytoscape}
+\citation{pathway-compendium}
+\citation{pathway-compendium}
 \citation{timed-automata-alur-dill}
 \citation{uppaal}
 \citation{animo-ieee}
 \citation{animo-syncop}
 \citation{animo-gene}
+\citation{drosophila-ode-model}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {\mathversion  {bold}\bfseries  The Cytoscape user interface running the ANIMO plug-in.} The \emph  {Network} panel in the center contains the nodes-edges model of the example TNF$\alpha $ patwhay (see Methods Section), with colors indicating node activity levels and shapes representing different protein categories (see the \emph  {Legend} on the left). The \emph  {Results Panel} on the right contains a graph plotting activity levels of selected nodes during the first 24 hours of evolution of the model. The slider under the graph allows the user to select the time instant (marked as a vertical red line in the graph) on which the colors nodes in the \emph  {Network} are based. The series with the {\sf  \_data} suffix is experimental data from\nobreakspace  {}\cite  {pathway-compendium}, considering a treatment with 100\nobreakspace  {}ng/ml TNF$\alpha $.  All acronyms used in this paper and their corresponding UniProt IDs are listed in Suppl. Sect.\nobreakspace  {}A\hbox {}. \relax }}{3}}
+\newlabel{fig:cytoscape}{{1}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces {\mathversion  {bold}\bfseries  The spectrum of modeling methods, with the addition of ANIMO.} The precision of ANIMO models is halfway between fuzzy logic and ODE. In addition, ANIMO allows for an easier modeling experience thanks to a user-friendly interface based on the widely used network modeling software Cytoscape.\relax }}{3}}
+\newlabel{fig:animo-spectrum}{{2}{3}}
+\newlabel{sec:results}{{}{3}}
+\newlabel{sec:animo-drosophila}{{}{3}}
+\citation{drosophila-ode-model}
 \citation{drosophila-ode-model}
 \citation{kegg}
 \citation{phosphosite}
@@ -27,18 +37,24 @@
 \citation{pathway-autocrine}
 \citation{pathway-autocrine}
 \citation{pathway-compendium}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\mathversion  {bold}\bfseries  ANIMO model of the circadian clock in \emph  {Drosophila Melanogaster}.} Auto-regulatory negative feedback loops are present on each of the nodes of the network, following the original model in\nobreakspace  {}\cite  {drosophila-ode-model}. These feedback loops ensure that protein levels decrease over time when activating inputs are absent. The feedback loops are not represented here for cosmetic reasons only. Naming conventions follow the same rules as in the original model, with lower-case names representing mRNA, and upper-case names indicating proteins. \relax }}{4}}
+\newlabel{fig:drosophila-model}{{3}{4}}
+\newlabel{subsec:case-study-larger}{{}{4}}
+\citation{animo-syncop}
 \citation{pathway-autocrine}
 \citation{jnk-signaling}
 \citation{cfos-cjun}
 \citation{ap1-il1a}
-\newlabel{sec:results}{{}{3}}
-\newlabel{sec:animo-drosophila}{{}{3}}
-\newlabel{subsec:case-study-larger}{{}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\mathversion  {bold}\bfseries  Signaling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways. Node colors represent the activity level of the corresponding modeled reactants at time $t = 15$ minutes after a stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} Modeled production of IL-1$\alpha $ after stimulation with 100 ng/ml TGF$\alpha $ (24 hours). {\bf  (C)} Modeled activation of JNK1 and MK2 after stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours).   The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{5}}
+\newlabel{fig:large-model-all}{{4}{5}}
 \citation{pathway-autocrine}
 \citation{ras-mekk1}
 \citation{kegg}
 \citation{cfos-cjun}
 \citation{ras-jnk1}
+\citation{pathway-fuzzy}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\mathversion  {bold}\bfseries  Signaling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells: updated version.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways after addition of the two hypotheses (highlighted). Hypothesis 1 assumes IL-1$\alpha $ expression to depend on AP-1 activity, which in turn requires both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis 2 assumes RAS as an activator of MEKK1. Node colors represent the activity levels $15$ minutes after stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} After the addition of the first hypothesis (activation of IL-1$\alpha $ production depending both on JNK1 and ERK): production of IL-1$\alpha $ after stimulation with 100 ng/ml TNF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TNFa)}) compared with stimulation with 100 ng/ml TGF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TGFa)}) (24 hours). {\bf  (C)} After the addition of the second hypothesis (activation of MEKK1 downstream of EGFR): stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours). Suppl. Sect.\nobreakspace  {}D.3\hbox {} explains how the dosage of 5 ng/ml TNF$\alpha $ was represented in the model.  The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{7}}
+\newlabel{fig:large-model-complete}{{5}{7}}
 \citation{drosophila-ode-model}
 \citation{drosophila-ode-model}
 \citation{pathway-leastsquare}
@@ -47,83 +63,65 @@
 \citation{kegg}
 \citation{phosphosite}
 \citation{pathway-autocrine}
-\newlabel{suppl:comparison-table}{{}{6}}
-\citation{ta-siebert}
-\citation{bartocci-oscillators}
-\citation{oded-ode-ta-discretization}
-\citation{animo-ieee}
-\newlabel{subsec:timed-automata}{{}{7}}
-\citation{pathway-compendium}
-\bibstyle{bmc-mathphys}
-\bibdata{Paper}
-\bibcite{animo-ieee}{1}
-\bibcite{animo-gene}{2}
-\bibcite{cytoscape}{3}
-\bibcite{timed-automata-alur-dill}{4}
-\bibcite{uppaal}{5}
-\bibcite{animo-syncop}{6}
-\newlabel{subsec:case-study}{{}{8}}
-\thanksnewlabel{aff1thanks}{{1}{8}}
-\thanksnewlabel{aff2thanks}{{2}{8}}
-\thanksnewlabel{aff3thanks}{{3}{8}}
-\bibcite{drosophila-ode-model}{7}
-\bibcite{kegg}{8}
-\bibcite{phosphosite}{9}
-\bibcite{pathway-compendium}{10}
-\bibcite{pathway-autocrine}{11}
-\bibcite{jnk-signaling}{12}
-\bibcite{cfos-cjun}{13}
-\bibcite{ap1-il1a}{14}
-\bibcite{ras-mekk1}{15}
-\bibcite{ras-jnk1}{16}
-\bibcite{pathway-leastsquare}{17}
-\bibcite{pathway-fuzzy}{18}
-\bibcite{test-based-modelling}{19}
-\bibcite{uppaal-smc}{20}
-\bibcite{uppaal-multi-core1}{21}
-\bibcite{ta-siebert}{22}
-\bibcite{bartocci-oscillators}{23}
-\bibcite{oded-ode-ta-discretization}{24}
-\bibcite{animo-bibe}{25}
-\bibcite{biopepa-interface}{26}
-\bibcite{cell-illustrator}{27}
-\bibcite{copasi}{28}
-\bibcite{ginsim}{29}
-\bibcite{gna}{30}
-\bibcite{repressilator}{31}
-\bibcite{drosophila-cry-data}{32}
-\citation{pathway-compendium}
-\citation{pathway-compendium}
-\citation{drosophila-ode-model}
-\citation{drosophila-ode-model}
-\citation{pathway-compendium}
-\citation{pathway-autocrine}
-\citation{pathway-compendium}
-\citation{pathway-autocrine}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {\mathversion  {bold}\bfseries  The Cytoscape user interface running the ANIMO plug-in.} The \emph  {Network} panel in the center contains the nodes-edges model of the example TNF$\alpha $ patwhay (see Methods Section\nobreakspace  {}\hbox {}), with colors indicating node activity levels and shapes representing different protein categories (see the \emph  {Legend} on the left). The \emph  {Results Panel} on the right contains a graph plotting activity levels of selected nodes during the first 24 hours of evolution of the model. The slider under the graph allows the user to select the time instant (marked as a vertical red line in the graph) on which the colors nodes in the \emph  {Network} are based. The series with the {\sf  \_data} suffix is experimental data from\nobreakspace  {}\cite  {pathway-compendium}, considering a treatment with 100\nobreakspace  {}ng/ml TNF$\alpha $. \relax }}{10}}
-\newlabel{fig:cytoscape}{{1}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces {\mathversion  {bold}\bfseries  The spectrum of modeling methods, with the addition of ANIMO.} The precision of ANIMO models is halfway between fuzzy logic and ODE. In addition, ANIMO allows for an easier modeling experience thanks to a user-friendly interface based on the widely used network modeling software Cytoscape.\relax }}{11}}
-\newlabel{fig:animo-spectrum}{{2}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\mathversion  {bold}\bfseries  ANIMO model of the circadian clock in \emph  {Drosophila Melanogaster}.} Auto-regulatory negative feedback loops are present on each of the nodes of the network, following the original model in\nobreakspace  {}\cite  {drosophila-ode-model}. These feedback loops ensure that protein levels decrease over time when activating inputs are absent. The feedback loops are not represented here for cosmetic reasons only. Naming conventions follow the same rules as in the original model, with lower-case names representing mRNA, and upper-case names indicating proteins. \relax }}{11}}
-\newlabel{fig:drosophila-model}{{3}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\mathversion  {bold}\bfseries  Signaling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways. Node colors represent the activity level of the corresponding modeled reactants at time $t = 15$ minutes after a stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} Modeled production of IL-1$\alpha $ after stimulation with 100 ng/ml TGF$\alpha $ (24 hours). {\bf  (C)} Modeled activation of JNK1 and MK2 after stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours).   The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{12}}
-\newlabel{fig:large-model-all}{{4}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\mathversion  {bold}\bfseries  Signaling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells: updated version.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways after addition of the two hypotheses (highlighted). Hypothesis 1 assumes IL-1$\alpha $ expression to depend on AP-1 activity, which in turn requires both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis 2 assumes RAS as an activator of MEKK1. Node colors represent the activity levels $15$ minutes after stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} After the addition of the first hypothesis (activation of IL-1$\alpha $ production depending both on JNK1 and ERK): production of IL-1$\alpha $ after stimulation with 100 ng/ml TNF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TNFa)}) compared with stimulation with 100 ng/ml TGF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TGFa)}) (24 hours). {\bf  (C)} After the addition of the second hypothesis (activation of MEKK1 downstream of EGFR): stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours). Suppl. Sect.\nobreakspace  {}D.3\hbox {} explains how the dosage of 5 ng/ml TNF$\alpha $ was represented in the model.  The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{13}}
-\newlabel{fig:large-model-graph}{{5}{13}}
-\newlabel{fig:large-model-complete}{{5}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\mathversion  {bold}\bfseries  Abstraction of a biochemical reaction to a TA\ model.} {\bf  (A)} Classical depiction of a well-studied intracellular signal transduction reaction: protein MAPK-ERK kinase (MEK) activates downstream protein extracellular-regulated kinase (ERK). {\bf  (B)} A TA\ model of ERK, consisting of two states (circles), {\sf  inactive\_ERK} and {\sf  active\_ERK}, and one transition (arrow) between the states. This transition will take place when it is possible to synchronize with the corresponding action {\sf  activate\_ERK!} in the MEK automaton. {\bf  (C)} A TA\ model of active MEK, consisting of one state and one transition. ${\sf  t} < 20$ is termed an invariant on the state, allowing residence in this state as long as local clock time {\sf  t} is smaller than $20$ units. ${\sf  t} > 18$ is termed a guard on the transition, allowing the transition to take place when local clock {\sf  t} is greater than $18$ units. Together, the invariant and guard in this example ensure that the transition must take place in the (continuous) time interval $18 < {\sf  t} < 20$. When the transition takes place, the action {\sf  activate\_Erk!} is performed (thus allowing the ERK automaton to reach the {\sf  active\_ERK} state) and the local clock coupled to this automaton is reset, ${\sf  t} := 0$.\relax }}{14}}
-\newlabel{fig:abstraction-mek-erk}{{6}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  {\mathversion  {bold}\bfseries  Construction of an ANIMO model of signal transduction events in human colon carcinoma cells upon stimulation with 100 ng/ml TNF$\alpha $.} Graphs below show the dynamic behavior of the corresponding models above, comparing it to the measured activity values from\nobreakspace  {}\cite  {pathway-compendium} (error bars represent the standard deviation). On the vertical axis, ``100'' represents the maximum protein activity in the complete experiment. A red vertical line in each graph highlights an arbitrary time point in the time course: nodes in the corresponding model are colored according to their activity at that time point. {\bf  (A,\nobreakspace  {}D)} Basic model showing direct activation of JNK1 and MK2 by TNF$\alpha $. No peak dynamics are observed because no inactivating processes are present. {\bf  (B,\nobreakspace  {}E)} The model after addition of inactivating phosphatases and a negative feedback loop that downregulates TNFR. Note that adding TNFR internalization or phosphatases alone would not be enough to reproduce activity peaks. {\bf  (C,\nobreakspace  {}F)} The model after addition of IKK, IL1-secretion (abstracting the autocrine IL-1 signaling described in\nobreakspace  {}\cite  {pathway-autocrine}), Casp8 and Casp3, showing the late response to TNF$\alpha $ signaling. As the data set did not contain values for cleaved caspase-3, but only for its non-cleaved precursor pro-caspase-3, we computed the {\sf  Casp3\_{}data} series as $100\% - [\unhbox \voidb@x \hbox {\sf  pro-Casp3}]$.\relax }}{14}}
-\newlabel{fig:small-model}{{7}{14}}
 \citation{animo-bibe}
 \citation{biopepa-interface}
 \citation{cell-illustrator}
 \citation{copasi}
 \citation{ginsim}
 \citation{gna}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison between ANIMO and some existing approaches to modeling biological systems. A ``Yes'' under a column indicates that the modeling tool (mostly) fulfills the parameter, ``No'' indicates very limited or no fulfillment.  $^1$ {COSBILab} web page \url {http://www.cosbi.eu/index.php/research/cosbi-lab}  $^2$ The user can choose the number of levels for each reactant, allowing to define multi-level models based on Boolean reaction dynamics.  $^3$ {IBM Rational Rhapsody} web page \url {http://www-01.ibm.com/software/rational/products/rhapsody/designer}  $^4$ Statecharts represent more closely the so-called \emph {transition system} of the model as opposed to the components and interactions occurring among them. \relax }}{15}}
+\newlabel{suppl:comparison-table}{{}{9}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison between ANIMO and some existing approaches to modeling biological systems. A ``Yes'' under a column indicates that the modeling tool (mostly) fulfills the parameter, ``No'' indicates very limited or no fulfillment.  $^1$ {COSBILab} web page \url {http://www.cosbi.eu/index.php/research/cosbi-lab}  $^2$ The user can choose the number of levels for each reactant, allowing to define multi-level models based on Boolean reaction dynamics.  $^3$ {IBM Rational Rhapsody} web page \url {http://www-01.ibm.com/software/rational/products/rhapsody/designer}  $^4$ Statecharts represent more closely the so-called \emph {transition system} of the model as opposed to the components and interactions occurring among them. \relax }}{10}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{tab:tool-comparison}{{1}{15}}
+\newlabel{tab:tool-comparison}{{1}{10}}
+\citation{ta-siebert}
+\citation{bartocci-oscillators}
+\citation{oded-ode-ta-discretization}
+\citation{animo-ieee}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\mathversion  {bold}\bfseries  Abstraction of a biochemical reaction to a Timed Automata\ model.} {\bf  (A)} Classical depiction of a well-studied intracellular signal transduction reaction: protein MAPK-ERK kinase (MEK) activates downstream protein extracellular-regulated kinase (ERK). {\bf  (B)} A Timed Automaton\ model of ERK, consisting of two states (circles), {\sf  inactive\_ERK} and {\sf  active\_ERK}, and one transition (arrow) between the states. This transition will take place when it is possible to synchronize with the corresponding action {\sf  activate\_ERK!} in the MEK automaton. {\bf  (C)} A Timed Automaton\ model of active MEK, consisting of one state and one transition. ${\sf  t} < 20$ is termed an invariant on the state, allowing residence in this state as long as local clock time {\sf  t} is smaller than $20$ units. ${\sf  t} > 18$ is termed a guard on the transition, allowing the transition to take place when local clock {\sf  t} is greater than $18$ units. Together, the invariant and guard in this example ensure that the transition must take place in the (continuous) time interval $18 < {\sf  t} < 20$. When the transition takes place, the action {\sf  activate\_Erk!} is performed (thus allowing the ERK automaton to reach the {\sf  active\_ERK} state) and the local clock coupled to this automaton is reset, ${\sf  t} := 0$.\relax }}{11}}
+\newlabel{fig:abstraction-mek-erk}{{6}{11}}
+\newlabel{subsec:timed-automata}{{}{11}}
+\citation{pathway-compendium}
+\citation{pathway-compendium}
+\citation{pathway-autocrine}
+\citation{pathway-compendium}
+\citation{pathway-autocrine}
+\newlabel{subsec:case-study}{{}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces  {\mathversion  {bold}\bfseries  Construction of an ANIMO model of signal transduction events in human colon carcinoma cells upon stimulation with 100 ng/ml TNF$\alpha $.} Graphs below show the dynamic behavior of the corresponding models above, comparing it to the measured activity values from\nobreakspace  {}\cite  {pathway-compendium} (error bars represent the standard deviation). On the vertical axis, ``100'' represents the maximum protein activity in the complete experiment. A red vertical line in each graph highlights an arbitrary time point in the time course: nodes in the corresponding model are colored according to their activity at that time point. {\bf  (A,\nobreakspace  {}D)} Basic model showing direct activation of JNK1 and MK2 by TNF$\alpha $. No peak dynamics are observed because no inactivating processes are present. {\bf  (B,\nobreakspace  {}E)} The model after addition of inactivating phosphatases and a negative feedback loop that downregulates TNFR. Note that adding TNFR internalization or phosphatases alone would not be enough to reproduce activity peaks. {\bf  (C,\nobreakspace  {}F)} The model after addition of IKK, IL1-secretion (abstracting the autocrine IL-1 signaling described in\nobreakspace  {}\cite  {pathway-autocrine}), Casp8 and Casp3, showing the late response to TNF$\alpha $ signaling. As the data set did not contain values for cleaved caspase-3, but only for its non-cleaved precursor pro-caspase-3, we computed the {\sf  Casp3\_{}data} series as $100\% - [\unhbox \voidb@x \hbox {\sf  pro-Casp3}]$.\relax }}{12}}
+\newlabel{fig:small-model}{{7}{12}}
+\bibstyle{bmc-mathphys}
+\bibdata{Paper}
+\bibcite{animo-ieee}{1}
+\bibcite{animo-gene}{2}
+\bibcite{cytoscape}{3}
+\bibcite{pathway-compendium}{4}
+\bibcite{timed-automata-alur-dill}{5}
+\bibcite{uppaal}{6}
+\bibcite{animo-syncop}{7}
+\bibcite{drosophila-ode-model}{8}
+\bibcite{kegg}{9}
+\bibcite{phosphosite}{10}
+\bibcite{pathway-autocrine}{11}
+\bibcite{jnk-signaling}{12}
+\bibcite{cfos-cjun}{13}
+\bibcite{ap1-il1a}{14}
+\bibcite{ras-mekk1}{15}
+\bibcite{ras-jnk1}{16}
+\bibcite{pathway-fuzzy}{17}
+\bibcite{pathway-leastsquare}{18}
+\bibcite{animo-bibe}{19}
+\bibcite{biopepa-interface}{20}
+\thanksnewlabel{aff1thanks}{{1}{13}}
+\thanksnewlabel{aff2thanks}{{2}{13}}
+\thanksnewlabel{aff3thanks}{{3}{13}}
+\bibcite{cell-illustrator}{21}
+\bibcite{copasi}{22}
+\bibcite{ginsim}{23}
+\bibcite{gna}{24}
+\bibcite{ta-siebert}{25}
+\bibcite{bartocci-oscillators}{26}
+\bibcite{oded-ode-ta-discretization}{27}
+\bibcite{repressilator}{28}
+\bibcite{drosophila-cry-data}{29}
 \@writefile{toc}{\ttl@change@i {\@ne }{section}{2.em}{\bf }{\contentslabel {2.em}}{\hspace *{-2.em}}{\titlerule *[1pc]{}\contentspage }\relax }
 \@writefile{toc}{\ttl@change@v {section}{}{}{}\relax }
 \@writefile{toc}{\ttl@change@i {\@ne }{subsection}{4.5em}{\rmfamily }{\contentslabel {2.5em}}{\hspace *{2.5em}}{\titlerule *[1pc]{.}\contentspage }\relax }
@@ -165,11 +163,11 @@
 \newlabel{suppl:fig1-100levels}{{S3D}{8}}
 \newlabel{sub@suppl:fig1-100levels}{{(D)}{D}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S3}{\ignorespaces Comparing different reactant granularity settings. {\bfseries  (\subref *{suppl:fig1-1level})} 2 levels, {\bfseries  (\subref *{suppl:fig1-10levels})} 10 levels, {\bfseries  (\subref *{suppl:fig1-50levels})} 50 levels, {\bfseries  (\subref *{suppl:fig1-100levels})} 100 levels. The {\sf  JNK1} series is computed from the model presented in Figure\nobreakspace  {}5\hbox {}, considering 100 ng/ml TNF$\alpha $ as treatment condition over a period of 60 minutes.\relax }}{8}}
+\newlabel{fig:levels}{{S3}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(A)}{\ignorespaces {}}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(B)}{\ignorespaces {}}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(C)}{\ignorespaces {}}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(D)}{\ignorespaces {}}}{8}}
-\newlabel{fig:levels}{{S3}{8}}
 \citation{repressilator}
 \citation{drosophila-ode-model}
 \citation{drosophila-cry-data}
@@ -184,12 +182,13 @@
 \newlabel{subfig:repressilator-graph}{{S4B}{9}}
 \newlabel{sub@subfig:repressilator-graph}{{(B)}{B}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S4}{\ignorespaces {\bf  \subref {subfig:repressilator-model}} The repressilator-like subnetwork used to represent the alternation between day and night that cause the oscillations in {\sf  CRY} concentrations in the network modeled in Section\nobreakspace  {}\hbox {}. {\bf  \subref {subfig:repressilator-graph}} A graph plotting the oscillations in {\sf  CRY} along a period of three days.\relax }}{9}}
+\newlabel{fig:repressilator}{{S4}{9}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(A)}{\ignorespaces {}}}{9}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(B)}{\ignorespaces {}}}{9}}
-\newlabel{fig:repressilator}{{S4}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {D.2}ANIMO model of the Drosophila circadian clock}{9}}
 \newlabel{suppl-sec:animo-drosophila}{{D.2}{9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S5}{\ignorespaces Comparing the simulation results from the ANIMO and ODE models of \emph  {Drosophila Melanogaster} circadian clock. Blue lines ({\sf  \_{}ANIMO} series) represent data from the ANIMO model in Figure\nobreakspace  {}3\hbox {}, while red lines ({\sf  \_{}ODE} series) represent data from the ODE model in\nobreakspace  {}\cite  {drosophila-ode-model}.\relax }}{10}}
+\newlabel{suppl-fig:grafici-drosophila}{{S5}{10}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {clk}}}{10}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {CLK}}}{10}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {CRY}}}{10}}
@@ -205,7 +204,6 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {TIM}}}{10}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {vri}}}{10}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {VRI}}}{10}}
-\newlabel{suppl-fig:grafici-drosophila}{{S5}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {D.3}Note on the parameters in the TNF$\alpha $-EGF model}{11}}
 \newlabel{suppl:parameters-tnf-egf}{{D.3}{11}}
 \@writefile{toc}{\contentsline {section}{\numberline {E}Supplementary figures}{12}}
@@ -218,125 +216,125 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {S8}{\ignorespaces The merged model for the TNF$\alpha $-EGF pathway in which the two hypotheses are highlighted. The first hypothesis is the dependence IL-1$\alpha $ expression on the combined activity of ERK and JNK1. The second hypothesis assumes an as yet unidentified protein (Hyp2) to link EGFR to MEKK1. Node colors represent initial activity levels.\relax }}{14}}
 \newlabel{fig:large-model-hypotheses}{{S8}{14}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S9}{\ignorespaces Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data. Treatment condition: 100 ng/ml TNF$\alpha $. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{15}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{15}}
 \newlabel{fig:differences1}{{S9}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{15}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S10}{\ignorespaces Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data. Treatment condition: 100 ng/ml EGF. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (12 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (12 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (12 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (2 hours)}}}{16}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{16}}
 \newlabel{fig:differences2}{{S10}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (12 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (12 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (24 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (12 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (2 hours)}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (12 hours)}}}{16}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S11}{\ignorespaces Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data. Treatment condition: 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (12 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (4 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (12 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (4 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (12 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (4 hours)}}}{17}}
 \newlabel{fig:differences3}{{S11}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (12 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (4 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (12 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (4 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MK2 (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {JNK1 (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IKK (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-8 (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {caspase-3 (24 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {MEK (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {ERK (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {Akt (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(S) (12 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {IRS-1(Y) (2 hours)}}}{17}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{()}{\ignorespaces {FKHR (4 hours)}}}{17}}
 \newlabel{LastPage}{{}{17}}
 \xdef\lastpage@lastpage{17}
 \gdef\lastpage@lastpageHy{}

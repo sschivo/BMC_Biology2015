@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{29}
 % BibTex style file: bmc-mathphys.bst (version 1.01), 2012-01-06
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -93,6 +93,24 @@ IEEE Journal of Biomedical and Health Informatics
 \endbibitem
 
 %%% 4
+\bibitem{pathway-compendium}
+\begin{barticle}
+\bauthor{\bsnm{Gaudet}, \binits{S.}},
+\bauthor{\bsnm{Janes}, \binits{K.A.}},
+\bauthor{\bsnm{Albeck}, \binits{J.G.}},
+\bauthor{\bsnm{Pace}, \binits{E.A.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}},
+\bauthor{\bsnm{Sorger}, \binits{P.K.}}:
+\batitle{{A compendium of signals and responses triggered by prodeath and
+  prosurvival cytokines.}}
+\bjtitle{Mol Cell Proteomics}
+\bvolume{4}(\bissue{10}),
+\bfpage{1569}--\blpage{1590}
+(\byear{2005})
+\end{barticle}
+\endbibitem
+
+%%% 5
 \bibitem{timed-automata-alur-dill}
 \begin{barticle}
 \bauthor{\bsnm{Alur}, \binits{R.}},
@@ -105,7 +123,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 5
+%%% 6
 \bibitem{uppaal}
 \begin{barticle}
 \bauthor{\bsnm{Larsen}, \binits{K.G.}},
@@ -120,7 +138,7 @@ IEEE Journal of Biomedical and Health Informatics
 \end{barticle}
 \endbibitem
 
-%%% 6
+%%% 7
 \bibitem{animo-syncop}
 \begin{bchapter}
 \bauthor{\bsnm{{Schivo}}, \binits{S.}},
@@ -142,7 +160,7 @@ pp. \bfpage{35}--\blpage{47}.
 \end{bchapter}
 \endbibitem
 
-%%% 7
+%%% 8
 \bibitem{drosophila-ode-model}
 \begin{barticle}
 \bauthor{\bsnm{Fathallah-Shaykh}, \binits{H.M.}},
@@ -157,7 +175,7 @@ pp. \bfpage{35}--\blpage{47}.
 \end{barticle}
 \endbibitem
 
-%%% 8
+%%% 9
 \bibitem{kegg}
 \begin{barticle}
 \bauthor{\bsnm{Kanehisa}, \binits{M.}},
@@ -170,7 +188,7 @@ pp. \bfpage{35}--\blpage{47}.
 \end{barticle}
 \endbibitem
 
-%%% 9
+%%% 10
 \bibitem{phosphosite}
 \begin{barticle}
 \bauthor{\bsnm{Hornbeck}, \binits{P.V.}},
@@ -184,24 +202,6 @@ pp. \bfpage{35}--\blpage{47}.
 \bvolume{4}(\bissue{6}),
 \bfpage{1551}--\blpage{1561}
 (\byear{2004})
-\end{barticle}
-\endbibitem
-
-%%% 10
-\bibitem{pathway-compendium}
-\begin{barticle}
-\bauthor{\bsnm{Gaudet}, \binits{S.}},
-\bauthor{\bsnm{Janes}, \binits{K.A.}},
-\bauthor{\bsnm{Albeck}, \binits{J.G.}},
-\bauthor{\bsnm{Pace}, \binits{E.A.}},
-\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}},
-\bauthor{\bsnm{Sorger}, \binits{P.K.}}:
-\batitle{{A compendium of signals and responses triggered by prodeath and
-  prosurvival cytokines.}}
-\bjtitle{Mol Cell Proteomics}
-\bvolume{4}(\bissue{10}),
-\bfpage{1569}--\blpage{1590}
-(\byear{2005})
 \end{barticle}
 \endbibitem
 
@@ -303,6 +303,23 @@ pp. \bfpage{35}--\blpage{47}.
 \endbibitem
 
 %%% 17
+\bibitem{pathway-fuzzy}
+\begin{barticle}
+\bauthor{\bsnm{Aldridge}, \binits{B.B.}},
+\bauthor{\bsnm{Saez-Rodriguez}, \binits{J.}},
+\bauthor{\bsnm{Muhlich}, \binits{J.L.}},
+\bauthor{\bsnm{Sorger}, \binits{P.K.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}}:
+\batitle{{Fuzzy logic analysis of kinase pathway crosstalk in
+  TNF/EGF/Insulin-induced signaling}}.
+\bjtitle{PLoS Comput Biol}
+\bvolume{5}(\bissue{4}),
+\bfpage{1000340}
+(\byear{2009})
+\end{barticle}
+\endbibitem
+
+%%% 18
 \bibitem{pathway-leastsquare}
 \begin{barticle}
 \bauthor{\bsnm{Janes}, \binits{K.A.}},
@@ -320,131 +337,7 @@ pp. \bfpage{35}--\blpage{47}.
 \end{barticle}
 \endbibitem
 
-%%% 18
-\bibitem{pathway-fuzzy}
-\begin{barticle}
-\bauthor{\bsnm{Aldridge}, \binits{B.B.}},
-\bauthor{\bsnm{Saez-Rodriguez}, \binits{J.}},
-\bauthor{\bsnm{Muhlich}, \binits{J.L.}},
-\bauthor{\bsnm{Sorger}, \binits{P.K.}},
-\bauthor{\bsnm{Lauffenburger}, \binits{D.A.}}:
-\batitle{{Fuzzy logic analysis of kinase pathway crosstalk in
-  TNF/EGF/Insulin-induced signaling}}.
-\bjtitle{PLoS Comput Biol}
-\bvolume{5}(\bissue{4}),
-\bfpage{1000340}
-(\byear{2009})
-\end{barticle}
-\endbibitem
-
 %%% 19
-\bibitem{test-based-modelling}
-\begin{bchapter}
-\bauthor{\bsnm{Tretmans}, \binits{J.}}:
-\bctitle{Model-based testing and some steps towards test-based modelling}.
-In: \beditor{\bsnm{Bernardo}, \binits{M.}},
-\beditor{\bsnm{Issarny}, \binits{V.}} (eds.)
-\bbtitle{Formal Methods for Eternal Networked Software Systems}.
-\bsertitle{Lecture Notes in Computer Science},
-vol. \bseriesno{6659},
-pp. \bfpage{297}--\blpage{326}.
-\bpublisher{Springer},
-\blocation{Berlin / Heidelberg}
-(\byear{2011})
-\end{bchapter}
-\endbibitem
-
-%%% 20
-\bibitem{uppaal-smc}
-\begin{bchapter}
-\bauthor{\bsnm{David}, \binits{A.}},
-\bauthor{\bsnm{Larsen}, \binits{K.}},
-\bauthor{\bsnm{Legay}, \binits{A.}},
-\bauthor{\bsnm{Miku\v{c}ionis}, \binits{M.}},
-\bauthor{\bsnm{Wang}, \binits{Z.}}:
-\bctitle{Time for statistical model checking of real-time systems}.
-In: \beditor{\bsnm{Gopalakrishnan}, \binits{G.}},
-\beditor{\bsnm{Qadeer}, \binits{S.}} (eds.)
-\bbtitle{Computer Aided Verification}.
-\bsertitle{Lecture Notes in Computer Science},
-vol. \bseriesno{6806},
-pp. \bfpage{349}--\blpage{355}.
-\bpublisher{Springer},
-\blocation{Berlin / Heidelberg}
-(\byear{2011})
-\end{bchapter}
-\endbibitem
-
-%%% 21
-\bibitem{uppaal-multi-core1}
-\begin{bchapter}
-\bauthor{\bsnm{{Dalsgaard}}, \binits{A.E.}},
-\bauthor{\bsnm{{Laarman}}, \binits{A.W.}},
-\bauthor{\bsnm{{Larsen}}, \binits{K.G.}},
-\bauthor{\bsnm{{Olesen}}, \binits{M.C.}},
-\bauthor{\bsnm{{van de Pol}}, \binits{J.C.}}:
-\bctitle{Multi-core reachability for timed automata}.
-In: \beditor{\bsnm{{Jurdzinski}}, \binits{M.}},
-\beditor{\bsnm{{Nickovic}}, \binits{D.}} (eds.)
-\bbtitle{10th International Conference on Formal Modeling and Analysis of Timed
-  Systems, FORMATS 2012, London, UK}.
-\bsertitle{Lecture Notes in Computer Science},
-vol. \bseriesno{7595},
-pp. \bfpage{91}--\blpage{106}.
-\bpublisher{Springer},
-\blocation{London}
-(\byear{2012})
-\end{bchapter}
-\endbibitem
-
-%%% 22
-\bibitem{ta-siebert}
-\begin{barticle}
-\bauthor{\bsnm{Siebert}, \binits{H.}},
-\bauthor{\bsnm{Bockmayr}, \binits{A.}}:
-\batitle{Temporal constraints in the logical analysis of regulatory networks}.
-\bjtitle{Theor. Comput. Sci.}
-\bvolume{391}(\bissue{3}),
-\bfpage{258}--\blpage{275}
-(\byear{2008})
-\end{barticle}
-\endbibitem
-
-%%% 23
-\bibitem{bartocci-oscillators}
-\begin{barticle}
-\bauthor{\bsnm{Bartocci}, \binits{E.}},
-\bauthor{\bsnm{Corradini}, \binits{F.}},
-\bauthor{\bsnm{Merelli}, \binits{E.}},
-\bauthor{\bsnm{Tesei}, \binits{L.}}:
-\batitle{Model checking biological oscillators}.
-\bjtitle{Electronic Notes in Theoretical Computer Science}
-\bvolume{229}(\bissue{1}),
-\bfpage{41}--\blpage{58}
-(\byear{2009}).
-\bcomment{Proceedings of the Second Workshop From Biology to Concurrency and
-  Back (FBTC 2008)}
-\end{barticle}
-\endbibitem
-
-%%% 24
-\bibitem{oded-ode-ta-discretization}
-\begin{bchapter}
-\bauthor{\bsnm{Batt}, \binits{G.}},
-\bauthor{\bsnm{Salah}, \binits{R.B.}},
-\bauthor{\bsnm{Maler}, \binits{O.}}:
-\bctitle{On timed models of gene networks}.
-In: \bbtitle{Proceedings of the 5th International Conference on Formal Modeling
-  and Analysis of Timed Systems}.
-\bsertitle{FORMATS'07},
-pp. \bfpage{38}--\blpage{52}.
-\bpublisher{Springer},
-\blocation{Berlin, Heidelberg}
-(\byear{2007})
-\end{bchapter}
-\endbibitem
-
-%%% 25
 \bibitem{animo-bibe}
 \begin{bchapter}
 \bauthor{\bsnm{Schivo}, \binits{S.}},
@@ -466,7 +359,7 @@ pp. \bfpage{447}--\blpage{453}.
 \end{bchapter}
 \endbibitem
 
-%%% 26
+%%% 20
 \bibitem{biopepa-interface}
 \begin{botherref}
 \oauthor{\bsnm{Ciocchetta}, \binits{F.}},
@@ -481,7 +374,7 @@ International Conference on Quantitative Evaluation of Systems,
 \end{botherref}
 \endbibitem
 
-%%% 27
+%%% 21
 \bibitem{cell-illustrator}
 \begin{barticle}
 \bauthor{\bsnm{Nagasaki}, \binits{M.}},
@@ -499,7 +392,7 @@ International Conference on Quantitative Evaluation of Systems,
 \end{barticle}
 \endbibitem
 
-%%% 28
+%%% 22
 \bibitem{copasi}
 \begin{botherref}
 \oauthor{\bsnm{Mendes}, \binits{P.}},
@@ -519,7 +412,7 @@ Chap. 2
 \end{botherref}
 \endbibitem
 
-%%% 29
+%%% 23
 \bibitem{ginsim}
 \begin{bchapter}
 \bauthor{\bsnm{Chaouiya}, \binits{C.}},
@@ -541,7 +434,7 @@ pp. \bfpage{830}--\blpage{832}.
 \end{bchapter}
 \endbibitem
 
-%%% 30
+%%% 24
 \bibitem{gna}
 \begin{barticle}
 \bauthor{\bparticle{de} \bsnm{Jong}, \binits{H.}},
@@ -557,7 +450,54 @@ pp. \bfpage{830}--\blpage{832}.
 \end{barticle}
 \endbibitem
 
-%%% 31
+%%% 25
+\bibitem{ta-siebert}
+\begin{barticle}
+\bauthor{\bsnm{Siebert}, \binits{H.}},
+\bauthor{\bsnm{Bockmayr}, \binits{A.}}:
+\batitle{Temporal constraints in the logical analysis of regulatory networks}.
+\bjtitle{Theor. Comput. Sci.}
+\bvolume{391}(\bissue{3}),
+\bfpage{258}--\blpage{275}
+(\byear{2008})
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{bartocci-oscillators}
+\begin{barticle}
+\bauthor{\bsnm{Bartocci}, \binits{E.}},
+\bauthor{\bsnm{Corradini}, \binits{F.}},
+\bauthor{\bsnm{Merelli}, \binits{E.}},
+\bauthor{\bsnm{Tesei}, \binits{L.}}:
+\batitle{Model checking biological oscillators}.
+\bjtitle{Electronic Notes in Theoretical Computer Science}
+\bvolume{229}(\bissue{1}),
+\bfpage{41}--\blpage{58}
+(\byear{2009}).
+\bcomment{Proceedings of the Second Workshop From Biology to Concurrency and
+  Back (FBTC 2008)}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem{oded-ode-ta-discretization}
+\begin{bchapter}
+\bauthor{\bsnm{Batt}, \binits{G.}},
+\bauthor{\bsnm{Salah}, \binits{R.B.}},
+\bauthor{\bsnm{Maler}, \binits{O.}}:
+\bctitle{On timed models of gene networks}.
+In: \bbtitle{Proceedings of the 5th International Conference on Formal Modeling
+  and Analysis of Timed Systems}.
+\bsertitle{FORMATS'07},
+pp. \bfpage{38}--\blpage{52}.
+\bpublisher{Springer},
+\blocation{Berlin, Heidelberg}
+(\byear{2007})
+\end{bchapter}
+\endbibitem
+
+%%% 28
 \bibitem{repressilator}
 \begin{barticle}
 \bauthor{\bsnm{Elowitz}, \binits{S.} \bsuffix{Michael~B.Leibler}}:
@@ -569,7 +509,7 @@ pp. \bfpage{830}--\blpage{832}.
 \end{barticle}
 \endbibitem
 
-%%% 32
+%%% 29
 \bibitem{drosophila-cry-data}
 \begin{barticle}
 \bauthor{\bsnm{Kadener}, \binits{S.}},

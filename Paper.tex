@@ -241,16 +241,16 @@
 
 \begin{abstract} % abstract <= 350 words. Headers: background, results, conclusions
 \parttitle{Background}
-The large amount of data which an experimental biologist
+The large amount of data an experimental biologist
 must deal with makes it nearly impossible to reason on
 the dynamics of complex systems without relying on computational
 support.
 The software tool ANIMO (Analysis of Networks with Interactive MOdelling)
-provides such computational support and allows to reason about the complex networks of signaling events occurring in living cells.
+provides such computational support and allows insight into the complex networks of signaling events occurring in living cells.
 The user-friendly interface allows biology experts to exploit formal methods
 without the need to become experts also in mathematical formalisms.
 \parttitle{Results}
-ANIMO models show a degree of precision that is intermediate between ordinary differential equations (ODEs) and fuzzy logic.
+ANIMO models show a degree of precision intermediate between ordinary differential equations (ODEs) and fuzzy logic.
 We show this by presenting ANIMO models for two case studies: \emph{Drosophila melanogaster} circadian clock, and signal
 transduction events downstream of TNF$\alpha$ and EGF in HT-29 human
 colon carcinoma cells.
@@ -261,9 +261,9 @@ fuzzy logic respectively.
 % allows the biologist to develop a formal model through a user friendly interface,
 % achieving useful insight without the need to study any mathematical formalism.
 %
-ANIMO models allow to replicate with good precision the results of both the ODE and
+ANIMO models replicate with good precision the results of both the ODE and
 fuzzy logic models. Moreover, ANIMO models require less parameters than ODEs and are more precise than
-fuzzy logic: for this reason, we position the modelling paradigm of ANIMO
+fuzzy logic. For this reason we position the modelling paradigm of ANIMO
 between ODEs and fuzzy logic.
 \end{abstract}
 
@@ -301,7 +301,7 @@ between ODEs and fuzzy logic.
 Executable biology is a young subfield in computational modeling, aimed at constructing models that mimic
 biological phenomena \emph{in silico}. It provides an interesting paradigm for enhancing network
 diagrams with an underlying formal description of both network components and their interactions.
-Executable models typically contain a description of the direct interactions of network components,
+Executable models typically contain descriptions of the direct interactions of network components,
 requiring the modeler to think in terms of
 ``cause and effect''. Biologists reason in similar ways about the molecular mechanisms of network
 interactions, and this makes construction of an executable model an intuitive process.
@@ -310,7 +310,7 @@ provides an enabling technology to increase the use of computational models by e
  biologists without a thorough mathematical background. Such models are indispensable for formally
 comparing experimental data to prior knowledge, or for structuring experimental findings into a
 new theory.
-When dealing with complex biological networks, executable biology models are particularly useful
+When dealing with complex biological networks executable biology models are particularly useful
 to understand the non-linear dynamics and the entailed emergent properties of the networks.
 In those cases, an ANIMO model can be used as a support to obtain insight based on abstract
 representations of the interactions occurring inside living cells.
@@ -320,7 +320,7 @@ the storage and transfer of knowledge on biological networks.
 \subsection*{A brief introduction to ANIMO}
 The user interface of ANIMO is displayed in Figure~\ref{fig:cytoscape},
 where we present an example of biological network enriched with dynamic information.
-ANIMO is based on Cytoscape~\cite{cytoscape}, a software tool developed to represent biological networks.
+ANIMO is implemented as a plug-in to Cytoscape~\cite{cytoscape}, a software tool developed to represent biological networks.
 On top of the static topological information displayed in Cytoscape, ANIMO represents
 biological interactions starting from the basic concept of \emph{activity}:
 each biological entity in an ANIMO model is considered to be either active or inactive.
@@ -376,7 +376,7 @@ A detailed description on how the Timed Automata models defined by ANIMO work, a
 can be found in~\cite{animo-ieee}. The choice of parameters for ANIMO models is described in~\cite{animo-syncop}.
 Additional guidance on the design of ANIMO models and how to best profit from biological experimental data can be found in~\cite{animo-gene}.
 
-Figure~\ref{fig:animo-spectrum} shows the position of ANIMO into a spectrum of modeling methods: justification for this placement will be given in the Results section.
+Figure~\ref{fig:animo-spectrum} shows the position of ANIMO in a spectrum of modeling methods: justification for this placement is given in the Results section.
 
 
 
@@ -495,9 +495,10 @@ the widely used network modeling software Cytoscape.\label{fig:animo-spectrum}}
 
 \section*{Results}\label{sec:results}
 \subsection*{Modelling oscillation}\label{sec:animo-drosophila}
-Results obtained with ANIMO are comparable to results from widely used modeling
-approaches. To demonstrate this, we present in Figure~\ref{fig:drosophila-model}
-an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster}, based on~\cite{drosophila-ode-model},
+To demonstrate that results obtained with ANIMO are comparable to results from widely used modeling
+approaches, we present 
+an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster} (Fig.~\ref{fig:drosophila-model}).
+This ANIMO model is based on~\cite{drosophila-ode-model},
 where ordinary differential equations (ODEs) were used.
 The cyclic behavior of the circadian clock is based on the alternating formation and destruction of the
 CYC/CLK protein complex.
@@ -547,7 +548,7 @@ between the ANIMO model and the original ODE model is given in Supplementary Sec
 
 \subsection*{Using ANIMO to generate hypotheses}\label{subsec:case-study-larger}
 We now present a comparison with an existing fuzzy logic model, which we use also as an example of how
-ANIMO can be used to create reference models and help to reason on complex biological events.
+ANIMO can be used to create reference models and help to obtain insight into complex biological events.
 
 We constructed a model of the signaling network downstream of TNF$\alpha$ and EGF
 in HT-29 human colo carcinoma cells, formalizing
@@ -622,8 +623,8 @@ levels and the model (Fig.~\ref{fig:large-model-complete}B). This hypothesis cou
 design a new experiment to validate IL-1$\alpha$ as a target of combined JNK1 activity and ERK activity in
 HT-29 cells. For example, kinase inhibitors specific to JNK1 and ERK could be used to confirm that activity of
 both kinases is required for expression and secretion of IL-1$\alpha$. Performing the experiment is beyond
-the scope of this study, but this hypothesis finds support in literature.
-Transcription factors c-Jun and c-Fos together
+the scope of this study, but this hypothesis finds support in literature:
+transcription factors c-Jun and c-Fos together
 form a heterodimer known as AP-1 and are activated by JNK1 and ERK,
 respectively~\cite{jnk-signaling,cfos-cjun}. AP-1 has been reported to bind to the
 promoter of IL-1$\alpha$, providing evidence for a role in the regulation of IL-1$\alpha$
@@ -640,7 +641,7 @@ c-Fos in our model as transcriptional activators of IL-1$\alpha$ (Fig.\ref{fig:l
 %  \subfloat[\label{fig:large-model-graph4}]{\includegraphics[scale=\scalaGrafici]{images/TNF5_C225_hyp2_JNK1_MK2}}
   \includegraphics[width=0.9\textwidth]{images/large_network_legendg_oneImage}
 \end{center}
-\caption{\csentence{Signaling network downstream of TNF$\alpha$ and EGF in human colon carcinoma cells: updated version.}
+\caption{\csentence{Signaling network downstream of TNF$\alpha$ and EGF in human colon carcinoma cells: improved model.}
 {\bf(A)} %{\bf \protect\subref{fig:large-model-complete}}
 The model for the merged TNF$\alpha$ and EGF pathways
 after addition of the two hypotheses (highlighted).
@@ -707,7 +708,7 @@ of a signal transduction network can be used to extend previous pathway topologi
 
 \section*{Discussion}
 \subsection*{Final remarks on the models}
-In the Results section, we described the construction of an ANIMO
+We described the construction of an ANIMO
 model of the circadian clock in \emph{Drosophila Melanogaster}. This model
 captured the dynamics of the regulatory network and led to similar
 conclusions as an ODE model that had been
@@ -715,7 +716,7 @@ published previously~\cite{drosophila-ode-model}. This finding supports the use 
 the series of modeling abstractions on which ANIMO is based. The biggest
 difference between the construction of these models is that the model in~\cite{drosophila-ode-model}
 is constructed by writing a system of mathematical equations, together
-with an algorithm for simulation. In ANIMO, instead, a number of network
+with an algorithm for simulation. In ANIMO a number of network
 nodes is drawn for the molecules involved.
 These nodes are then linked by directed
 interactions that represent cause-and-effect relationships, with a single parameter
@@ -729,7 +730,7 @@ All this comes at the price of lower model precision: the curves representing
 oscillation of protein activities in the ANIMO model are not as smooth
 nor as precise as those obtained from the original ODE model (see Suppl. Fig.~\ref{suppl-fig:grafici-drosophila}).
 
-In the Results section we also showed the construction of an executable model
+We also showed the construction of an executable model
 of signaling events downstream of
 TNF$\alpha$ and EGF in human colon carcinoma cells. This data set has been used for
 previous modeling studies, based on partial least-squares regression and fuzzy
@@ -747,14 +748,15 @@ used as an input parameter. For example, the logical gates ``if TNF$\alpha$ is h
 \emph{AND} time is low, then JNK1 is high'' and ``if TNF$\alpha$ is high \emph{AND} time is
 high, then JNK1 is low'' were used to
 describe the dynamic behavior of JNK1. Although this leads to a representative
-description of the dynamic behavior of JNK1, peaks in protein activity at early time points were
-not reproduced by the fuzzy logic model. Moreover, it gives no insight in the molecular interactions
+description of the dynamic behavior of JNK1, peaks in protein activity at early time points,
+as measured in wet-lab experiments, were
+not reproduced by the fuzzy logic model. Moreover, the fuzzy logic model gave no insight in the molecular interactions
 that are involved in activation or inhibition.
 
-In this study, we used a data set based on the experiments described in~\cite{pathway-compendium}. We used the
+Here we used a data set based on the wet-lab experiments described in~\cite{pathway-compendium}. We used the
 resulting experimental data, together with knowledge from curated databases~\cite{kegg,phosphosite}
 to construct an executable model of the biological system.
-In contrast with the two approaches described above, ANIMO is aimed at the construction of
+In contrast to the two approaches described above, ANIMO is aimed at the construction of
 more mechanistic models, mimicking biochemical interactions \emph{in silico}. This way of modeling
 gives a different type of insight. In the process of model construction, we extended a
 prior-knowledge network with time-dependent extracellular crosstalk that has been reported
@@ -775,7 +777,7 @@ But above all,  the model provides an excellent starting point for further inves
 Different formalisms are in use in the field of computational
 modeling of biological systems, each with their specific characteristics.
 Many of these formalisms have been implemented into
-software tools to support modeling efforts. In order to compare
+software tools to support modeling efforts. To compare
 ANIMO with existing tools, we have selected a number of mathematical formalisms,
 each connected to a supporting tool. With an emphasis on the modeling
 process rather than the final model, we compared these tools on
@@ -875,7 +877,7 @@ abstract thought: many biological processes can be represented as networks drive
 also in the analysis of metabolic processes, considering the production of protein $A$ as
 the activation of node $A$, with degradation being represented as inhibition. As stated before,
 it cannot be expected from such models to be a completely realistic representation of their target biological
-processes, but they can still be an useful tool. This can be seen for example in the Drosophila
+processes, but they can still be an useful tool. This can be seen for example in the circadian clock
 model in the Results section, where mRNA and protein concentrations were abstracted to
 activity-driven processes in the ANIMO model.
 
@@ -903,7 +905,7 @@ activity-driven processes in the ANIMO model.
 % effective use of this approach and enables an intuitive construction of formal models.
 
 In this paper we discussed the placement of ANIMO among other modeling paradigms and tools,
-highlighting ANIMO's strong points. The aim is not to promote the use of ANIMO in any modeling effort, but to show where it best shines.
+highlighting ANIMO's strong points.
 
 ANIMO is not the first modeling tool to provide an interface to a
 modeling formalism. Such interfaces exist in many other tools (as shown in Tab.~\ref{tab:tool-comparison}). With its

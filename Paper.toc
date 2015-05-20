@@ -8,14 +8,14 @@
 \contentsline {section}{\numberline {A}Naming conventions}{1}
 \contentsline {section}{\numberline {B}Normalizing experimental data for use with ANIMO}{3}
 \contentsline {section}{\numberline {C}ANIMO and Timed Automata}{4}
-\contentsline {subsection}{\numberline {C.1}Modeling abstractions}{4}
+\contentsline {subsection}{\numberline {C.1}Modelling abstractions}{4}
 \contentsline {subsection}{\numberline {C.2}ANIMO}{5}
 \contentsline {subsection}{\numberline {C.3}Timed Automata model}{5}
 \contentsline {subsection}{\numberline {C.4}Granularity of an ANIMO network node}{6}
 \contentsline {section}{\numberline {D}Additional notes}{9}
 \contentsline {subsection}{\numberline {D.1}Simulating the day-night cycle}{9}
 \contentsline {subsection}{\numberline {D.2}ANIMO model of the Drosophila circadian clock}{9}
-\contentsline {subsection}{\numberline {D.3}Note on the parameters in the TNF$\alpha $-EGF model}{11}
-\contentsline {section}{\numberline {E}Supplementary figures}{12}
-\contentsline {section}{Supplementary figures}{12}
+\contentsline {subsection}{\numberline {D.3}Note on the parameters in the TNF$\alpha $-EGF model}{10}
+\contentsline {section}{\numberline {E}Supplementary figures}{11}
+\contentsline {section}{Supplementary figures}{11}
 \contentsfinish 

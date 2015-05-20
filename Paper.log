@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  1 MAY 2015 11:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  19 MAY 2015 17:14
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -879,26 +879,43 @@ Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box67
 \fn@width=\dimen180
 )
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/TNFa-EGF/100TNFa-0EGF/100TNF_0
+EGF_ANIMOvsFuzzy-crop.pdf): PDF inclusion: found PDF version <1.5>, but at most
+ version <1.4> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/TNFa-EGF/0TNFa-100EGF/0TNF_100
+EGF_ANIMOvsFuzzy-crop.pdf): PDF inclusion: found PDF version <1.5>, but at most
+ version <1.4> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/TNFa-EGF/100TNFa-100EGF/100TNF
+_100EGF_ANIMOvsFuzzy-crop.pdf): PDF inclusion: found PDF version <1.5>, but at 
+most version <1.4> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/Circadian/ANIMOvsODE-crop.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 \@indexfile=\write4
 \openout4 = `Paper.idx'.
-
 
 Writing index file Paper.idx
 (./Paper.aux)
 \openout1 = `Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count191
@@ -919,7 +936,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 105.
+(lastpage)             ! on input line 109.
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -979,35 +996,35 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 105.
+Package layouts Warning: Layout scale set to 0.5 on input line 109.
 
 ABD: EveryShipout initializing macros
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 110.
+(Font)              size <12> substituted on input line 114.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 112.
+(Font)              size <24.88> substituted on input line 116.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 134.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 138.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 134.
+(Font)              size <5> substituted on input line 138.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 134.
+(Font)              size <5> substituted on input line 138.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 134.
+(Font)              size <5> substituted on input line 138.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 134.
+LaTeX Font Info:    Try loading font information for U+msa on input line 138.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 134.
+LaTeX Font Info:    Try loading font information for U+msb on input line 138.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1018,12 +1035,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 254.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 257.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 319.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 322.
 
 
 
@@ -1034,112 +1051,112 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<images/screenshotTNFmodelSmall.png, id=25, 1506.62875pt x 986.68625pt>
+<images/screenshotTNFmodelSmall.png, id=29, 1506.62875pt x 986.68625pt>
 File: images/screenshotTNFmodelSmall.png Graphic file (type png)
 
 <use images/screenshotTNFmodelSmall.png>
 Package pdftex.def Info: images/screenshotTNFmodelSmall.png used on input line 
-347.
+350.
 (pdftex.def)             Requested size: 306.8522pt x 200.9471pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 361--361
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 364--364
 [][] [] 
  []
 
 
-<images/modeling_methods_spectrum_animo.png, id=26, 908.39375pt x 410.53375pt>
+<images/modeling_methods_spectrum_animo.png, id=30, 908.39375pt x 410.53375pt>
 File: images/modeling_methods_spectrum_animo.png Graphic file (type png)
 
 <use images/modeling_methods_spectrum_animo.png>
 Package pdftex.def Info: images/modeling_methods_spectrum_animo.png used on inp
-ut line 385.
+ut line 388.
 (pdftex.def)             Requested size: 324.8978pt x 146.8336pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 390--390
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 393--393
 [][] [] 
  []
 
 [2] [3 <./images/screenshotTNFmodelSmall.png> <./images/modeling_methods_spectr
-um_animo.png>] <images/drosophila_model5.png, id=40, 2195.20125pt x 1469.49pt>
+um_animo.png>] <images/drosophila_model5.png, id=44, 2195.20125pt x 1469.49pt>
 File: images/drosophila_model5.png Graphic file (type png)
 
 <use images/drosophila_model5.png>
-Package pdftex.def Info: images/drosophila_model5.png used on input line 518.
+Package pdftex.def Info: images/drosophila_model5.png used on input line 521.
 (pdftex.def)             Requested size: 270.75pt x 181.24173pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 532--532
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 535--535
 [][] [] 
  []
 
 [4 <./images/drosophila_model5.png (PNG copy)>]
-<images/large_network_merged_no_hypotheses_oneImage.png, id=45, 787.94376pt x 9
+<images/large_network_merged_no_hypotheses_oneImage.png, id=49, 787.94376pt x 9
 74.64125pt>
 File: images/large_network_merged_no_hypotheses_oneImage.png Graphic file (type
  png)
  <use images/large_network_merged_no_hypotheses_oneImage.png>
 Package pdftex.def Info: images/large_network_merged_no_hypotheses_oneImage.png
- used on input line 583.
+ used on input line 586.
 (pdftex.def)             Requested size: 324.8978pt x 401.88089pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 594--594
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 597--597
 [][] [] 
  []
 
 [5 <./images/large_network_merged_no_hypotheses_oneImage.png>]
-<images/large_network_legendg_oneImage.png, id=51, 770.88pt x 824.07875pt>
+<images/large_network_legendg_oneImage.png, id=55, 770.88pt x 824.07875pt>
 File: images/large_network_legendg_oneImage.png Graphic file (type png)
 
 <use images/large_network_legendg_oneImage.png>
 Package pdftex.def Info: images/large_network_legendg_oneImage.png used on inpu
-t line 642.
+t line 646.
 (pdftex.def)             Requested size: 324.8978pt x 347.31786pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 660--660
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 664--664
 [][] [] 
  []
 
-[6] [7 <./images/large_network_legendg_oneImage.png>] [8] [9]
-Overfull \hbox (6.48907pt too wide) in paragraph at lines 810--810
+[6] [7 <./images/large_network_legendg_oneImage.png>] [8]
+Overfull \hbox (6.48907pt too wide) in paragraph at lines 815--815
 []|\OT1/cmss/bx/n/7 Qualitative
  []
 
 
-Overfull \hbox (5.29321pt too wide) in paragraph at lines 810--810
+Overfull \hbox (5.29321pt too wide) in paragraph at lines 815--815
 \OT1/cmss/bx/n/7 granularity|| 
  []
 
 
-Overfull \hbox (0.82802pt too wide) in paragraph at lines 836--836
+Overfull \hbox (0.82802pt too wide) in paragraph at lines 841--841
 []|[]\OT1/cmss/m/n/7 Statecharts| 
  []
 
-[10]
-<images/abstraction_ta_mek-erk3_oneImage.png, id=72, 685.56125pt x 216.81pt>
+[9] [10]
+<images/abstraction_ta_mek-erk3_oneImage.png, id=76, 685.56125pt x 216.81pt>
 File: images/abstraction_ta_mek-erk3_oneImage.png Graphic file (type png)
 
 <use images/abstraction_ta_mek-erk3_oneImage.png>
 Package pdftex.def Info: images/abstraction_ta_mek-erk3_oneImage.png used on in
-put line 964.
+put line 971.
 (pdftex.def)             Requested size: 252.6989pt x 79.91739pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 981--981
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 988--988
 [][] [] 
  []
 
 [11 <./images/abstraction_ta_mek-erk3_oneImage.png>]
-<images/small_model_oneImage.png, id=77, 1192.455pt x 799.98875pt>
+<images/small_model_oneImage.png, id=81, 1192.455pt x 799.98875pt>
 File: images/small_model_oneImage.png Graphic file (type png)
 
 <use images/small_model_oneImage.png>
-Package pdftex.def Info: images/small_model_oneImage.png used on input line 105
-7.
+Package pdftex.def Info: images/small_model_oneImage.png used on input line 106
+4.
 (pdftex.def)             Requested size: 324.8978pt x 217.96515pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 1079--1079
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1086--1086
 [][] [] 
  []
 
-(./Paper.bbl [12] [13 <./images/small_model_oneImage.png>]) [14] [15
+[12 <./images/small_model_oneImage.png>] (./Paper.bbl [13]) [14] [15
 
 ] [1
 
@@ -1153,37 +1170,37 @@ Overfull \hbox (3.47444pt too wide) in paragraph at lines 1079--1079
  [2
 
 ]
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1369--1376
- [] [] [] 
- []
-
-
 Overfull \hbox (81.9448pt too wide) in alignment at lines 1376--1383
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1383--1386
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1383--1390
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1386--1389
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1390--1393
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1389--1411
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1393--1396
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1411--1431
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1396--1418
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1431--1436
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1418--1438
+ [] [] [] 
+ []
+
+
+Overfull \hbox (81.9448pt too wide) in alignment at lines 1438--1443
  [] [] [] 
  []
 
@@ -1195,79 +1212,44 @@ Overfull \hbox (81.9448pt too wide) in alignment at lines 1431--1436
 ] [4
 
 ]
-<images/animo_simulation_workflow.pdf, id=115, 1233.40805pt x 1202.60732pt>
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/animo_simulation_workflow.pdf)
+: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<images/animo_simulation_workflow.pdf, id=119, 1233.40805pt x 1100.4021pt>
 File: images/animo_simulation_workflow.pdf Graphic file (type pdf)
 
 <use images/animo_simulation_workflow.pdf>
 Package pdftex.def Info: images/animo_simulation_workflow.pdf used on input lin
-e 1591.
-(pdftex.def)             Requested size: 361.0pt x 351.97684pt.
+e 1598.
+(pdftex.def)             Requested size: 361.0pt x 322.06361pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1590--1598
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1597--1605
  [][]$[]$ 
  []
 
 [5]
 \mysquareLow=\box69
 \mysquareHigh=\box70
- <images/mek_activity_time_tables2.pdf, id=119, 1452.08893pt x 515.96762pt>
+ <images/mek_activity_time_tables2.pdf, id=123, 1452.08893pt x 515.96762pt>
 File: images/mek_activity_time_tables2.pdf Graphic file (type pdf)
 
 <use images/mek_activity_time_tables2.pdf>
 Package pdftex.def Info: images/mek_activity_time_tables2.pdf used on input lin
-e 1675.
-(pdftex.def)             Requested size: 129.95961pt x 46.17526pt.
+e 1682.
+(pdftex.def)             Requested size: 144.40054pt x 51.30847pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1649--1721
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1656--1728
  [][]$[]$ 
  []
 
-<images/JNK1_1level2.png, id=120, 1744.5175pt x 969.6225pt>
-File: images/JNK1_1level2.png Graphic file (type png)
+<images/JNK1_levels.png, id=124, 1506.62875pt x 1129.21875pt>
+File: images/JNK1_levels.png Graphic file (type png)
 
-<use images/JNK1_1level2.png>
-Package pdftex.def Info: images/JNK1_1level2.png used on input line 1732.
-(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
+<use images/JNK1_levels.png>
+Package pdftex.def Info: images/JNK1_levels.png used on input line 1743.
+(pdftex.def)             Requested size: 361.0pt x 270.55281pt.
 
-Overfull \hbox (90.25pt too wide) in paragraph at lines 1732--1732
-[] [] 
- []
-
-<images/JNK1_10levels2.png, id=121, 1744.5175pt x 969.6225pt>
-File: images/JNK1_10levels2.png Graphic file (type png)
-
-<use images/JNK1_10levels2.png>
-Package pdftex.def Info: images/JNK1_10levels2.png used on input line 1733.
-(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
-
-Overfull \hbox (90.25pt too wide) in paragraph at lines 1733--1733
-[][] [] 
- []
-
-<images/JNK1_50levels2.png, id=122, 1744.5175pt x 969.6225pt>
-File: images/JNK1_50levels2.png Graphic file (type png)
-
-<use images/JNK1_50levels2.png>
-Package pdftex.def Info: images/JNK1_50levels2.png used on input line 1734.
-(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
-
-Overfull \hbox (90.25pt too wide) in paragraph at lines 1734--1734
-[] [] 
- []
-
-<images/JNK1_100levels2.png, id=123, 1744.5175pt x 969.6225pt>
-File: images/JNK1_100levels2.png Graphic file (type png)
-
-<use images/JNK1_100levels2.png>
-Package pdftex.def Info: images/JNK1_100levels2.png used on input line 1735.
-(pdftex.def)             Requested size: 162.4489pt x 90.28049pt.
-
-Overfull \hbox (90.25pt too wide) in paragraph at lines 1735--1735
-[][] [] 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1730--1738
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1737--1756
  [][]$[]$ 
  []
 
@@ -1280,801 +1262,137 @@ pdfTeX warning: /usr/bin/pdflatex (file ./images/lowerbound.pdf): PDF inclusion
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images/upperbound_green.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] [8 <./images/JNK1_1level2.png (PNG copy)> <./images/JNK1_10levels2.png (PNG 
-copy)> <./images/JNK1_50levels2.png (PNG copy)> <./images/JNK1_100levels2.png (
-PNG copy)>]
+>] [8 <./images/JNK1_levels.png (PNG copy)>]
 \reprGraphHeight=\skip88
 
-<images/drosophila_model_repressilator.png, id=158, 899.36pt x 943.525pt>
+<images/drosophila_model_repressilator.png, id=163, 899.36pt x 943.525pt>
 File: images/drosophila_model_repressilator.png Graphic file (type png)
 
 <use images/drosophila_model_repressilator.png>
 Package pdftex.def Info: images/drosophila_model_repressilator.png used on inpu
-t line 1760.
-(pdftex.def)             Requested size: 134.89818pt x 141.52264pt.
-File: images/drosophila_model_repressilator.png Graphic file (type png)
-
-<use images/drosophila_model_repressilator.png>
-Package pdftex.def Info: images/drosophila_model_repressilator.png used on inpu
-t line 1764.
+t line 1778.
 (pdftex.def)             Requested size: 134.89818pt x 141.52264pt.
 
-Overfull \hbox (8.54597pt too wide) in paragraph at lines 1764--1764
- [] 
- []
+<images/drosophila_model_repressilator_con_grafico.png, id=164, 1000.73875pt x 
+1470.49374pt>
+File: images/drosophila_model_repressilator_con_grafico.png Graphic file (type 
+png)
+ <use images/drosophila_model_repressilator_con_grafico.png>
+Package pdftex.def Info: images/drosophila_model_repressilator_con_grafico.png 
+used on input line 1784.
+(pdftex.def)             Requested size: 216.6022pt x 318.25916pt.
 
-
-Overfull \hbox (216.5967pt too wide) in paragraph at lines 1764--1764
-[] 
- []
-
-<images/CRY_oscillations.png, id=159, 1744.5175pt x 969.6225pt>
-File: images/CRY_oscillations.png Graphic file (type png)
-
-<use images/CRY_oscillations.png>
-Package pdftex.def Info: images/CRY_oscillations.png used on input line 1765.
-(pdftex.def)             Requested size: 216.6022pt x 120.38878pt.
-
-Overfull \hbox (63.17336pt too wide) in paragraph at lines 1765--1765
-[] [] 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1762--1772
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1780--1791
  [][]$[]$ 
  []
 
-<images/Circadian/clk.png, id=160, 1744.5175pt x 969.6225pt>
-File: images/Circadian/clk.png Graphic file (type png)
 
-<use images/Circadian/clk.png>
-Package pdftex.def Info: images/Circadian/clk.png used on input line 1788.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1788--1788
-[] 
- []
-
-<images/Circadian/CLK.png, id=161, 1744.5175pt x 969.6225pt>
-File: images/Circadian/CLK.png Graphic file (type png)
-
-<use images/Circadian/CLK.png>
-Package pdftex.def Info: images/Circadian/CLK.png used on input line 1789.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1789--1789
-[] 
- []
-
-<images/Circadian/CRY.png, id=162, 1744.5175pt x 969.6225pt>
-File: images/Circadian/CRY.png Graphic file (type png)
-
-<use images/Circadian/CRY.png>
-Package pdftex.def Info: images/Circadian/CRY.png used on input line 1790.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1790--1790
-[] 
- []
-
-<images/Circadian/cwo.png, id=163, 1744.5175pt x 969.6225pt>
-File: images/Circadian/cwo.png Graphic file (type png)
-
-<use images/Circadian/cwo.png>
-Package pdftex.def Info: images/Circadian/cwo.png used on input line 1791.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1791--1791
-[] 
- []
-
-<images/Circadian/CWO.png, id=164, 1744.5175pt x 969.6225pt>
-File: images/Circadian/CWO.png Graphic file (type png)
-
-<use images/Circadian/CWO.png>
-Package pdftex.def Info: images/Circadian/CWO.png used on input line 1792.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1792--1792
-[] 
- []
-
-<images/Circadian/CYC-CLK.png, id=165, 1744.5175pt x 969.6225pt>
-File: images/Circadian/CYC-CLK.png Graphic file (type png)
-
-<use images/Circadian/CYC-CLK.png>
-Package pdftex.def Info: images/Circadian/CYC-CLK.png used on input line 1793.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1793--1793
-[] 
- []
-
-<images/Circadian/pdp1.png, id=166, 1744.5175pt x 969.6225pt>
-File: images/Circadian/pdp1.png Graphic file (type png)
-
-<use images/Circadian/pdp1.png>
-Package pdftex.def Info: images/Circadian/pdp1.png used on input line 1794.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1794--1794
-[] 
- []
-
-<images/Circadian/PDP1.png, id=167, 1744.5175pt x 969.6225pt>
-File: images/Circadian/PDP1.png Graphic file (type png)
-
-<use images/Circadian/PDP1.png>
-Package pdftex.def Info: images/Circadian/PDP1.png used on input line 1795.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1795--1795
-[] 
- []
-
-<images/Circadian/per.png, id=168, 1744.5175pt x 969.6225pt>
-File: images/Circadian/per.png Graphic file (type png)
-
-<use images/Circadian/per.png>
-Package pdftex.def Info: images/Circadian/per.png used on input line 1796.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1796--1796
-[] 
- []
-
-<images/Circadian/PER.png, id=169, 1744.5175pt x 969.6225pt>
-File: images/Circadian/PER.png Graphic file (type png)
-
-<use images/Circadian/PER.png>
-Package pdftex.def Info: images/Circadian/PER.png used on input line 1797.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1797--1797
-[] 
- []
-
-<images/Circadian/PER-TIM.png, id=170, 1744.5175pt x 969.6225pt>
-File: images/Circadian/PER-TIM.png Graphic file (type png)
-
-<use images/Circadian/PER-TIM.png>
-Package pdftex.def Info: images/Circadian/PER-TIM.png used on input line 1798.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1798--1798
-[] 
- []
-
-<images/Circadian/tim.png, id=171, 1744.5175pt x 969.6225pt>
-File: images/Circadian/tim.png Graphic file (type png)
-
-<use images/Circadian/tim.png>
-Package pdftex.def Info: images/Circadian/tim.png used on input line 1799.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1799--1799
-[] 
- []
-
-<images/Circadian/TIM.png, id=172, 1744.5175pt x 969.6225pt>
-File: images/Circadian/TIM.png Graphic file (type png)
-
-<use images/Circadian/TIM.png>
-Package pdftex.def Info: images/Circadian/TIM.png used on input line 1800.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1800--1800
-[] 
- []
-
-<images/Circadian/vri.png, id=173, 1744.5175pt x 969.6225pt>
-File: images/Circadian/vri.png Graphic file (type png)
-
-<use images/Circadian/vri.png>
-Package pdftex.def Info: images/Circadian/vri.png used on input line 1801.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1801--1801
-[] 
- []
-
-<images/Circadian/VRI.png, id=174, 1744.5175pt x 969.6225pt>
-File: images/Circadian/VRI.png Graphic file (type png)
-
-<use images/Circadian/VRI.png>
-Package pdftex.def Info: images/Circadian/VRI.png used on input line 1802.
-(pdftex.def)             Requested size: 119.49341pt x 66.41577pt.
-
-Overfull \hbox (223.45549pt too wide) in paragraph at lines 1802--1802
-[] 
- []
-
-
-Overfull \hbox (33.48022pt too wide) in paragraph at lines 1787--1807
- [][][] 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1785--1809
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1804--1829
  [][]$[]$ 
  []
 
 [9
 
- <./images/drosophila_model_repressilator.png (PNG copy)> <./images/CRY_oscilla
-tions.png (PNG copy)>] [10 <./images/Circadian/clk.png (PNG copy)> <./images/Ci
-rcadian/CLK.png (PNG copy)> <./images/Circadian/CRY.png (PNG copy)> <./images/C
-ircadian/cwo.png (PNG copy)> <./images/Circadian/CWO.png (PNG copy)> <./images/
-Circadian/CYC-CLK.png (PNG copy)> <./images/Circadian/pdp1.png (PNG copy)> <./i
-mages/Circadian/PDP1.png (PNG copy)> <./images/Circadian/per.png (PNG copy)> <.
-/images/Circadian/PER.png (PNG copy)> <./images/Circadian/PER-TIM.png (PNG copy
-)> <./images/Circadian/tim.png (PNG copy)> <./images/Circadian/TIM.png (PNG cop
-y)> <./images/Circadian/vri.png (PNG copy)> <./images/Circadian/VRI.png (PNG co
-py)>] [11] <images/large_network_tnfa2.pdf, id=185, 574.06958pt x 662.475pt>
+ <./images/drosophila_model_repressilator_con_grafico.png (PNG copy)>]
+[10 <./images/Circadian/ANIMOvsODE-crop.pdf>]
+<images/large_network_tnfa2.pdf, id=192, 574.06958pt x 662.475pt>
 File: images/large_network_tnfa2.pdf Graphic file (type pdf)
 
 <use images/large_network_tnfa2.pdf>
-Package pdftex.def Info: images/large_network_tnfa2.pdf used on input line 2070
+Package pdftex.def Info: images/large_network_tnfa2.pdf used on input line 2090
 .
 (pdftex.def)             Requested size: 252.6989pt x 291.6112pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2068--2074
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2088--2094
  []$[]$ 
  []
 
-<images/large_network_egf3.pdf, id=186, 549.50105pt x 652.03598pt>
+<images/large_network_egf3.pdf, id=193, 549.50105pt x 652.03598pt>
 File: images/large_network_egf3.pdf Graphic file (type pdf)
 
 <use images/large_network_egf3.pdf>
-Package pdftex.def Info: images/large_network_egf3.pdf used on input line 2079.
+Package pdftex.def Info: images/large_network_egf3.pdf used on input line 2099.
 
 (pdftex.def)             Requested size: 252.6989pt x 299.85065pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2077--2084
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2097--2104
  [][]$[]$ 
  []
 
-<images/large_network_hypotheses7.png, id=187, 1305.87875pt x 925.4575pt>
+<images/large_network_hypotheses7.png, id=194, 1305.87875pt x 925.4575pt>
 File: images/large_network_hypotheses7.png Graphic file (type png)
 
 <use images/large_network_hypotheses7.png>
 Package pdftex.def Info: images/large_network_hypotheses7.png used on input lin
-e 2093.
+e 2113.
 (pdftex.def)             Requested size: 361.0pt x 255.82195pt.
 
-<images/legenda_forme.pdf, id=188, 1154.59161pt x 100.95999pt>
+<images/legenda_forme.pdf, id=195, 1154.59161pt x 100.95999pt>
 File: images/legenda_forme.pdf Graphic file (type pdf)
 
 <use images/legenda_forme.pdf>
-Package pdftex.def Info: images/legenda_forme.pdf used on input line 2094.
+Package pdftex.def Info: images/legenda_forme.pdf used on input line 2114.
 (pdftex.def)             Requested size: 242.47139pt x 21.20221pt.
 
-<images/legenda_colori.pdf, id=189, 679.44618pt x 71.63889pt>
+<images/legenda_colori.pdf, id=196, 679.44618pt x 71.63889pt>
 File: images/legenda_colori.pdf Graphic file (type pdf)
 
 <use images/legenda_colori.pdf>
-Package pdftex.def Info: images/legenda_colori.pdf used on input line 2094.
+Package pdftex.def Info: images/legenda_colori.pdf used on input line 2114.
 (pdftex.def)             Requested size: 142.6879pt x 15.0446pt.
 
-Overfull \hbox (24.15929pt too wide) in paragraph at lines 2094--2098
+Overfull \hbox (24.15929pt too wide) in paragraph at lines 2114--2118
  [][][][] 
  []
 
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2091--2100
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2111--2120
  [][]$[]$ 
  []
 
-<images/TNFa100/MK2.png, id=190, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/MK2.png>
-<images/TNFa100/JNK1.png, id=191, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/JNK1.png>
-<images/TNFa100/IKK_120.png, id=192, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/IKK_120.png>
-<images/TNFa100/IKK_1440.png, id=193, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/IKK_1440.png>
-<images/TNFa100/casp8.png, id=194, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/casp8.png>
-<images/TNFa100/casp3.png, id=195, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/casp3.png>
-<images/TNFa100/MEK.png, id=196, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/MEK.png>
-<images/TNFa100/ERK.png, id=197, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/ERK.png>
-<images/TNFa100/Akt.png, id=198, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/Akt.png>
-<images/TNFa100/IRS1s_120.png, id=199, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/IRS1s_120.png>
-<images/TNFa100/IRS1y_120.png, id=200, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/IRS1y_120.png>
-<images/TNFa100/FKHR_720.png, id=201, 1744.5175pt x 969.6225pt>
-<use images/TNFa100/FKHR_720.png> <use images/TNFa100/MK2.png>
-<use images/TNFa100/JNK1.png> <use images/TNFa100/IKK_120.png>
-<use images/TNFa100/IKK_1440.png> <use images/TNFa100/casp8.png>
-<use images/TNFa100/casp3.png> <use images/TNFa100/MEK.png>
-<use images/TNFa100/ERK.png> <use images/TNFa100/Akt.png>
-<use images/TNFa100/IRS1s_120.png> <use images/TNFa100/IRS1y_120.png>
-<use images/TNFa100/FKHR_720.png>
-File: images/TNFa100/MK2.png Graphic file (type png)
- <use images/TNFa100/MK2.png>
-Package pdftex.def Info: images/TNFa100/MK2.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
 
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/JNK1.png Graphic file (type png)
-<use images/TNFa100/JNK1.png>
-Package pdftex.def Info: images/TNFa100/JNK1.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/IKK_120.png Graphic file (type png)
-<use images/TNFa100/IKK_120.png>
-Package pdftex.def Info: images/TNFa100/IKK_120.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/IKK_1440.png Graphic file (type png)
-<use images/TNFa100/IKK_1440.png>
-Package pdftex.def Info: images/TNFa100/IKK_1440.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/casp8.png Graphic file (type png)
-<use images/TNFa100/casp8.png>
-Package pdftex.def Info: images/TNFa100/casp8.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/casp3.png Graphic file (type png)
-<use images/TNFa100/casp3.png>
-Package pdftex.def Info: images/TNFa100/casp3.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/MEK.png Graphic file (type png)
-<use images/TNFa100/MEK.png>
-Package pdftex.def Info: images/TNFa100/MEK.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/ERK.png Graphic file (type png)
-<use images/TNFa100/ERK.png>
-Package pdftex.def Info: images/TNFa100/ERK.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/Akt.png Graphic file (type png)
-<use images/TNFa100/Akt.png>
-Package pdftex.def Info: images/TNFa100/Akt.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/IRS1s_120.png Graphic file (type png)
-<use images/TNFa100/IRS1s_120.png>
-Package pdftex.def Info: images/TNFa100/IRS1s_120.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/IRS1y_120.png Graphic file (type png)
-<use images/TNFa100/IRS1y_120.png>
-Package pdftex.def Info: images/TNFa100/IRS1y_120.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-File: images/TNFa100/FKHR_720.png Graphic file (type png)
-<use images/TNFa100/FKHR_720.png>
-Package pdftex.def Info: images/TNFa100/FKHR_720.png used on input line 2119.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2119--2119
-[] 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2105--2123
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2125--2146
  [][]$[]$ 
  []
 
-<images/EGF100/MK2.png, id=202, 1744.5175pt x 969.6225pt>
-<use images/EGF100/MK2.png>
-<images/EGF100/JNK1.png, id=203, 1744.5175pt x 969.6225pt>
-<use images/EGF100/JNK1.png>
-<images/EGF100/IKK.png, id=204, 1744.5175pt x 969.6225pt>
-<use images/EGF100/IKK.png>
-<images/EGF100/casp8.png, id=205, 1744.5175pt x 969.6225pt>
-<use images/EGF100/casp8.png>
-<images/EGF100/casp3.png, id=206, 1744.5175pt x 969.6225pt>
-<use images/EGF100/casp3.png>
-<images/EGF100/MEK.png, id=207, 1744.5175pt x 969.6225pt>
-<use images/EGF100/MEK.png>
-<images/EGF100/ERK.png, id=208, 1744.5175pt x 969.6225pt>
-<use images/EGF100/ERK.png>
-<images/EGF100/Akt_120.png, id=209, 1744.5175pt x 969.6225pt>
-<use images/EGF100/Akt_120.png>
-<images/EGF100/Akt_1440.png, id=210, 1744.5175pt x 969.6225pt>
-<use images/EGF100/Akt_1440.png>
-<images/EGF100/IRS1s_120.png, id=211, 1744.5175pt x 969.6225pt>
-<use images/EGF100/IRS1s_120.png>
-<images/EGF100/IRS1y_120.png, id=212, 1744.5175pt x 969.6225pt>
-<use images/EGF100/IRS1y_120.png>
-<images/EGF100/IRS1y_720.png, id=213, 1744.5175pt x 969.6225pt>
-<use images/EGF100/IRS1y_720.png>
-<images/EGF100/FKHR_120.png, id=214, 1744.5175pt x 969.6225pt>
-<use images/EGF100/FKHR_120.png>
-<images/EGF100/FKHR_720.png, id=215, 1744.5175pt x 969.6225pt>
-<use images/EGF100/FKHR_720.png> <use images/EGF100/MK2.png>
-<use images/EGF100/JNK1.png> <use images/EGF100/IKK.png>
-<use images/EGF100/casp8.png> <use images/EGF100/casp3.png>
-<use images/EGF100/MEK.png> <use images/EGF100/ERK.png>
-<use images/EGF100/Akt_120.png> <use images/EGF100/Akt_1440.png>
-<use images/EGF100/IRS1s_120.png> <use images/EGF100/IRS1y_120.png>
-<use images/EGF100/IRS1y_720.png> <use images/EGF100/FKHR_120.png>
-<use images/EGF100/FKHR_720.png>
-File: images/EGF100/MK2.png Graphic file (type png)
- <use images/EGF100/MK2.png>
-Package pdftex.def Info: images/EGF100/MK2.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
 
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/JNK1.png Graphic file (type png)
-<use images/EGF100/JNK1.png>
-Package pdftex.def Info: images/EGF100/JNK1.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/IKK.png Graphic file (type png)
-<use images/EGF100/IKK.png>
-Package pdftex.def Info: images/EGF100/IKK.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/casp8.png Graphic file (type png)
-<use images/EGF100/casp8.png>
-Package pdftex.def Info: images/EGF100/casp8.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/casp3.png Graphic file (type png)
-<use images/EGF100/casp3.png>
-Package pdftex.def Info: images/EGF100/casp3.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/MEK.png Graphic file (type png)
-<use images/EGF100/MEK.png>
-Package pdftex.def Info: images/EGF100/MEK.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/ERK.png Graphic file (type png)
-<use images/EGF100/ERK.png>
-Package pdftex.def Info: images/EGF100/ERK.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/Akt_120.png Graphic file (type png)
-<use images/EGF100/Akt_120.png>
-Package pdftex.def Info: images/EGF100/Akt_120.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/Akt_1440.png Graphic file (type png)
-<use images/EGF100/Akt_1440.png>
-Package pdftex.def Info: images/EGF100/Akt_1440.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/IRS1s_120.png Graphic file (type png)
-<use images/EGF100/IRS1s_120.png>
-Package pdftex.def Info: images/EGF100/IRS1s_120.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/IRS1y_120.png Graphic file (type png)
-<use images/EGF100/IRS1y_120.png>
-Package pdftex.def Info: images/EGF100/IRS1y_120.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/IRS1y_720.png Graphic file (type png)
-<use images/EGF100/IRS1y_720.png>
-Package pdftex.def Info: images/EGF100/IRS1y_720.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/FKHR_120.png Graphic file (type png)
-<use images/EGF100/FKHR_120.png>
-Package pdftex.def Info: images/EGF100/FKHR_120.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-File: images/EGF100/FKHR_720.png Graphic file (type png)
-<use images/EGF100/FKHR_720.png>
-Package pdftex.def Info: images/EGF100/FKHR_720.png used on input line 2143.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2143--2143
-[] 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2127--2147
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2150--2173
  [][]$[]$ 
  []
 
-<images/TNFa100_EGF100/MK2.png, id=216, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/MK2.png>
-<images/TNFa100_EGF100/JNK1.png, id=217, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/JNK1.png>
-<images/TNFa100_EGF100/IKK.png, id=218, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/IKK.png>
-<images/TNFa100_EGF100/casp8.png, id=219, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/casp8.png>
-<images/TNFa100_EGF100/casp3.png, id=220, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/casp3.png>
-<images/TNFa100_EGF100/MEK.png, id=221, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/MEK.png>
-<images/TNFa100_EGF100/ERK.png, id=222, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/ERK.png>
-<images/TNFa100_EGF100/Akt.png, id=223, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/Akt.png>
-<images/TNFa100_EGF100/IRS1s_120.png, id=224, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/IRS1s_120.png>
-<images/TNFa100_EGF100/IRS1s_720.png, id=225, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/IRS1s_720.png>
-<images/TNFa100_EGF100/IRS1y.png, id=226, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/IRS1y.png>
-<images/TNFa100_EGF100/FKHR_240.png, id=227, 1744.5175pt x 969.6225pt>
-<use images/TNFa100_EGF100/FKHR_240.png> <use images/TNFa100_EGF100/MK2.png>
-<use images/TNFa100_EGF100/JNK1.png> <use images/TNFa100_EGF100/IKK.png>
-<use images/TNFa100_EGF100/casp8.png> <use images/TNFa100_EGF100/casp3.png>
-<use images/TNFa100_EGF100/MEK.png> <use images/TNFa100_EGF100/ERK.png>
-<use images/TNFa100_EGF100/Akt.png> <use images/TNFa100_EGF100/IRS1s_120.png>
-<use images/TNFa100_EGF100/IRS1s_720.png>
-<use images/TNFa100_EGF100/IRS1y.png> <use images/TNFa100_EGF100/FKHR_240.png>
-File: images/TNFa100_EGF100/MK2.png Graphic file (type png)
 
-<use images/TNFa100_EGF100/MK2.png>
-Package pdftex.def Info: images/TNFa100_EGF100/MK2.png used on input line 2165.
-
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/JNK1.png Graphic file (type png)
-<use images/TNFa100_EGF100/JNK1.png>
-Package pdftex.def Info: images/TNFa100_EGF100/JNK1.png used on input line 2165
-.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/IKK.png Graphic file (type png)
-<use images/TNFa100_EGF100/IKK.png>
-Package pdftex.def Info: images/TNFa100_EGF100/IKK.png used on input line 2165.
-
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/casp8.png Graphic file (type png)
-<use images/TNFa100_EGF100/casp8.png>
-Package pdftex.def Info: images/TNFa100_EGF100/casp8.png used on input line 216
-5.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/casp3.png Graphic file (type png)
-<use images/TNFa100_EGF100/casp3.png>
-Package pdftex.def Info: images/TNFa100_EGF100/casp3.png used on input line 216
-5.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/MEK.png Graphic file (type png)
-<use images/TNFa100_EGF100/MEK.png>
-Package pdftex.def Info: images/TNFa100_EGF100/MEK.png used on input line 2165.
-
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/ERK.png Graphic file (type png)
-<use images/TNFa100_EGF100/ERK.png>
-Package pdftex.def Info: images/TNFa100_EGF100/ERK.png used on input line 2165.
-
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/Akt.png Graphic file (type png)
-<use images/TNFa100_EGF100/Akt.png>
-Package pdftex.def Info: images/TNFa100_EGF100/Akt.png used on input line 2165.
-
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/IRS1s_120.png Graphic file (type png)
-<use images/TNFa100_EGF100/IRS1s_120.png>
-Package pdftex.def Info: images/TNFa100_EGF100/IRS1s_120.png used on input line
- 2165.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/IRS1s_720.png Graphic file (type png)
-<use images/TNFa100_EGF100/IRS1s_720.png>
-Package pdftex.def Info: images/TNFa100_EGF100/IRS1s_720.png used on input line
- 2165.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/IRS1y.png Graphic file (type png)
-<use images/TNFa100_EGF100/IRS1y.png>
-Package pdftex.def Info: images/TNFa100_EGF100/IRS1y.png used on input line 216
-5.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-File: images/TNFa100_EGF100/FKHR_240.png Graphic file (type png)
-<use images/TNFa100_EGF100/FKHR_240.png>
-Package pdftex.def Info: images/TNFa100_EGF100/FKHR_240.png used on input line 
-2165.
-(pdftex.def)             Requested size: 104.68758pt x 58.17484pt.
-
-Overfull \hbox (238.26132pt too wide) in paragraph at lines 2165--2165
-[] 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2151--2169
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2177--2198
  [][]$[]$ 
  []
 
 
 AED: lastpage setting LastPage
-[12
+[11
 
 
- <./images/large_network_tnfa2.pdf>] [13 <./images/large_network_egf3.pdf>]
-[14 <./images/large_network_hypotheses7.png> <./images/legenda_forme.pdf> <./im
+ <./images/large_network_tnfa2.pdf>] [12 <./images/large_network_egf3.pdf>]
+[13 <./images/large_network_hypotheses7.png> <./images/legenda_forme.pdf> <./im
 ages/legenda_colori.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images/legenda_colori.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] [15 <./images/TNFa100/MK2.png (PNG copy)> <./images/TNFa100/JNK1.png (PNG co
-py)> <./images/TNFa100/IKK_120.png (PNG copy)> <./images/TNFa100/IKK_1440.png (
-PNG copy)> <./images/TNFa100/casp8.png (PNG copy)> <./images/TNFa100/casp3.png 
-(PNG copy)> <./images/TNFa100/MEK.png (PNG copy)> <./images/TNFa100/ERK.png (PN
-G copy)> <./images/TNFa100/Akt.png (PNG copy)> <./images/TNFa100/IRS1s_120.png 
-(PNG copy)> <./images/TNFa100/IRS1y_120.png (PNG copy)> <./images/TNFa100/FKHR_
-720.png (PNG copy)>] [16 <./images/EGF100/MK2.png (PNG copy)> <./images/EGF100/
-JNK1.png (PNG copy)> <./images/EGF100/IKK.png (PNG copy)> <./images/EGF100/casp
-8.png (PNG copy)> <./images/EGF100/casp3.png (PNG copy)> <./images/EGF100/MEK.p
-ng (PNG copy)> <./images/EGF100/ERK.png (PNG copy)> <./images/EGF100/Akt_120.pn
-g (PNG copy)> <./images/EGF100/Akt_1440.png (PNG copy)> <./images/EGF100/IRS1s_
-120.png (PNG copy)> <./images/EGF100/IRS1y_120.png (PNG copy)> <./images/EGF100
-/IRS1y_720.png (PNG copy)> <./images/EGF100/FKHR_120.png (PNG copy)> <./images/
-EGF100/FKHR_720.png (PNG copy)>] [17 <./images/TNFa100_EGF100/MK2.png (PNG copy
-)> <./images/TNFa100_EGF100/JNK1.png (PNG copy)> <./images/TNFa100_EGF100/IKK.p
-ng (PNG copy)> <./images/TNFa100_EGF100/casp8.png (PNG copy)> <./images/TNFa100
-_EGF100/casp3.png (PNG copy)> <./images/TNFa100_EGF100/MEK.png (PNG copy)> <./i
-mages/TNFa100_EGF100/ERK.png (PNG copy)> <./images/TNFa100_EGF100/Akt.png (PNG 
-copy)> <./images/TNFa100_EGF100/IRS1s_120.png (PNG copy)> <./images/TNFa100_EGF
-100/IRS1s_720.png (PNG copy)> <./images/TNFa100_EGF100/IRS1y.png (PNG copy)> <.
-/images/TNFa100_EGF100/FKHR_240.png (PNG copy)>] (./Paper.aux)
+>] [14 <./images/TNFa-EGF/100TNFa-0EGF/100TNF_0EGF_ANIMOvsFuzzy-crop.pdf>]
+[15 <./images/TNFa-EGF/0TNFa-100EGF/0TNF_100EGF_ANIMOvsFuzzy-crop.pdf>]
+[16 <./images/TNFa-EGF/100TNFa-100EGF/100TNF_100EGF_ANIMOvsFuzzy-crop.pdf>]
+(./Paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 16196 strings out of 493304
- 310977 string characters out of 6139871
- 429384 words of memory out of 5000000
- 19221 multiletter control sequences out of 15000+600000
- 16940 words of font info for 63 fonts, out of 8000000 for 9000
+ 15926 strings out of 493304
+ 303676 string characters out of 6139871
+ 418373 words of memory out of 5000000
+ 18986 multiletter control sequences out of 15000+600000
+ 16631 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,19n,56p,2046b,818s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,17n,56p,2047b,818s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
@@ -2085,22 +1403,21 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb>
-Output written on Paper.pdf (34 pages, 6304559 bytes).
+cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+s17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb>
+Output written on Paper.pdf (33 pages, 3720961 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
+ 390 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,9 +13,10 @@
 \contentsline {subsection}{\numberline {C.3}Timed Automata model}{5}
 \contentsline {subsection}{\numberline {C.4}Granularity of an ANIMO network node}{6}
 \contentsline {section}{\numberline {D}Additional notes}{9}
-\contentsline {subsection}{\numberline {D.1}Simulating the day-night cycle}{9}
-\contentsline {subsection}{\numberline {D.2}ANIMO model of the Drosophila circadian clock}{9}
-\contentsline {subsection}{\numberline {D.3}Note on the parameters in the TNF$\alpha $-EGF model}{10}
-\contentsline {section}{\numberline {E}Supplementary figures}{11}
-\contentsline {section}{Supplementary figures}{11}
+\contentsline {subsection}{\numberline {D.1}ANIMO model of the Drosophila circadian clock}{9}
+\contentsline {subsection}{\numberline {D.2}Simulating the day-night cycle}{9}
+\contentsline {subsection}{\numberline {D.3}Comparing the models of the Drosophila circadian clock}{9}
+\contentsline {subsection}{\numberline {D.4}Note on the parameters in the TNF$\alpha $-EGF model}{10}
+\contentsline {section}{\numberline {E}Supplementary figures}{12}
+\contentsline {section}{Supplementary figures}{12}
 \contentsfinish 

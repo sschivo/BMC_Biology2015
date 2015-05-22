@@ -37,8 +37,8 @@
 \citation{pathway-compendium}
 \newlabel{sec:results}{{}{4}}
 \newlabel{sec:animo-drosophila}{{}{4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\mathversion  {bold}\bfseries  ANIMO model of the circadian clock in \emph  {Drosophila Melanogaster}.} Auto-regulatory negative feedback loops are present on each of the nodes of the network, following the original model in\nobreakspace  {}\cite  {drosophila-ode-model}. These feedback loops ensure that protein levels decrease over time when activating inputs are absent. The feedback loops are not represented here for cosmetic reasons only. Naming conventions follow the same rules as in the original model, with lower-case names representing mRNA, and upper-case names indicating proteins. \relax }}{4}}
-\newlabel{fig:drosophila-model}{{3}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\mathversion  {bold}\bfseries  Comparing the result of the ANIMO model of \emph  {Drosophila Melanogaster} circadian clock with the model of\nobreakspace  {}\cite  {drosophila-ode-model}.} 24 hours simulations of the two models were compared against each other, synchronizing their start point as much as possible. The blue line is the ANIMO model ({\sf  \_{}ANIMO} series), while the red line represents the data computed from the original ODE model ({\sf  \_{}ODE} series). The vaules of all series were rescaled on a [0, 100] interval to facilitate comparison.\relax }}{4}}
+\newlabel{fig:grafici-drosophila-smaller}{{3}{4}}
 \newlabel{subsec:case-study-larger}{{}{4}}
 \citation{animo-syncop}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\mathversion  {bold}\bfseries  Signalling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways. Node colours represent the activity level of the corresponding modelled reactants at time $t = 15$ minutes after a stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} Modelled production of IL-1$\alpha $ after stimulation with 100 ng/ml TGF$\alpha $ (24 hours). {\bf  (C)} Modelled activation of JNK1 and MK2 after stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours).   The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{5}}
@@ -52,7 +52,7 @@
 \citation{kegg}
 \citation{cfos-cjun}
 \citation{ras-jnk1}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\mathversion  {bold}\bfseries  Signalling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells: improved model.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways after addition of the two hypotheses (highlighted). Hypothesis 1 assumes IL-1$\alpha $ expression to depend on AP-1 activity, which in turn requires both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis 2 assumes RAS as an activator of MEKK1. Node colours represent the activity levels $15$ minutes after stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} After the addition of the first hypothesis (activation of IL-1$\alpha $ production depending both on JNK1 and ERK): production of IL-1$\alpha $ after stimulation with 100 ng/ml TNF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TNFa)}) compared with stimulation with 100 ng/ml TGF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TGFa)}) (24 hours). {\bf  (C)} After the addition of the second hypothesis (activation of MEKK1 downstream of EGFR): stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours). Suppl. Sect.\nobreakspace  {}D.3\hbox {} explains how the dosage of 5 ng/ml TNF$\alpha $ was represented in the model.  The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\mathversion  {bold}\bfseries  Signalling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells: improved model.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways after addition of the two hypotheses (highlighted). Hypothesis 1 assumes IL-1$\alpha $ expression to depend on AP-1 activity, which in turn requires both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis 2 assumes RAS as an activator of MEKK1. Node colours represent the activity levels $15$ minutes after stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} After the addition of the first hypothesis (activation of IL-1$\alpha $ production depending both on JNK1 and ERK): production of IL-1$\alpha $ after stimulation with 100 ng/ml TNF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TNFa)}) compared with stimulation with 100 ng/ml TGF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TGFa)}) (24 hours). {\bf  (C)} After the addition of the second hypothesis (activation of MEKK1 downstream of EGFR): stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours). Suppl. Sect.\nobreakspace  {}D.4\hbox {} explains how the dosage of 5 ng/ml TNF$\alpha $ was represented in the model.  The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{7}}
 \newlabel{fig:large-model-complete}{{5}{7}}
 \citation{pathway-fuzzy}
 \citation{drosophila-ode-model}
@@ -109,10 +109,10 @@
 \bibcite{pathway-fuzzy}{17}
 \bibcite{pathway-leastsquare}{18}
 \bibcite{animo-bibe}{19}
+\bibcite{biopepa-interface}{20}
 \thanksnewlabel{aff1thanks}{{1}{13}}
 \thanksnewlabel{aff2thanks}{{2}{13}}
 \thanksnewlabel{aff3thanks}{{3}{13}}
-\bibcite{biopepa-interface}{20}
 \bibcite{cell-illustrator}{21}
 \bibcite{copasi}{22}
 \bibcite{ginsim}{23}
@@ -144,18 +144,24 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {C.1}Modelling abstractions}{4}}
 \newlabel{subsec:abstractions}{{C.1}{4}}
 \citation{animo-ieee}
+\citation{animo-gene}
+\citation{animo-syncop}
+\citation{animo-ieee}
 \citation{cytoscape}
 \citation{uppaal}
 \@writefile{toc}{\contentsline {subsection}{\numberline {C.2}ANIMO}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Timed Automata model}{5}}
 \citation{animo-ieee}
-\@writefile{lof}{\contentsline {figure}{\numberline {S1}{\ignorespaces The passages intercurring between the press of the \emph  {Analyse network} button and the generation of an activity level graph. A simulation produces, for each selected node, a series of pairs {\sf  ($t$, $a$)}, with $t$ a time instant along the simulation and $a$ an activity level. These data are then parsed and translated into a graph.\relax }}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S1}{\ignorespaces {\mathversion  {bold}\bfseries  The passages intercurring between the press of the \emph  {Analyse network} button and the generation of an activity level graph.} The model represented in the Cytoscape visual interface is automatically translated by ANIMO into a network of Timed Automata, which is then simulated using UPPAAL. A simulation produces, for each selected node, a series of pairs {\sf  ($t$, $a$)}, with $t$ a time instant along the simulation and $a$ an activity level. These data are then parsed and represented as a graph, which is shown in ANIMO's user interface.\relax }}{6}}
 \newlabel{fig:animo-sim-workflow}{{S1}{6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {C.4}Granularity of an ANIMO network node}{6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S2}{\ignorespaces Schematic overview of the steps taken during a simulation run by a Timed Automaton modelling an interaction $R$ that increases $\unhbox \voidb@x \hbox {ERK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ and depends only on $\unhbox \voidb@x \hbox {MEK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$. In this example, MEK has 10 activity levels.  After resetting the internal clock {\sf  t}, the automaton sets the time constraints for the interaction. $\unhbox \voidb@x \hbox {MEK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ is used as the index inside the time tables $R_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  lowerBound}}$ and $R_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  upperBound}}$, which contain pre-computed lower- and upper-bounds for the interaction timing. Once the bounds have been identified, $R$ can occur when {\sf  t} reaches a value inside the continuous time interval\nobreakspace  {}$[\tmspace  +\thinmuskip {.1667em}\unhbox \voidb@x \copy \mysquareLow \relax , \unhbox \voidb@x \copy \mysquareHigh \relax \tmspace  +\thinmuskip {.1667em}]$. When it occurs, $R$ increases the value of $\unhbox \voidb@x \hbox {ERK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ by $1$. All interactions that depend on $\unhbox \voidb@x \hbox {ERK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ are notified of the change (via a synchronization on a specific channel), so that the associated time bounds are updated accordingly. After resetting the clock {\sf  t}, the process can restart. If $\unhbox \voidb@x \hbox {MEK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ was changed by another automaton before the occurrence of $R$, the time bounds are updated according to the new activity level of MEK.\relax }}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S2}{\ignorespaces {\mathversion  {bold}\bfseries  Schematic overview of the steps taken during a simulation run by a Timed Automaton modelling an interaction $R$ that increases $\unhbox \voidb@x \hbox {ERK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ and depends only on $\unhbox \voidb@x \hbox {MEK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$.} In this example, MEK is represented with a granularity of 10 activity levels. After resetting the internal clock {\sf  t}, the automaton sets the time constraints for the interaction. $\unhbox \voidb@x \hbox {MEK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ is used as the index inside the time tables $R_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  lowerBound}}$ and $R_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  upperBound}}$, which contain pre-computed lower- and upper-bounds for the interaction timing. Once the bounds have been identified, $R$ can occur when {\sf  t} reaches a value inside the continuous time interval\nobreakspace  {}$[\tmspace  +\thinmuskip {.1667em}\unhbox \voidb@x \copy \mysquareLow \relax , \unhbox \voidb@x \copy \mysquareHigh \relax \tmspace  +\thinmuskip {.1667em}]$. When it occurs, $R$ increases the value of $\unhbox \voidb@x \hbox {ERK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ by $1$. All interactions that depend on $\unhbox \voidb@x \hbox {ERK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ are notified of the change (via a synchronization on a specific channel), so that the associated time bounds are updated accordingly. After resetting the clock {\sf  t}, the process can restart. If $\unhbox \voidb@x \hbox {MEK}_{\unhbox \voidb@x \hbox {\relax \fontsize  {7}{8}\selectfont  activity}}$ was changed by another automaton before the occurrence of $R$, the time bounds are updated according to the new activity level of MEK.\relax }}{7}}
 \newlabel{fig:ta-diagram}{{S2}{7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S3}{\ignorespaces {\mathversion  {bold}\bfseries  Comparing different reactant granularity settings.} {\bf  (A)} 2 levels, {\bf  (B)} 10 levels, {\bf  (C)} 50 levels, {\bf  (D)} 100 levels. The {\sf  JNK1} series is computed from the model presented in Figure\nobreakspace  {}5\hbox {}, considering 100 ng/ml TNF$\alpha $ as treatment condition over a period of 60 minutes.\relax }}{8}}
 \newlabel{fig:levels}{{S3}{8}}
+\citation{drosophila-ode-model}
+\citation{drosophila-ode-model}
+\citation{drosophila-ode-model}
 \citation{repressilator}
 \citation{drosophila-ode-model}
 \citation{drosophila-cry-data}
@@ -163,31 +169,34 @@
 \citation{drosophila-ode-model}
 \citation{drosophila-ode-model}
 \@writefile{toc}{\contentsline {section}{\numberline {D}Additional notes}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {D.1}Simulating the day-night cycle}{9}}
-\newlabel{suppl:repressilator}{{D.1}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S4}{\ignorespaces {\bf  (A)} The repressilator-like subnetwork used to represent the alternation between day and night that cause the oscillations in {\sf  CRY} concentrations in the network modelled in the Results Section\nobreakspace  {}\hbox {}. {\bf  (B)} A graph plotting the oscillations in {\sf  CRY} along a period of three days.\relax }}{9}}
-\newlabel{fig:repressilator}{{S4}{9}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {D.2}ANIMO model of the Drosophila circadian clock}{9}}
-\newlabel{suppl-sec:animo-drosophila}{{D.2}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S5}{\ignorespaces Comparing the simulation results from the ANIMO and ODE models of \emph  {Drosophila Melanogaster} circadian clock. Blue lines ({\sf  \_{}ANIMO} series) represent data from the ANIMO model in Figure\nobreakspace  {}3\hbox {}, while red lines ({\sf  \_{}ODE} series) represent data from the ODE model in\nobreakspace  {}\cite  {drosophila-ode-model}.\relax }}{10}}
-\newlabel{suppl-fig:grafici-drosophila}{{S5}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {D.3}Note on the parameters in the TNF$\alpha $-EGF model}{10}}
-\newlabel{suppl:parameters-tnf-egf}{{D.3}{10}}
-\@writefile{toc}{\contentsline {section}{\numberline {E}Supplementary figures}{11}}
-\newlabel{sec:supplementary-figures}{{E}{11}}
-\@writefile{toc}{\contentsline {section}{Supplementary figures}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S6}{\ignorespaces The model for the TNF$\alpha $ pathway in isolation. Node colours represent the activity level of the corresponding modelled reactants at time $t = 10$ minutes after a stimulation of 100 ng/ml TNF$\alpha $.\relax }}{11}}
-\newlabel{fig:large-model-tnf}{{S6}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S7}{\ignorespaces The model for the EGF pathway in isolation. Node colours represent the activity level of the corresponding modelled reactants at time $t = 5$ minutes after a stimulation of 100 ng/ml EGF.\relax }}{12}}
-\newlabel{fig:large-model-egf}{{S7}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S8}{\ignorespaces The merged model for the TNF$\alpha $-EGF pathway in which the two hypotheses are highlighted. The first hypothesis is the dependence IL-1$\alpha $ expression on the combined activity of ERK and JNK1. The second hypothesis assumes an as yet unidentified protein (Hyp2) to link EGFR to MEKK1. Node colours represent initial activity levels.\relax }}{13}}
-\newlabel{fig:large-model-hypotheses}{{S8}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S9}{\ignorespaces Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data. Treatment condition: 100 ng/ml TNF$\alpha $. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{14}}
-\newlabel{fig:differences1}{{S9}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S10}{\ignorespaces Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data. Treatment condition: 100 ng/ml EGF. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{15}}
-\newlabel{fig:differences2}{{S10}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {S11}{\ignorespaces Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data. Treatment condition: 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{16}}
-\newlabel{fig:differences3}{{S11}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.1}ANIMO model of the Drosophila circadian clock}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S4}{\ignorespaces {\mathversion  {bold}\bfseries  ANIMO model of the circadian clock in \emph  {Drosophila Melanogaster}.} Auto-regulatory negative feedback loops are present on each of the nodes of the network, following the original model in\nobreakspace  {}\cite  {drosophila-ode-model}. These feedback loops ensure that protein levels decrease over time when activating inputs are absent. The feedback loops are not represented here for cosmetic reasons only. Naming conventions follow the same rules as in the original model, with lower-case names representing mRNA, and upper-case names indicating proteins. \relax }}{9}}
+\newlabel{fig:drosophila-model}{{S4}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.2}Simulating the day-night cycle}{9}}
+\newlabel{suppl:repressilator}{{D.2}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.3}Comparing the models of the Drosophila circadian clock}{9}}
+\newlabel{suppl-sec:animo-drosophila}{{D.3}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S5}{\ignorespaces {\mathversion  {bold}\bfseries  Modelling the dany/night cycle in ANIMO.}{\bf  (A)} The repressilator-like subnetwork used to represent the alternation between day and night that cause the oscillations in {\sf  CRY} concentrations in the network modelled in the Results Section. {\bf  (B)} A graph plotting the oscillations in {\sf  CRY} along a period of three days.\relax }}{10}}
+\newlabel{fig:repressilator}{{S5}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.4}Note on the parameters in the TNF$\alpha $-EGF model}{10}}
+\newlabel{suppl:parameters-tnf-egf}{{D.4}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S6}{\ignorespaces {\mathversion  {bold}\bfseries  Comparing the simulation results from the ANIMO and ODE models of \emph  {Drosophila Melanogaster} circadian clock.} Blue lines ({\sf  \_{}ANIMO} series) represent data from the ANIMO model in Figure\nobreakspace  {}S4\hbox {}, while red lines ({\sf  \_{}ODE} series) represent data from the ODE model in\nobreakspace  {}\cite  {drosophila-ode-model}.\relax }}{11}}
+\newlabel{suppl-fig:grafici-drosophila}{{S6}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}Supplementary figures}{12}}
+\newlabel{sec:supplementary-figures}{{E}{12}}
+\@writefile{toc}{\contentsline {section}{Supplementary figures}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S7}{\ignorespaces {\mathversion  {bold}\bfseries  The model for the TNF$\alpha $ pathway in isolation.} Node colours represent the activity level of the corresponding modelled reactants at time $t = 10$ minutes after a stimulation of 100 ng/ml TNF$\alpha $.\relax }}{12}}
+\newlabel{fig:large-model-tnf}{{S7}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S8}{\ignorespaces {\mathversion  {bold}\bfseries  The model for the EGF pathway in isolation.} Node colours represent the activity level of the corresponding modelled reactants at time $t = 5$ minutes after a stimulation of 100 ng/ml EGF.\relax }}{13}}
+\newlabel{fig:large-model-egf}{{S8}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S9}{\ignorespaces {\mathversion  {bold}\bfseries  The merged model for the TNF$\alpha $-EGF pathway with the two hypotheses are highlighted.} The first hypothesis is the dependence IL-1$\alpha $ expression on the combined activity of ERK and JNK1. The second hypothesis assumes an as yet unidentified protein (Hyp2) to link EGFR to MEKK1. Node colours represent initial activity levels.\relax }}{13}}
+\newlabel{fig:large-model-hypotheses}{{S9}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S10}{\ignorespaces {\mathversion  {bold}\bfseries  Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data.} Treatment condition: 100 ng/ml TNF$\alpha $. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{14}}
+\newlabel{fig:differences1}{{S10}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S11}{\ignorespaces {\mathversion  {bold}\bfseries  Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data.} Treatment condition: 100 ng/ml EGF. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{15}}
+\newlabel{fig:differences2}{{S11}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {S12}{\ignorespaces {\mathversion  {bold}\bfseries  Comparison between the ANIMO model in Figure\nobreakspace  {}5\hbox {} and experimental data.} Treatment condition: 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.\relax }}{16}}
+\newlabel{fig:differences3}{{S12}{16}}
 \newlabel{LastPage}{{}{16}}
 \xdef\lastpage@lastpage{16}
 \gdef\lastpage@lastpageHy{}

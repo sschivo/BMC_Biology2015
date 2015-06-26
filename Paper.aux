@@ -23,10 +23,12 @@
 \citation{animo-syncop}
 \citation{animo-gene}
 \citation{drosophila-ode-model}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {\mathversion  {bold}\bfseries  The Cytoscape user interface running the ANIMO plug-in.} The \emph  {Network} panel in the centre contains the nodes-edges model of the example TNF$\alpha $ pathway (see Methods Section), with colours indicating node activity levels and shapes representing different protein categories (see the \emph  {Legend} on the left). The \emph  {Results Panel} on the right contains a graph plotting activity levels of selected nodes during the first 24 hours of evolution of the model. The slider under the graph allows the user to select the time instant (marked as a vertical red line in the graph) on which the colours nodes in the \emph  {Network} are based. The series with the {\sf  \_data} suffix is experimental data from\nobreakspace  {}\cite  {pathway-compendium}, considering a treatment with 100\nobreakspace  {}ng/ml TNF$\alpha $.  All acronyms used in this paper and their corresponding UniProt IDs are listed in Suppl. Sect.\nobreakspace  {}A\hbox {}. \relax }}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces {\mathversion  {bold}\bfseries  The Cytoscape user interface running the ANIMO plug-in.} The \emph  {Network} panel in the centre contains the nodes-edges model of the example TNF$\alpha $ pathway (see Methods Section), with colours indicating node activity levels and shapes representing different protein categories (see the \emph  {Legend} on the left). The \emph  {Results Panel} on the right contains a graph plotting activity levels of selected nodes during the first 24 hours of simulation of the model. The slider under the graph allows the user to select the time instant (marked as a vertical red line in the graph) on which the colours nodes in the \emph  {Network} are based. The series with the {\sf  \_data} suffix is experimental data from\nobreakspace  {}\cite  {pathway-compendium}, considering a treatment with 100\nobreakspace  {}ng/ml TNF$\alpha $.  All acronyms used in this paper and their corresponding UniProt IDs are listed in Suppl. Sect.\nobreakspace  {}A\hbox {}. \relax }}{3}}
 \newlabel{fig:cytoscape}{{1}{3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces {\mathversion  {bold}\bfseries  The spectrum of modelling methods, with the addition of ANIMO.} The precision of ANIMO models is halfway between fuzzy logic and ODE. In addition, ANIMO allows for an easier modelling experience thanks to a user-friendly interface based on the widely used network modelling software Cytoscape.\relax }}{3}}
 \newlabel{fig:animo-spectrum}{{2}{3}}
+\newlabel{sec:results}{{}{3}}
+\newlabel{sec:animo-drosophila}{{}{3}}
 \citation{drosophila-ode-model}
 \citation{drosophila-ode-model}
 \citation{kegg}
@@ -35,26 +37,24 @@
 \citation{pathway-autocrine}
 \citation{pathway-autocrine}
 \citation{pathway-compendium}
-\newlabel{sec:results}{{}{4}}
-\newlabel{sec:animo-drosophila}{{}{4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces {\mathversion  {bold}\bfseries  Comparing the result of the ANIMO model of \emph  {Drosophila Melanogaster} circadian clock with the model of\nobreakspace  {}\cite  {drosophila-ode-model}.} 24 hours simulations of the two models were compared against each other, synchronizing their start point as much as possible. The blue line is the ANIMO model ({\sf  \_{}ANIMO} series), while the red line represents the data computed from the original ODE model ({\sf  \_{}ODE} series). The vaules of all series were rescaled on a [0, 100] interval to facilitate comparison.\relax }}{4}}
 \newlabel{fig:grafici-drosophila-smaller}{{3}{4}}
 \newlabel{subsec:case-study-larger}{{}{4}}
 \citation{animo-syncop}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\mathversion  {bold}\bfseries  Signalling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways. Node colours represent the activity level of the corresponding modelled reactants at time $t = 15$ minutes after a stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} Modelled production of IL-1$\alpha $ after stimulation with 100 ng/ml TGF$\alpha $ (24 hours). {\bf  (C)} Modelled activation of JNK1 and MK2 after stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours).   The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{5}}
-\newlabel{fig:large-model-all}{{4}{5}}
 \citation{pathway-autocrine}
 \citation{jnk-signaling}
 \citation{cfos-cjun}
 \citation{ap1-il1a}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces {\mathversion  {bold}\bfseries  Signalling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways. Node colours represent the activity level of the corresponding modelled reactants at time $t = 15$ minutes after a stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} Modelled production of IL-1$\alpha $ after stimulation with 100 ng/ml TGF$\alpha $ (24 hours). {\bf  (C)} Modelled activation of JNK1 and MK2 after stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours).   The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{5}}
+\newlabel{fig:large-model-all}{{4}{5}}
 \citation{pathway-autocrine}
 \citation{ras-mekk1}
 \citation{kegg}
 \citation{cfos-cjun}
 \citation{ras-jnk1}
+\citation{pathway-fuzzy}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces {\mathversion  {bold}\bfseries  Signalling network downstream of TNF$\alpha $ and EGF in human colon carcinoma cells: improved model.} {\bf  (A)} The model for the merged TNF$\alpha $ and EGF pathways after addition of the two hypotheses (highlighted). Hypothesis 1 assumes IL-1$\alpha $ expression to depend on AP-1 activity, which in turn requires both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis 2 assumes RAS as an activator of MEKK1. Node colours represent the activity levels $15$ minutes after stimulation of 100 ng/ml TNF$\alpha $ + 100 ng/ml EGF. {\bf  (B)} After the addition of the first hypothesis (activation of IL-1$\alpha $ production depending both on JNK1 and ERK): production of IL-1$\alpha $ after stimulation with 100 ng/ml TNF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TNFa)}) compared with stimulation with 100 ng/ml TGF$\alpha $ (series {\sf  IL-1a\nobreakspace  {}(TGFa)}) (24 hours). {\bf  (C)} After the addition of the second hypothesis (activation of MEKK1 downstream of EGFR): stimulation with 5 ng/ml TNF$\alpha $ + 10 $\mu $g/ml C225 (2 hours). Suppl. Sect.\nobreakspace  {}D.4\hbox {} explains how the dosage of 5 ng/ml TNF$\alpha $ was represented in the model.  The {\sf  \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.\relax }}{7}}
 \newlabel{fig:large-model-complete}{{5}{7}}
-\citation{pathway-fuzzy}
 \citation{drosophila-ode-model}
 \citation{drosophila-ode-model}
 \citation{pathway-leastsquare}
@@ -77,7 +77,7 @@
 \citation{bartocci-oscillators}
 \citation{oded-ode-ta-discretization}
 \citation{animo-ieee}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\mathversion  {bold}\bfseries  Abstraction of a biochemical reaction to a Timed Automata\ model.} {\bf  (A)} Classical depiction of a well-studied intracellular signal transduction reaction: protein MAPK-ERK kinase (MEK) activates downstream protein extracellular-regulated kinase (ERK). {\bf  (B)} A Timed Automaton\ model of ERK, consisting of two states (circles), {\sf  inactive\_ERK} and {\sf  active\_ERK}, and one transition (arrow) between the states. This transition will take place when it is possible to synchronize with the corresponding action {\sf  activate\_ERK!} in the MEK automaton. {\bf  (C)} A Timed Automaton\ model of active MEK, consisting of one state and one transition. ${\sf  t} < 20$ is termed an invariant on the state, allowing residence in this state as long as local clock time {\sf  t} is smaller than $20$ units. ${\sf  t} > 18$ is termed a guard on the transition, allowing the transition to take place when local clock {\sf  t} is greater than $18$ units. Together, the invariant and guard in this example ensure that the transition must take place in the (continuous) time interval $18 < {\sf  t} < 20$. When the transition takes place, the action {\sf  activate\_Erk!} is performed (thus allowing the ERK automaton to reach the {\sf  active\_ERK} state) and the local clock coupled to this automaton is reset, ${\sf  t} := 0$.\relax }}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\mathversion  {bold}\bfseries  Abstraction of a biochemical reaction to a Timed Automata\ model.} {\bf  (A)} Classical depiction of a well-studied intracellular signal transduction reaction: protein MAPK-ERK kinase (MEK) activates downstream protein extracellular-regulated kinase (ERK). {\bf  (B)} A Timed Automaton\ model of ERK, consisting of two states (circles), {\sf  inactive\_ERK} and {\sf  active\_ERK}, and one transition (arrow) between the states. This transition will take place when it is possible to synchronize with the corresponding action {\sf  activate\_ERK!} in the MEK automaton. {\bf  (C)} A Timed Automaton\ model of active MEK, consisting of one state and one transition. ${\sf  t} < 20$ is called an invariant on the state, allowing residence in this state as long as local clock time {\sf  t} is smaller than $20$ units. ${\sf  t} > 18$ is called a guard on the transition, allowing the transition to take place when local clock {\sf  t} is greater than $18$ units. Together, the invariant and guard in this example ensure that the transition must take place in the (continuous) time interval $18 < {\sf  t} < 20$. When the transition takes place, the action {\sf  activate\_Erk!} is performed (thus allowing the ERK automaton to reach the {\sf  active\_ERK} state) and the local clock coupled to this automaton is reset, ${\sf  t} := 0$.\relax }}{11}}
 \newlabel{fig:abstraction-mek-erk}{{6}{11}}
 \newlabel{subsec:timed-automata}{{}{11}}
 \citation{pathway-compendium}
@@ -110,10 +110,10 @@
 \bibcite{pathway-leastsquare}{18}
 \bibcite{animo-bibe}{19}
 \bibcite{biopepa-interface}{20}
+\bibcite{cell-illustrator}{21}
 \thanksnewlabel{aff1thanks}{{1}{13}}
 \thanksnewlabel{aff2thanks}{{2}{13}}
 \thanksnewlabel{aff3thanks}{{3}{13}}
-\bibcite{cell-illustrator}{21}
 \bibcite{copasi}{22}
 \bibcite{ginsim}{23}
 \bibcite{gna}{24}
@@ -126,15 +126,18 @@
 \@writefile{toc}{\ttl@change@v {section}{}{}{}\relax }
 \@writefile{toc}{\ttl@change@i {\@ne }{subsection}{4.5em}{\rmfamily }{\contentslabel {2.5em}}{\hspace *{2.5em}}{\titlerule *[1pc]{.}\contentspage }\relax }
 \@writefile{toc}{\ttl@change@v {subsection}{}{}{}\relax }
+\ttl@writefile{ptc}{\ttl@starttoc{appendices@1}}
+\ttl@writefile{ptc}{\ttl@stoptoc{appendices@1}}
 \@writefile{toc}{\setcounter {tocdepth}{5}}
-\@writefile{toc}{\contentsline {section}{Contents}{2}}
+\@writefile{toc}{\contentsline {section}{Table of Contents}{2}}
+\ttl@writefile{ptc}{\ttl@starttoc{appendices@1}}
 \@writefile{toc}{\contentsline {section}{\numberline {A}Naming conventions}{1}}
 \newlabel{suppl-sec:names}{{A}{1}}
 \@writefile{lot}{\contentsline {table}{\numberline {S1}{\ignorespaces Explanation of the abbreviated names referring to molecular species in the main text.}}{1}}
 \newlabel{suppl-tab:names}{{S1}{1}}
 \gdef \LT@i {\LT@entry 
     {1}{78.13855pt}\LT@entry 
-    {6}{272.19499pt}\LT@entry 
+    {6}{199.00034pt}\LT@entry 
     {5}{92.61125pt}}
 \citation{pathway-autocrine}
 \@writefile{toc}{\contentsline {section}{\numberline {B}Normalizing experimental data for use with ANIMO}{3}}
@@ -184,7 +187,6 @@
 \newlabel{suppl-fig:grafici-drosophila}{{S6}{11}}
 \@writefile{toc}{\contentsline {section}{\numberline {E}Supplementary figures}{12}}
 \newlabel{sec:supplementary-figures}{{E}{12}}
-\@writefile{toc}{\contentsline {section}{Supplementary figures}{12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S7}{\ignorespaces {\mathversion  {bold}\bfseries  The model for the TNF$\alpha $ pathway in isolation.} Node colours represent the activity level of the corresponding modelled reactants at time $t = 10$ minutes after a stimulation of 100 ng/ml TNF$\alpha $.\relax }}{12}}
 \newlabel{fig:large-model-tnf}{{S7}{12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {S8}{\ignorespaces {\mathversion  {bold}\bfseries  The model for the EGF pathway in isolation.} Node colours represent the activity level of the corresponding modelled reactants at time $t = 5$ minutes after a stimulation of 100 ng/ml EGF.\relax }}{13}}

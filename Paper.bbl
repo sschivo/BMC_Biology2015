@@ -42,21 +42,22 @@
 
 %%% 1
 \bibitem{animo-ieee}
-\begin{botherref}
-\oauthor{\bsnm{Schivo}, \binits{S.}},
-\oauthor{\bsnm{Scholma}, \binits{J.}},
-\oauthor{\bsnm{Wanders}, \binits{B.}},
-\oauthor{\bsnm{Camacho}, \binits{R.A.U.}},
-\oauthor{\bparticle{van~der} \bsnm{Vet}, \binits{P.E.}},
-\oauthor{\bsnm{Karperien}, \binits{M.}},
-\oauthor{\bsnm{Langerak}, \binits{R.}},
-\oauthor{\bparticle{van~de} \bsnm{Pol}, \binits{J.}},
-\oauthor{\bsnm{Post}, \binits{J.N.}}:
-Modelling biological pathway dynamics with {Timed Automata}.
-IEEE Journal of Biomedical and Health Informatics
-\textbf{In press}
-(2013)
-\end{botherref}
+\begin{barticle}
+\bauthor{\bsnm{Schivo}, \binits{S.}},
+\bauthor{\bsnm{Scholma}, \binits{J.}},
+\bauthor{\bsnm{Wanders}, \binits{B.}},
+\bauthor{\bsnm{{Urquidi Camacho}}, \binits{R.A.}},
+\bauthor{\bsnm{{van der Vet}}, \binits{P.E.}},
+\bauthor{\bsnm{Karperien}, \binits{M.}},
+\bauthor{\bsnm{Langerak}, \binits{R.}},
+\bauthor{\bsnm{{van de Pol}}, \binits{J.}},
+\bauthor{\bsnm{Post}, \binits{J.N.}}:
+\batitle{Modelling biological pathway dynamics with {Timed Automata}}.
+\bjtitle{IEEE Journal of Biomedical and Health Informatics}
+\bvolume{18}(\bissue{3}),
+\bfpage{832}--\blpage{839}
+(\byear{2014})
+\end{barticle}
 \endbibitem
 
 %%% 2
@@ -64,8 +65,8 @@ IEEE Journal of Biomedical and Health Informatics
 \begin{barticle}
 \bauthor{\bsnm{Scholma}, \binits{J.}},
 \bauthor{\bsnm{Schivo}, \binits{S.}},
-\bauthor{\bsnm{Camacho}, \binits{R.A.U.}},
-\bauthor{\bparticle{van~de} \bsnm{Pol}, \binits{J.}},
+\bauthor{\bsnm{{Urquidi Camacho}}, \binits{R.A.}},
+\bauthor{\bsnm{{van de Pol}}, \binits{J.}},
 \bauthor{\bsnm{Karperien}, \binits{M.}},
 \bauthor{\bsnm{Post}, \binits{J.N.}}:
 \batitle{Biological networks 101: Computational modeling for molecular
@@ -154,8 +155,7 @@ In: \beditor{\bsnm{{Andr{\'e}}}, \binits{E.}},
   Parameters, Grenoble, France}.
 \bsertitle{Electronic Proceedings in Theoretical Computer Science},
 vol. \bseriesno{145},
-pp. \bfpage{35}--\blpage{47}.
-\bpublisher{Open Publishing Association}, \blocation{???}
+pp. \bfpage{35}--\blpage{47}
 (\byear{2014})
 \end{bchapter}
 \endbibitem

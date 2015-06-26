@@ -69,11 +69,11 @@
 \pgfdeclareimage[height=2ex]{mac-command}{images/mac_command}
 \pgfdeclareimage[height=2ex]{lower-bound}{images/lowerbound}
 \pgfdeclareimage[height=2ex]{upper-bound}{images/upperbound_green}
-\pgfdeclareimage[width=0.95\textwidth]{100TNF0EGF}{images/TNFa-EGF/100TNFa-0EGF/100TNF_0EGF_ANIMOvsFuzzy-crop}
-\pgfdeclareimage[width=0.95\textwidth]{0TNF100EGF}{images/TNFa-EGF/0TNFa-100EGF/0TNF_100EGF_ANIMOvsFuzzy-crop}
-\pgfdeclareimage[width=0.95\textwidth]{100TNF100EGF}{images/TNFa-EGF/100TNFa-100EGF/100TNF_100EGF_ANIMOvsFuzzy-crop}
-\pgfdeclareimage[width=0.95\textwidth]{CircadianComparison}{images/Circadian/ANIMOvsODE-crop}
-\pgfdeclareimage[width=0.9\textwidth]{ANIMOvsODE-smaller-comparison}{images/Circadian/ANIMOvsODE_small_comparison-crop}
+\pgfdeclareimage[width=0.95\textwidth]{FigS10}{Figures/S10} %100TNF0EGF}{images/TNFa-EGF/100TNFa-0EGF/100TNF_0EGF_ANIMOvsFuzzy-crop}
+\pgfdeclareimage[width=0.95\textwidth]{FigS11}{Figures/S11} %0TNF100EGF}{images/TNFa-EGF/0TNFa-100EGF/0TNF_100EGF_ANIMOvsFuzzy-crop}
+\pgfdeclareimage[width=0.95\textwidth]{FigS12}{Figures/S12} %100TNF100EGF}{images/TNFa-EGF/100TNFa-100EGF/100TNF_100EGF_ANIMOvsFuzzy-crop}
+\pgfdeclareimage[width=0.95\textwidth]{FigS6}{Figures/S6} %CircadianComparison}{images/Circadian/ANIMOvsODE-crop}
+\pgfdeclareimage[width=0.9\textwidth]{Fig3}{Figures/3} %ANIMOvsODE-smaller-comparison}{images/Circadian/ANIMOvsODE_small_comparison-crop}
 
 \newcommand{\winsymbol}{\raisebox{-0.8ex}{\pgfuseimage{win-logo}}}
 \newcommand{\macsymbol}{\raisebox{-0.5ex}{\pgfuseimage{mac-logo}}}
@@ -185,22 +185,22 @@
 
 \address[id=aff1]{%                           % unique id
   \orgname{Formal Methods and Tools, Faculty of EEMCS, University of Twente}, % university, etc
-  %\street{Hallenweg},                     %
-  \postcode{7522NH}                           % post or zip code
+  \street{P.O. Box 217},                     %
+  \postcode{7500AE}                           % post or zip code
   \city{Enschede},                              % city
   \cny{The~Netherlands}                                    % country
 }
 \address[id=aff2]{%
   \orgname{Developmental BioEngineering, MIRA Institute for Biomedical Technology and Technical Medicine, University of Twente},
-  %\street{ },
-  \postcode{7522NH}
+  \street{P.O. Box 217},                     %
+  \postcode{7500AE}                           % post or zip code
   \city{Enschede},
   \cny{The~Netherlands}
 }
 \address[id=aff3]{%
   \orgname{Human Media Interaction, Faculty of EEMCS, University of Twente},
-  %\street{ },
-  \postcode{7522NH}
+  \street{P.O. Box 217},                     %
+  \postcode{7500AE}                           % post or zip code
   \city{Enschede},
   \cny{The~Netherlands}
 }
@@ -246,9 +246,12 @@
 
 \begin{abstract} % abstract <= 350 words. Headers: background, results, conclusions
 \parttitle{Background}
-The large amount of data an experimental biologist
-must deal with makes the use of computational methods essential
-to reason on the dynamics of complex systems.
+Experimental biologists need to deal with large amounts of data on a daily basis.
+This makes computational support essential in order
+to reason on the dynamics of biological systems.
+% The large amount of data an experimental biologist
+% must deal with makes the use of computational methods essential
+% to reason on the dynamics of complex systems.
 The software tool ANIMO (Analysis of Networks with Interactive MOdelling)
 provides such computational support and allows insight into the complex networks of signalling events occurring in living cells.
 Biology experts are able to exploit the power of the underlying formal methods
@@ -303,18 +306,27 @@ between ODEs and fuzzy logic.
 \section*{Background}\label{sec:introduction}
 \subsection*{Modelling in cell biology}
 Executable biology is a young subfield in computational modelling, aimed at constructing models that mimic
-biological phenomena \emph{in silico}. It provides an interesting paradigm for enhancing network
-diagrams with an underlying formal description of both network components and their interactions.
-Executable models typically contain descriptions of the direct interactions of network components,
-requiring the modeller to think in terms of
+biological phenomena \emph{in silico}. It provides an interesting paradigm 
+% that enriches the
+% normally static biological network diagrams with dynamic information. An underlying formalism is used 
+% to describe
+% the dynamics of a network and its components. %, defining the executable model.
+% The analysis of an executable model typically produces graphs and animations, which help understand how the network evolves with time.
+% Executable models typically contain descriptions of the 
+to enhance network diagrams with an underlying formal description of network components
+and their interactions. Executable models typically contain descriptions of the 
+direct interactions of network components, requiring the modeller to think in terms of
 ``cause and effect''. Biologists reason in similar ways about the molecular mechanisms of network
 interactions, and this makes the construction of an executable model an intuitive process.
 ANIMO (Analysis of Networks with Interactive MOdelling,~\cite{animo-ieee,animo-gene})
 provides an enabling technology to increase the use of computational models by experimental
-biologists using their domain-specific language. Such models are indispensable for formally
-comparing experimental data to prior knowledge, or for structuring experimental findings into a
+biologists using their domain-specific language. 
+ANIMO enriches the normally static biological network diagrams with dynamic information,
+which is then used to automatically produce formal models representing the biological network.
+Such models are indispensable for formally
+comparing experimental data with prior knowledge, or for structuring experimental findings into a
 new theory.
-When dealing with complex biological networks executable biology models are particularly useful
+When dealing with complex biological networks, executable biology models are particularly useful
 to understand the non-linear dynamics and the entailed emergent properties of the networks.
 In those cases, an ANIMO model can be used as a support to obtain insight based on abstract
 representations of the interactions occurring inside living cells.
@@ -328,18 +340,18 @@ ANIMO is implemented as a plug-in to Cytoscape~\cite{cytoscape}, a software tool
 On top of the static topological information displayed in Cytoscape, ANIMO represents
 biological interactions starting from the basic concept of \emph{activity}:
 each biological entity in an ANIMO model is considered to be either active or inactive.
-Activity is to be intended in a very broad sense: for example, an active gene is being transcribed,
+Activity is to be interpreted in a very broad sense: for example, an active gene is being transcribed,
 an active kinase can perform phosphorylations, etc. Each node in an ANIMO network represents
 both active and inactive entities of the same type, with the relative amount of active entities
-represented by the node colour on a user-configurable scale. Interactions among nodes define
-how the biological entities in a network influence each other's activity.
-Only nodes whose activity is larger than 0 can have an 
+(the \emph{activity level}) represented by the node colour on a user-configurable scale.
+Interactions among nodes define how the biological entities in a network influence each other's activity.
+Only nodes whose activity level is larger than 0 (such nodes are called \emph{active}) can have an 
 influence on their downstream targets, and only if that influence is not counterbalanced by intervening opposite interactions.
 For example, the interaction $A\rightarrow B$ (read ``A activates B'') indicates that node A, if active,
 will increase the activity of node B. If we add an additional interaction to the example,
-$C \dashv$\hspace{0.1em}$B$ (``C inhibits B''), with C also active, then the activity of B will change depending on the
-activity levels of A and C, and on the \emph{strength} of their influence.
-The strength of an ANIMO interaction is a scale factor $k$ which defines the speed at which
+$C \dashv$\hspace{0.1em}$B$ (``C inhibits B''), with C also active, then the activity level of B will change depending on the
+activity levels of A and C, and on their quantitative influence.
+The influence of an ANIMO interaction is quantified by a scale factor $k$, which defines the speed at which
 that interaction occurs: higher values of $k$ give faster interactions. These $k$-values are
 the only parameters needed in an ANIMO model, and can be given in either
 a quantitative (as real numbers) or a qualitative way, choosing among self-explanatory descriptions
@@ -348,14 +360,15 @@ such as ``very slow'', ``slow'', ``medium'', ``fast'', ``very fast''.
 
 \begin{figure*}[htbp]
 \begin{center}
-   \includegraphics[width=.85\textwidth]{images/screenshotTNFmodelSmall}
+%    \includegraphics[width=.85\textwidth]{images/screenshotTNFmodelSmall}
+  \includegraphics[width=.85\textwidth]{Figures/1}
 \end{center}
 \caption{\csentence{The Cytoscape user interface running the ANIMO plug-in.}
 The \emph{Network} panel in the centre contains the nodes-edges
 model of the example TNF$\alpha$ pathway (see Methods Section), with
 colours indicating node activity levels and shapes representing different protein categories (see the \emph{Legend} on the left).
 The \emph{Results Panel} on the right contains a graph plotting activity levels of selected nodes
-during the first 24 hours of evolution of the model. The slider under the graph
+during the first 24 hours of simulation of the model. The slider under the graph
 allows the user to select the time instant (marked as a vertical red line in the graph) on which
 the colours nodes in the \emph{Network} are based.
 The series with the {\sf \_data} suffix is experimental
@@ -366,8 +379,8 @@ and their corresponding UniProt IDs are listed in Suppl. Sect.~\ref{suppl-sec:na
 \end{figure*}
 
 
-ANIMO models are analysed to produce graphs showing how the activity of selected nodes
-change with time, allowing the user to obtain a view on the dynamic behaviour of their network.
+ANIMO produces graphs showing how the activity levels of selected nodes
+change over time, allowing the user to obtain a view on the dynamic behaviour of their network.
 In order to obtain these results, a model defined in ANIMO is automatically translated into
 its corresponding representation as a network of Timed Automata~\cite{timed-automata-alur-dill}
 and then analysed \emph{behind the scenes} with the software tool UPPAAL~\cite{uppaal}.
@@ -386,7 +399,8 @@ Figure~\ref{fig:animo-spectrum} shows the position of ANIMO in a spectrum of mod
 
 \begin{figure*}[htbp]
  \begin{center}
-  \includegraphics[width=0.9\textwidth]{images/modeling_methods_spectrum_animo}
+%   \includegraphics[width=0.9\textwidth]{images/modeling_methods_spectrum_animo}
+  \includegraphics[width=0.9\textwidth]{Figures/2}
  \end{center}
 \caption{\csentence{The spectrum of modelling methods, with the addition of ANIMO.}
 The precision of ANIMO models is halfway between fuzzy logic and ODE. In addition, ANIMO
@@ -498,7 +512,7 @@ the widely used network modelling software Cytoscape.\label{fig:animo-spectrum}}
 
 
 \section*{Results}\label{sec:results}
-\subsection*{Modelling oscillation}\label{sec:animo-drosophila}
+\subsection*{Modelling oscillation in Drosophila Melanogaster circadian clock}\label{sec:animo-drosophila}
 To demonstrate that results obtained with ANIMO are comparable to results from widely used modelling
 approaches, we present 
 an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster} (Fig.~\ref{fig:drosophila-model}).
@@ -529,7 +543,8 @@ between the ANIMO model and the original ODE model are given in Supplementary Se
 
 \begin{figure*}[!htpb]
 \begin{center}
-\pgfuseimage{ANIMOvsODE-smaller-comparison}
+% \pgfuseimage{ANIMOvsODE-smaller-comparison}
+  \pgfuseimage{Fig3}
 \end{center}
 \caption{\label{fig:grafici-drosophila-smaller}\csentence{Comparing the result of the ANIMO model of \emph{Drosophila Melanogaster} circadian clock
 with the model of~\cite{drosophila-ode-model}.} 24 hours simulations of the two models were compared
@@ -544,7 +559,7 @@ against each other, synchronizing their start point as much as possible. The blu
 
 
 
-\subsection*{Using ANIMO to generate hypotheses}\label{subsec:case-study-larger}
+\subsection*{Using ANIMO to generate hypotheses in human colon carcinoma cells}\label{subsec:case-study-larger}
 We now present a comparison with an existing fuzzy logic model, which we use also as an example of how
 ANIMO can be used to create reference models and help to obtain insight into complex biological events.
 
@@ -578,7 +593,8 @@ for treatments with 100 ng/ml TNF alone and 100 ng/ml EGF alone (data not shown)
 % \addtocounter{subfigure}{-1}
 % \subfloat[\label{fig:large-model-graph1}]{\includegraphics[scale=\scalaGrafici]{images/TGF100_TNF0_ho_hyp_IL-1a3}}
 % \subfloat[\label{fig:large-model-graph3}]{\includegraphics[scale=\scalaGrafici]{images/TNF5_C225_no_hyp_JNK1_MK2}}
-  \includegraphics[width=0.9\textwidth]{images/large_network_merged_no_hypotheses_completa}
+%   \includegraphics[width=0.9\textwidth]{images/large_network_merged_no_hypotheses_completa}
+  \includegraphics[width=0.9\textwidth]{Figures/4}
 \caption{\csentence{Signalling network downstream of TNF$\alpha$ and EGF in human colon carcinoma cells.}
 {\bf(A)} %{\bf \protect\subref{fig:large-model-no-hypotheses}}
 The model for the merged TNF$\alpha$ and EGF pathways. Node colours represent the
@@ -638,7 +654,8 @@ c-Fos in our model as transcriptional activators of IL-1$\alpha$ (Fig.\ref{fig:l
 % \subfloat[\label{fig:large-model-complete}]{\includegraphics[scale=\largeModelScale]{images/large_network_legendg}}\\
 %  \subfloat[\label{fig:large-model-graph2}]{\includegraphics[scale=\scalaGrafici]{images/TGF100_vs_TNF100_hyp1_IL-1a4}}
 %  \subfloat[\label{fig:large-model-graph4}]{\includegraphics[scale=\scalaGrafici]{images/TNF5_C225_hyp2_JNK1_MK2}}
-  \includegraphics[width=0.9\textwidth]{images/large_network_legendg_completa}
+%  \includegraphics[width=0.9\textwidth]{images/large_network_legendg_completa}
+  \includegraphics[width=0.9\textwidth]{Figures/5}
 \end{center}
 \caption{\csentence{Signalling network downstream of TNF$\alpha$ and EGF in human colon carcinoma cells: improved model.}
 {\bf(A)} %{\bf \protect\subref{fig:large-model-complete}}
@@ -707,7 +724,7 @@ of a signal transduction network can be used to extend previous pathway topologi
 
 \section*{Discussion}
 \subsection*{Final remarks on the models}
-We described the construction of an ANIMO
+We first described the construction of an ANIMO
 model of the circadian clock in \emph{Drosophila Melanogaster}. This model
 captured the dynamics of the regulatory network and led to similar
 conclusions as an ODE model that had been
@@ -719,7 +736,7 @@ with an algorithm for simulation. In ANIMO a number of network
 nodes is drawn for the molecules involved.
 These nodes are then linked by directed
 interactions that represent cause-and-effect relationships, with a single parameter
-that defines the strength of each
+that defines the quantitative effect of each
 interaction. This approach to construct a model is closer to biological practice.
 Further contributing to an interactive modelling process
 is the compositionality of the model. Each node in the network
@@ -755,7 +772,7 @@ that are involved in activation or inhibition.
 Here we used a data set based on the wet-lab experiments described in~\cite{pathway-compendium}. We used the
 resulting experimental data, together with knowledge from curated databases~\cite{kegg,phosphosite}
 to construct an executable model of the biological system.
-In contrast to the two approaches described above, ANIMO is aimed at the construction of
+In contrast to the two approaches described above (partial least-squares regression and fuzzy logic), ANIMO is aimed at the construction of
 more mechanistic models, mimicking biochemical interactions \emph{in silico}. This way of modelling
 gives a different type of insight. In the process of model construction, we extended a
 prior-knowledge network with time-dependent extracellular crosstalk that has been reported
@@ -772,14 +789,15 @@ But above all,  the model provides an excellent starting point for further inves
 % accessible, ANIMO models facilitate sharing knowledge within and between groups and encourage collaborations.
 
 
-\subsection*{Comparison between ANIMO and other modelling tools}\label{suppl:comparison-table}
+\subsection*{User experience: ANIMO and other modelling tools}\label{suppl:comparison-table}
 Different formalisms are in use in the field of computational
 modelling of biological systems, each with their specific characteristics.
 Many of these formalisms have been implemented into
 software tools to support modelling efforts. To compare
 ANIMO with existing tools, we have selected a number of mathematical formalisms,
 each connected to a supporting tool. With an emphasis on the modelling
-process rather than the final model, we compared these tools on
+process rather than the final model, and in an attempt to
+evaluate the degree of ``interactivity'' of these tools, we compared them on
 the basis of the following parameters:
 
 \begin{enumerate}
@@ -830,7 +848,7 @@ GINsim~\cite{ginsim} & Boolean Networks & No & Yes & Yes & Yes & Yes~$^2$
       \\[5mm]
 % \noalign{\vskip 2mm}
 GNA~\cite{gna}    & PLDE & No & Yes & Yes & Yes & Yes~$^2$
-      \\
+      \\[5mm]
 % \noalign{\vskip 2mm}
 Rhapsody~$^3$
  & Statecharts & No & Yes & Yes & No~$^4$ & No
@@ -872,14 +890,15 @@ such as reactant concentration or reaction affinity.
 % primary importance, we encourage the interested reader to turn to more precise
 % modeling approaches, such as those based on differential equations.
 
-All reactants modelled in ANIMO are assumed to be present at the same
-(unitary) concentration. While this assumption is not always applicable, it encourages
+For each reactant modelled in ANIMO we assume that the total amount
+of active and inactive molecules remains constant.
+While this assumption is not always applicable, it encourages
 abstract thought: many biological processes can be represented as networks driven by
 \emph{activity-based} interactions (see Methods Section). Even if with a limited scope, ANIMO can be applied
 also in the analysis of metabolic processes, considering the production of protein $A$ as
 the activation of node $A$, with degradation being represented as inhibition. As stated before,
 it cannot be expected from such models to be a completely realistic representation of their target biological
-processes, but they can still be an useful tool. This can be seen for example in the circadian clock
+processes, but they can still be a useful tool. This can be seen for example in the circadian clock
 model in the Results section, where mRNA and protein concentrations were abstracted to
 activity-driven processes in the ANIMO model.
 
@@ -909,11 +928,17 @@ activity-driven processes in the ANIMO model.
 In this paper we discussed the placement of ANIMO among other modelling paradigms and tools,
 highlighting ANIMO's strong points.
 
-ANIMO is not the first modelling tool to provide an interface to a
-modelling formalism. Such interfaces exist in many other tools (as shown in Tab.~\ref{tab:tool-comparison}). With its
-focus on user-friendliness and intuitive modelling, ANIMO's main contribution lies
-in making computational modelling more accessible to experts in biology.
-Making use of the visual
+From the point of view of model precision, we position ANIMO between fuzzy logic and ODEs.
+Being less parameter-intensive than ODEs more precise than logic-based models,
+ANIMO models are flexible enough to be useful in many occasions.
+
+ANIMO adds a dynamic component to the static networks already familiar to biologists,
+allowing the domain experts to build formal executable models of complex biological networks.
+ANIMO is not the first tool to provide an interface to a
+modelling formalism: as shown in Table~\ref{tab:tool-comparison}, such interfaces exist in many other tools.
+Focusing on user-friendliness and interactive modelling, ANIMO
+makes computational modelling more accessible to experts in biology.
+Thanks to the visual
 interface provided by Cytoscape, network representations subscribe to biological conventions.
 Model parameters are kept to a minimum and can be directly accessed by mouse-clicking on
 nodes and edges. Because of the automatic translation of the network topology and
@@ -963,7 +988,8 @@ is not needed.
 % \subfloat[\label{subfig:erk}]{\includegraphics[scale=.098]{images/abstraction_ta_erk}}
 %   \quad%\qquad\qquad
 % \subfloat[\label{subfig:mek}]{\includegraphics[scale=.098]{images/abstraction_ta_mek}}
-  \includegraphics[width=0.7\textwidth]{images/abstraction_ta_mek-erk3_oneImage}
+%   \includegraphics[width=0.7\textwidth]{images/abstraction_ta_mek-erk3_oneImage}
+  \includegraphics[width=0.8\textwidth]{Figures/6}
 \end{center}
 \caption{\csentence{Abstraction of a biochemical reaction to a \tas\ model.}
 {\bf(A)} %{\bf \protect\subref{subfig:mek-erk}}~
@@ -975,8 +1001,8 @@ and one transition (arrow) between the states. This transition will take place w
 the corresponding action {\sf activate\_ERK!} in the MEK automaton.
 {\bf(C)} %{\bf \protect\subref{subfig:mek}}~
 A \ta\ model of active MEK, consisting of one state and one
-transition. ${\sf t} < 20$ is termed an invariant on the state, allowing residence in this state as long as local
-clock time {\sf t} is smaller than $20$ units. ${\sf t} > 18$ is termed a guard on the transition, allowing the
+transition. ${\sf t} < 20$ is called an invariant on the state, allowing residence in this state as long as local
+clock time {\sf t} is smaller than $20$ units. ${\sf t} > 18$ is called a guard on the transition, allowing the
 transition to take place when local clock {\sf t} is greater than $18$ units. Together, the invariant and guard in this
 example ensure that the transition must take place in the (continuous) time interval $18 < {\sf t} < 20$. When the
 transition takes place, the action {\sf activate\_Erk!} is performed (thus allowing the ERK automaton to reach the {\sf
@@ -1020,12 +1046,12 @@ Timed Automata have been shown to be a powerful formalism to model biological pr
 ~\cite{ta-siebert,bartocci-oscillators,oded-ode-ta-discretization}. A timed automaton consists of locations
 and transitions between these locations (see Fig.~\ref{fig:abstraction-mek-erk}), and a system of timed automata can be
 used to model a system of interacting molecules. At any time, each automaton is in a specific location, and together
-these locations represent the current state of the biological system. Each timed automaton can have one or more local clocks
-associated to it, allowing temporal control of transitions between locations. These transitions are used to
+these locations represent the current state of the biological system. Each timed automaton can have one or more clocks
+associated to it, allowing temporal control of transitions between locations. The transitions are used to
 represent interactions between molecules. Fast interactions take less time than slow interactions
 to perform an activation or inhibition step. We have previously described in detail how approximated
-scenarios~\cite{animo-ieee} (see also Suppl. Sect.~\ref{subsec:abstractions}) can be used to calculate the timing of molecular
-interactions to give a description of network dynamics. Figure~\ref{fig:abstraction-mek-erk}
+reaction kinetics~\cite{animo-ieee} can be used to calculate the timing of molecular
+interactions (see also Suppl. Sect.~\ref{subsec:abstractions}). Figure~\ref{fig:abstraction-mek-erk}
 presents a small example that illustrates the basic properties of \tas.
 This model describes the activation of ERK by MEK.
 
@@ -1056,7 +1082,8 @@ maximum value in the complete experiment, resulting in a nondimensionalized data
 % %\subfloat[\label{fig:small-model-second-graph}]{\includegraphics[scale=\halfGraphScale]{images/00-paper-graph2m_riga}}
 % \subfloat[\label{fig:small-model-third-graph}]{\includegraphics[scale=\halfGraphScale]{images/00-paper-graph3n_riga}}
 % \subfloat[\label{fig:small-model-fourth-graph}]{\includegraphics[scale=\halfGraphScale]{images/00-paper-graph4o_riga}}
-  \includegraphics[width=0.9\textwidth]{images/small_model_completa}
+%   \includegraphics[width=0.9\textwidth]{images/small_model_completa}
+  \includegraphics[width=0.9\textwidth]{Figures/7}
   \caption{
 %{\bf (\protect\subref*{subfig:mek-erk} - \protect\subref*{subfig:mek})}
 %\\
@@ -1237,7 +1264,9 @@ We would like to thank Christof Francke for valuable discussions.
   \subsection*{Additional file 1 --- ANIMO models and data for the case studies}
       The provided .zip file contains the Cytoscape .cys network files which can be analysed
       with ANIMO. In addition, the reference values in .csv format are provided, to compare
-      ANIMO's results with the previously existing models.
+      ANIMO's results with the previously existing models. In order to grant a fair comparison,
+      note that ANIMO's results need to be rescaled the same way as the ODE results
+      (i.e. normalize each series w.r.t. to its minimum and maximum) before the comparison.
 
 
 \end{backmatter}
@@ -1283,8 +1312,6 @@ We would like to thank Christof Francke for valuable discussions.
  {\huge Additional Materials}
 \end{center}
 \clearpage
-
-
 
 
 
@@ -1343,12 +1370,22 @@ We would like to thank Christof Francke for valuable discussions.
 \makeatother
 
 
+\startcontents[appendices]
+\stopcontents[appendices]
 
 
 \addtocontents{toc}{\protect\setcounter{tocdepth}{5}}
 \thispagestyle{empty}
-\tableofcontents
+%\tableofcontents
+\renewcommand\contentsname{Table of Contents}
+\section*{Table of Contents}
+\ \\ \ \\
+\printcontents[appendices]{ }{1}{}
 \clearpage
+
+
+\resumecontents[appendices]
+
 
 \setcounter{page}{1}
 \setcounter{section}{0}
@@ -1418,9 +1455,12 @@ in the main text.}\label{suppl-tab:names} \\
 \noalign{\vskip 2mm}  JNK1 & c-Jun N-terminal kinase 1 & P45983\\
 \noalign{\vskip 2mm}  MEK & MAPK ERK kinase & Q02750\\
 \noalign{\vskip 2mm}  MEKK1 & MAPK/ERK kinase kinase 1 & Q13233\\
-\noalign{\vskip 2mm}  MK2 & mitogen-activated protein kinase-activated protein kinase 2 & P49137\\
-\noalign{\vskip 2mm}  MKK3/6 & dual specificity mitogen-activated protein kinase kinase 3/6 & P46734 / P52564\\
-\noalign{\vskip 2mm}  MKK4/7 & dual specificity mitogen-activated protein kinase kinase 4/7 & P45985 / O14733\\
+\noalign{\vskip 2mm}  MK2 & mitogen-activated protein kinase-activated\\
+			  & protein kinase 2 & P49137\\
+\noalign{\vskip 2mm}  MKK3/6 & dual specificity mitogen-activated\\
+			     & protein kinase kinase 3/6 & P46734 / P52564\\
+\noalign{\vskip 2mm}  MKK4/7 & dual specificity mitogen-activated\\
+			     & protein kinase kinase 4/7 & P45985 / O14733\\
 \noalign{\vskip 2mm}  NF-kB & nuclear factor kappa-B & P19838\\
 \noalign{\vskip 2mm}  p38 & mitogen-activated protein kinase p38 & Q16539\\
 \noalign{\vskip 2mm}  PDP1 & par-domain protein 1 & Q9TVY0\\
@@ -1554,7 +1594,8 @@ Nevertheless, the \tas\ model and the model checking process in UPPAAL can be ac
 \begin{center}
 \begin{minipage}{\textwidth}
 \begin{center}
-  \includegraphics[width=0.9\textwidth]{images/animo_simulation_workflow}
+%   \includegraphics[width=0.9\textwidth]{images/animo_simulation_workflow}
+  \includegraphics[width=0.9\textwidth]{Figures/S1}
 \caption{\csentence{The passages intercurring between the press of the \emph{Analyse network} button
 and the generation of an activity level graph.}
 The model represented in the Cytoscape visual interface is automatically translated by ANIMO
@@ -1619,12 +1660,12 @@ There, the activity levels of MEK and ERK are represented by variables called, r
 and $\mbox{ERK}_{\mbox{\scriptsize activity}}$. A more detailed description of the \tas\ model underlying ANIMO was
 presented in the IEEE Journal of Biomedical and Health Informatics~\cite{animo-ieee}.
 
-\tikzstyle{decision} = [rectangle, draw, fill=yellow!20, text width=.45\textwidth, text badly centered]
-\tikzstyle{block} = [rectangle, draw, fill=blue!20,
-    text width=.5\textwidth, text centered, rounded corners, minimum height=4em]
-\tikzstyle{line} = [draw, thick, -latex']
-\tikzstyle{cloud} = [draw, ellipse,fill=blue!20, minimum height=2em]
-\def\svgwidth{.8\textwidth}
+% \tikzstyle{decision} = [rectangle, draw, fill=yellow!20, text width=.45\textwidth, text badly centered]
+% \tikzstyle{block} = [rectangle, draw, fill=blue!20,
+%     text width=.5\textwidth, text centered, rounded corners, minimum height=4em]
+% \tikzstyle{line} = [draw, thick, -latex']
+% \tikzstyle{cloud} = [draw, ellipse,fill=blue!20, minimum height=2em]
+% \def\svgwidth{.8\textwidth}
 \definecolor{lowActivity}{rgb}{0.8,0,0}
 \definecolor{highActivity}{rgb}{0,0.8,0}%{1,0.8,0}
 \newsavebox{\mysquareLow}
@@ -1660,58 +1701,59 @@ presented in the IEEE Journal of Biomedical and Health Informatics~\cite{animo-i
 \begin{minipage}{\textwidth}
 \centering
 
-\begin{tikzpicture}[node distance = 2cm, auto, scale=0.8, every node/.style={scale=0.8}]
-    % Place nodes
-    \node [block] (init) {
-\begingroup
-  \makeatletter
-  \providecommand\color[2][]{%
-    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
-    \renewcommand\color[2][]{}%
-  }
-  \providecommand\transparent[1]{%
-    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty'
-is not loaded}
-    \renewcommand\transparent[1]{}%
-  }
-  \providecommand\rotatebox[2]{#2}
-  \ifx\svgwidth\undefined
-    \setlength{\unitlength}{1974.66679688pt}
-  \else
-    \setlength{\unitlength}{\svgwidth}
-  \fi
-  \global\let\svgwidth\undefined
-  \makeatother
-  \begin{picture}(1,0.37)%26031697)%
-    \put(0,0){\includegraphics[width=\unitlength]{images/mek_activity_time_tables2.pdf}}%
-    \put(-0.08,0.20182345){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{\mbox{\scriptsize lowerBound}}$}}}%
-    \put(-0.08,0.07442319){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{\mbox{\scriptsize upperBound}}$}}}%
-    \put(0.45,0.325)%23815501)
-	{\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mbox{MEK}_{\mbox{\scriptsize
-activity}}$}}}%
-  \end{picture}%
-\endgroup
-};
-    \node [block, above of=init, node distance=2.5cm] (reset) {Reset the internal clock: ${\sf t} \!\!:= \!\!0$};
-    \node [cloud, above of=reset, node distance=1.5cm] (start) {Start};
-\node [block, below of=init, node distance=2.5cm] (choose) {$R$ will occur when
-\raisebox{-0.3ex}{\pgfuseimage{lower-bound}} $\leq\!\!\! {\sf t}\!\!\! \leq$
-\raisebox{-0.3ex}{\pgfuseimage{upper-bound}}
-    };
-    \node [block, below of=choose] (increase) {Increase $\mbox{ERK}_{\mbox{\scriptsize activity}}$
-by $+1$ level};
-    \node [block, below of=increase] (inform) {Inform interactions \mbox{depending} on $\mbox{ERK}_{\mbox{\scriptsize
-activity}}$ 
-    of the change};
-    % Draw edges
-    \path [line] (start) -- (reset);
-    \path [line] (reset) -- (init);
-    \path [line] (init) -- (choose);
-    \path [line] (choose.west) -| +(-0.5, 2) node [pos=0.78, sloped, above, align=left] {$\mbox{MEK}_{\mbox{\scriptsize activity}}$ was changed} |- (init.west);
-    \path [line] (choose) -- (increase);
-    \path [line] (increase) -- (inform);
-    \path [line] (inform.east) -| +(1, 4) |- (reset.east);
-\end{tikzpicture}
+% \begin{tikzpicture}[node distance = 2cm, auto, scale=0.8, every node/.style={scale=0.8}]
+%     % Place nodes
+%     \node [block] (init) {
+% \begingroup
+%   \makeatletter
+%   \providecommand\color[2][]{%
+%     \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+%     \renewcommand\color[2][]{}%
+%   }
+%   \providecommand\transparent[1]{%
+%     \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty'
+% is not loaded}
+%     \renewcommand\transparent[1]{}%
+%   }
+%   \providecommand\rotatebox[2]{#2}
+%   \ifx\svgwidth\undefined
+%     \setlength{\unitlength}{1974.66679688pt}
+%   \else
+%     \setlength{\unitlength}{\svgwidth}
+%   \fi
+%   \global\let\svgwidth\undefined
+%   \makeatother
+%   \begin{picture}(1,0.37)%26031697)%
+%     \put(0,0){\includegraphics[width=\unitlength]{images/mek_activity_time_tables2.pdf}}%
+%     \put(-0.08,0.20182345){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{\mbox{\scriptsize lowerBound}}$}}}%
+%     \put(-0.08,0.07442319){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$R_{\mbox{\scriptsize upperBound}}$}}}%
+%     \put(0.45,0.325)%23815501)
+% 	{\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mbox{MEK}_{\mbox{\scriptsize
+% activity}}$}}}%
+%   \end{picture}%
+% \endgroup
+% };
+%     \node [block, above of=init, node distance=2.5cm] (reset) {Reset the internal clock: ${\sf t} \!\!:= \!\!0$};
+%     \node [cloud, above of=reset, node distance=1.5cm] (start) {Start};
+% \node [block, below of=init, node distance=2.5cm] (choose) {$R$ will occur when
+% \raisebox{-0.3ex}{\pgfuseimage{lower-bound}} $\leq\!\!\! {\sf t}\!\!\! \leq$
+% \raisebox{-0.3ex}{\pgfuseimage{upper-bound}}
+%     };
+%     \node [block, below of=choose] (increase) {Increase $\mbox{ERK}_{\mbox{\scriptsize activity}}$
+% by $+1$ level};
+%     \node [block, below of=increase] (inform) {Inform interactions \mbox{depending} on $\mbox{ERK}_{\mbox{\scriptsize
+% activity}}$ 
+%     of the change};
+%     % Draw edges
+%     \path [line] (start) -- (reset);
+%     \path [line] (reset) -- (init);
+%     \path [line] (init) -- (choose);
+%     \path [line] (choose.west) -| +(-0.5, 2) node [pos=0.78, sloped, above, align=left] {$\mbox{MEK}_{\mbox{\scriptsize activity}}$ was changed} |- (init.west);
+%     \path [line] (choose) -- (increase);
+%     \path [line] (increase) -- (inform);
+%     \path [line] (inform.east) -| +(1, 4) |- (reset.east);
+% \end{tikzpicture}
+\includegraphics[width=0.5\textwidth]{Figures/S2}
 \caption{\csentence{Schematic overview of the steps taken during a simulation run by a Timed Automaton modelling an interaction $R$ that
 increases $\mbox{ERK}_{\mbox{\scriptsize activity}}$ and depends only on $\mbox{MEK}_{\mbox{\scriptsize activity}}$.}
 In this example, MEK is represented with a granularity of 10 activity levels.
@@ -1744,7 +1786,8 @@ number of levels of a node. This allows to adapt a model to the quality of exper
 % \subfloat[\label{suppl:fig1-10levels}]{\includegraphics[width=.45\textwidth]{images/JNK1_10levels3}} \\
 % \subfloat[\label{suppl:fig1-50levels}]{\includegraphics[width=.45\textwidth]{images/JNK1_50levels3}} \qquad
 % \subfloat[\label{suppl:fig1-100levels}]{\includegraphics[width=.45\textwidth]{images/JNK1_100levels3}}
-\includegraphics[width=\textwidth]{images/JNK1_levels}
+% \includegraphics[width=\textwidth]{images/JNK1_levels}
+  \includegraphics[width=\textwidth]{Figures/S3}
 \caption{\csentence{Comparing different reactant granularity settings.}
 %{\bfseries (\protect\subref*{suppl:fig1-1level})} %
 {\bf(A)} 2 levels,
@@ -1773,7 +1816,8 @@ an oscillatory behavior.
 \def\drosophilaGraphScale{0.069}%0.123}
 \begin{figure*}[!htpb]
 \begin{center}
-\includegraphics[width=0.75\textwidth]{images/drosophila_model5}%0.85\textwidth
+  \includegraphics[width=0.75\textwidth]{Figures/S4}
+% \includegraphics[width=0.75\textwidth]{images/drosophila_model5}%0.85\textwidth
 % \subfloat[\label{subfig:drosophila-mrna}]{\includegraphics[scale=\drosophilaGraphScale]{images/drosophila_graph2}}\
 % \subfloat[\label{subfig:drosophila-proteins}]{\includegraphics[scale=\drosophilaGraphScale]{images/drosophila_graph1}}
 \end{center}
@@ -1814,7 +1858,8 @@ was introduced in the equations to approximate the experimental data from~\cite{
   \centering
   %\subfloat[\label{subfig:repressilator-model}]{\begin{minipage}[c][\reprGraphHeight]{0.35\textwidth}\begin{center}\reprGraph\end{center}\end{minipage}}\qquad
   %\subfloat[\label{subfig:repressilator-graph}]{\begin{minipage}[c][\reprGraphHeight]{0.6\textwidth}\begin{center}\includegraphics[width=\textwidth]{images/CRY_oscillations}\end{center}\end{minipage}}
-  \includegraphics[width=0.6\textwidth]{images/drosophila_model_repressilator_con_grafico}
+%   \includegraphics[width=0.6\textwidth]{images/drosophila_model_repressilator_con_grafico}
+  \includegraphics[width=0.6\textwidth]{Figures/S5}
 \caption{\csentence{Modelling the dany/night cycle in ANIMO.}{\bf (A)} The repressilator-like subnetwork used to represent the alternation
 between day and night that cause the oscillations in {\sf CRY} concentrations in the
 network modelled in the Results Section.
@@ -1856,7 +1901,8 @@ of this comparison can be seen in Figure~\ref{suppl-fig:grafici-drosophila}.
 % \subfloat[vri]{\includegraphics[scale=\drosophilaGraphScale]{images/Circadian/vri_mRNA}} &
 % \subfloat[VRI]{\includegraphics[scale=\drosophilaGraphScale]{images/Circadian/VRI_prot}}
 % \end{tabular}
-\pgfuseimage{CircadianComparison}
+% \pgfuseimage{CircadianComparison}
+  \pgfuseimage{FigS6}
 \caption{\csentence{Comparing the simulation results from the ANIMO and ODE models of
 \emph{Drosophila Melanogaster} circadian clock.} Blue lines ({\sf \_{}ANIMO} series)
 represent data from the ANIMO model in Figure~\ref{fig:drosophila-model},
@@ -2124,13 +2170,14 @@ with {\sf TNFa} set at 8 out of 100.
 \clearpage
 
 \section{Supplementary figures}\label{sec:supplementary-figures}
-\addcontentsline{toc}{section}{Supplementary figures}
+%\addcontentsline{toc}{section}{Supplementary figures}
 
 
 \begin{figure}[htpb]
 \begin{minipage}{\textwidth}
 \centering
-  \includegraphics[width=.7\textwidth]{images/large_network_tnfa2}
+%   \includegraphics[width=.7\textwidth]{images/large_network_tnfa2}
+  \includegraphics[width=.7\textwidth]{Figures/S7}
 \caption{\csentence{The model for the TNF$\alpha$ pathway in isolation.} Node colours represent the activity level of the
 corresponding modelled reactants at time $t = 10$ minutes after a stimulation of 100 ng/ml TNF$\alpha$.}\label{fig:large-model-tnf}
 \end{minipage}
@@ -2139,7 +2186,8 @@ corresponding modelled reactants at time $t = 10$ minutes after a stimulation of
 \begin{figure}[!tpb]
 \begin{minipage}{\textwidth}
 \centering
-  \includegraphics[width=.7\textwidth]{images/large_network_egf3}
+%   \includegraphics[width=.7\textwidth]{images/large_network_egf3}
+  \includegraphics[width=.7\textwidth]{Figures/S8}
 \caption{\csentence{The model for the EGF pathway in isolation.} Node colours represent the
 activity level of the corresponding modelled reactants at time $t = 5$ minutes after
 a stimulation of 100 ng/ml EGF.}\label{fig:large-model-egf}
@@ -2155,7 +2203,8 @@ a stimulation of 100 ng/ml EGF.}\label{fig:large-model-egf}
 \centering
 %   \subfloat{\includegraphics[width=\textwidth]{images/large_network_hypotheses7}}\\
 % \subfloat{\includegraphics[scale=\legendScalaColori]{images/legenda_forme}} \subfloat{\includegraphics[scale=\legendScalaForme]{images/legenda_colori}}
-\includegraphics[width=0.9\textwidth]{images/large_network_hypotheses7_complete}
+% \includegraphics[width=0.9\textwidth]{images/large_network_hypotheses7_complete}
+  \includegraphics[width=0.9\textwidth]{Figures/S9}
 \caption{\csentence{The merged model for the TNF$\alpha$-EGF pathway with the two hypotheses are highlighted.}
 The first hypothesis is the dependence IL-1$\alpha$ expression on the
 combined activity of ERK and JNK1. The second hypothesis assumes an as yet unidentified protein (Hyp2) to link EGFR to MEKK1.
@@ -2182,7 +2231,8 @@ Node colours represent initial activity levels.}\label{fig:large-model-hypothese
 % \subfloat[FKHR (12 hours)]{\includegraphics[width=0.29\textwidth]{images/TNFa100/FKHR_720}}
 % \end{tabularx}
 \begin{center}
-  \pgfuseimage{100TNF0EGF}
+%   \pgfuseimage{100TNF0EGF}
+  \pgfuseimage{FigS10}
 \end{center}
 \caption{\csentence{Comparison between the ANIMO model in Figure~\ref{fig:large-model-complete} and experimental data.} Treatment condition: 100 ng/ml TNF$\alpha$.
 In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.}\label{fig:differences1}
@@ -2209,7 +2259,8 @@ In order to ease the comparison for earlier responses, the time span for those c
 % \subfloat[FKHR (12 hours)]{\includegraphics[width=0.29\textwidth]{images/EGF100/FKHR_720}}
 % \end{tabularx}
 \begin{center}
- \pgfuseimage{0TNF100EGF}
+%  \pgfuseimage{0TNF100EGF}
+  \pgfuseimage{FigS11}
 \end{center}
 \caption{\csentence{Comparison between the ANIMO model in Figure~\ref{fig:large-model-complete} and experimental data.} Treatment condition: 100 ng/ml EGF.
 In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.}\label{fig:differences2}
@@ -2234,7 +2285,8 @@ In order to ease the comparison for earlier responses, the time span for those c
 % \subfloat[FKHR (4 hours)]{\includegraphics[width=0.29\textwidth]{images/TNFa100_EGF100/FKHR_240}}
 % \end{tabularx}
 \begin{center}
- \pgfuseimage{100TNF100EGF}
+%  \pgfuseimage{100TNF100EGF}
+  \pgfuseimage{FigS12}
 \end{center}
 \caption{\csentence{Comparison between the ANIMO model in Figure~\ref{fig:large-model-complete} and experimental data.} Treatment condition: 100 ng/ml TNF$\alpha$ + 100 ng/ml EGF.
 In order to ease the comparison for earlier responses, the time span for those cases is less than 24 hours.}\label{fig:differences3}

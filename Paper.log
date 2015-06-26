@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  22 MAY 2015 14:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  26 JUN 2015 15:50
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -880,28 +880,28 @@ Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@width=\dimen180
 )
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/TNFa-EGF/100TNFa-0EGF/100TNF_0
-EGF_ANIMOvsFuzzy-crop.pdf): PDF inclusion: found PDF version <1.5>, but at most
- version <1.4> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./images/lowerbound.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/TNFa-EGF/0TNFa-100EGF/0TNF_100
-EGF_ANIMOvsFuzzy-crop.pdf): PDF inclusion: found PDF version <1.5>, but at most
- version <1.4> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/S10.pdf): PDF inclusion: foun
+d PDF version <1.5>, but at most version <1.4> allowed
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/TNFa-EGF/100TNFa-100EGF/100TNF
-_100EGF_ANIMOvsFuzzy-crop.pdf): PDF inclusion: found PDF version <1.5>, but at 
-most version <1.4> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/S11.pdf): PDF inclusion: foun
+d PDF version <1.5>, but at most version <1.4> allowed
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/Circadian/ANIMOvsODE-crop.pdf)
-: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/S12.pdf): PDF inclusion: foun
+d PDF version <1.5>, but at most version <1.4> allowed
 
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/Circadian/ANIMOvsODE_small_com
-parison-crop.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
-<1.4> allowed
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/S6.pdf): PDF inclusion: found
+ PDF version <1.5>, but at most version <1.4> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/3.pdf): PDF inclusion: found 
+PDF version <1.5>, but at most version <1.4> allowed
 \@indexfile=\write4
 \openout4 = `Paper.idx'.
 
@@ -1040,12 +1040,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 258.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 261.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 323.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 335.
 
 
 
@@ -1056,150 +1056,131 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-<images/screenshotTNFmodelSmall.png, id=30, 1506.62875pt x 986.68625pt>
-File: images/screenshotTNFmodelSmall.png Graphic file (type png)
+<Figures/1.png, id=30, 1407.2575pt x 862.22125pt>
+File: Figures/1.png Graphic file (type png)
+ <use Figures/1.png>
+Package pdftex.def Info: Figures/1.png used on input line 364.
+(pdftex.def)             Requested size: 306.8522pt x 188.00523pt.
 
-<use images/screenshotTNFmodelSmall.png>
-Package pdftex.def Info: images/screenshotTNFmodelSmall.png used on input line 
-351.
-(pdftex.def)             Requested size: 306.8522pt x 200.9471pt.
-
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 365--365
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 378--378
 [][] [] 
  []
 
-
-<images/modeling_methods_spectrum_animo.png, id=31, 908.39375pt x 410.53375pt>
-File: images/modeling_methods_spectrum_animo.png Graphic file (type png)
-
-<use images/modeling_methods_spectrum_animo.png>
-Package pdftex.def Info: images/modeling_methods_spectrum_animo.png used on inp
-ut line 389.
+<Figures/2.png, id=31, 908.39375pt x 410.53375pt>
+File: Figures/2.png Graphic file (type png)
+ <use Figures/2.png>
+Package pdftex.def Info: Figures/2.png used on input line 403.
 (pdftex.def)             Requested size: 324.8978pt x 146.8336pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 394--394
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 408--408
 [][] [] 
  []
 
-[2] [3 <./images/screenshotTNFmodelSmall.png> <./images/modeling_methods_spectr
-um_animo.png>]
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 538--538
+[2] [3 <./Figures/1.png> <./Figures/2.png>]
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 553--553
 [][] [] 
  []
 
-[4 <./images/Circadian/ANIMOvsODE_small_comparison-crop.pdf>]
-<images/large_network_merged_no_hypotheses_completa.png, id=58, 2675.9975pt x 3
-015.265pt>
-File: images/large_network_merged_no_hypotheses_completa.png Graphic file (type
- png)
- <use images/large_network_merged_no_hypotheses_completa.png>
-Package pdftex.def Info: images/large_network_merged_no_hypotheses_completa.png
- used on input line 581.
+[4 <./Figures/3.pdf>] <Figures/4.png, id=58, 2675.9975pt x 3015.265pt>
+File: Figures/4.png Graphic file (type png)
+
+<use Figures/4.png>
+Package pdftex.def Info: Figures/4.png used on input line 597.
 (pdftex.def)             Requested size: 324.8978pt x 366.04904pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 592--592
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 608--608
 [][] [] 
  []
 
-[5 <./images/large_network_merged_no_hypotheses_completa.png (PNG copy)>]
-<images/large_network_legendg_completa.png, id=63, 2641.87pt x 2844.6275pt>
-File: images/large_network_legendg_completa.png Graphic file (type png)
-
-<use images/large_network_legendg_completa.png>
-Package pdftex.def Info: images/large_network_legendg_completa.png used on inpu
-t line 641.
+[5 <./Figures/4.png (PNG copy)>]
+<Figures/5.png, id=63, 2641.87pt x 2844.6275pt>
+File: Figures/5.png Graphic file (type png)
+ <use Figures/5.png>
+Package pdftex.def Info: Figures/5.png used on input line 658.
 (pdftex.def)             Requested size: 324.8978pt x 349.80464pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 659--659
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 676--676
 [][] [] 
  []
 
-[6] [7 <./images/large_network_legendg_completa.png (PNG copy)>] [8]
-Overfull \hbox (6.48907pt too wide) in paragraph at lines 810--810
+[6] [7 <./Figures/5.png>] [8]
+Overfull \hbox (6.48907pt too wide) in paragraph at lines 828--828
 []|\OT1/cmss/bx/n/7 Qualitative
  []
 
 
-Overfull \hbox (5.29321pt too wide) in paragraph at lines 810--810
+Overfull \hbox (5.29321pt too wide) in paragraph at lines 828--828
 \OT1/cmss/bx/n/7 granularity|| 
  []
 
 
-Overfull \hbox (0.82802pt too wide) in paragraph at lines 836--836
+Overfull \hbox (0.82802pt too wide) in paragraph at lines 854--854
 []|[]\OT1/cmss/m/n/7 Statecharts| 
  []
 
-[9] [10]
-<images/abstraction_ta_mek-erk3_oneImage.png, id=83, 685.56125pt x 216.81pt>
-File: images/abstraction_ta_mek-erk3_oneImage.png Graphic file (type png)
+[9] [10] <Figures/6.png, id=84, 2923.3215pt x 640.794pt>
+File: Figures/6.png Graphic file (type png)
+ <use Figures/6.png>
+Package pdftex.def Info: Figures/6.png used on input line 992.
+(pdftex.def)             Requested size: 288.8011pt x 63.30093pt.
 
-<use images/abstraction_ta_mek-erk3_oneImage.png>
-Package pdftex.def Info: images/abstraction_ta_mek-erk3_oneImage.png used on in
-put line 966.
-(pdftex.def)             Requested size: 252.6989pt x 79.91739pt.
-
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 983--983
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1009--1009
 [][] [] 
  []
 
-[11 <./images/abstraction_ta_mek-erk3_oneImage.png>]
-<images/small_model_completa.png, id=88, 3369.58875pt x 2035.605pt>
-File: images/small_model_completa.png Graphic file (type png)
+[11 <./Figures/6.png>] <Figures/7.png, id=89, 3369.58875pt x 2035.605pt>
+File: Figures/7.png Graphic file (type png)
 
-<use images/small_model_completa.png>
-Package pdftex.def Info: images/small_model_completa.png used on input line 105
-9.
+<use Figures/7.png>
+Package pdftex.def Info: Figures/7.png used on input line 1086.
 (pdftex.def)             Requested size: 324.8978pt x 196.27313pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 1081--1081
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1108--1108
 [][] [] 
  []
 
-[12 <./images/small_model_completa.png>] (./Paper.bbl [13]) [14] [15
+[12 <./Figures/7.png>] (./Paper.bbl [13]) [14] [15
 
 ] [1
 
 
 
 ]
-(./Paper.toc)
-\tf@toc=\write5
-\openout5 = `Paper.toc'.
-
- [2
+\c@ttl@toc@appendices=\count197
+ (./Paper.ptc) [2
 
 ]
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1371--1378
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1408--1415
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1378--1385
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1415--1422
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1385--1388
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1422--1425
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1388--1391
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1425--1428
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1391--1413
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1428--1450
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1413--1433
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1450--1470
  [] [] [] 
  []
 
 
-Overfull \hbox (81.9448pt too wide) in alignment at lines 1433--1438
+Overfull \hbox (8.75014pt too wide) in alignment at lines 1470--1478
  [] [] [] 
  []
 
@@ -1210,149 +1191,121 @@ Overfull \hbox (81.9448pt too wide) in alignment at lines 1433--1438
 
 ] [4
 
-]
+] <Figures/S1.png, id=127, 1233.408pt x 1100.4312pt>
+File: Figures/S1.png Graphic file (type png)
 
-pdfTeX warning: /usr/bin/pdflatex (file ./images/animo_simulation_workflow.pdf)
-: PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<images/animo_simulation_workflow.pdf, id=126, 1233.40805pt x 1100.4021pt>
-File: images/animo_simulation_workflow.pdf Graphic file (type pdf)
+<use Figures/S1.png>
+Package pdftex.def Info: Figures/S1.png used on input line 1598.
+(pdftex.def)             Requested size: 324.8978pt x 289.8666pt.
 
-<use images/animo_simulation_workflow.pdf>
-Package pdftex.def Info: images/animo_simulation_workflow.pdf used on input lin
-e 1557.
-(pdftex.def)             Requested size: 324.8978pt x 289.85893pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1555--1567
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1595--1608
  []$[]$ 
  []
 
 [5]
 \mysquareLow=\box69
 \mysquareHigh=\box70
- <images/mek_activity_time_tables2.pdf, id=130, 1452.08893pt x 515.96762pt>
-File: images/mek_activity_time_tables2.pdf Graphic file (type pdf)
+ <Figures/S2.png, id=131, 190.5519pt x 264.99pt>
+File: Figures/S2.png Graphic file (type png)
+ <use Figures/S2.png>
+Package pdftex.def Info: Figures/S2.png used on input line 1756.
+(pdftex.def)             Requested size: 180.5pt x 251.01529pt.
 
-<use images/mek_activity_time_tables2.pdf>
-Package pdftex.def Info: images/mek_activity_time_tables2.pdf used on input lin
-e 1686.
-(pdftex.def)             Requested size: 144.40054pt x 51.30847pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1660--1732
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1701--1774
  [][]$[]$ 
  []
 
-<images/JNK1_levels.png, id=131, 1506.62875pt x 1129.21875pt>
-File: images/JNK1_levels.png Graphic file (type png)
-
-<use images/JNK1_levels.png>
-Package pdftex.def Info: images/JNK1_levels.png used on input line 1747.
+<Figures/S3.png, id=132, 1506.62875pt x 1129.21875pt>
+File: Figures/S3.png Graphic file (type png)
+ <use Figures/S3.png>
+Package pdftex.def Info: Figures/S3.png used on input line 1790.
 (pdftex.def)             Requested size: 361.0pt x 270.55281pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1741--1760
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1783--1803
  [][]$[]$ 
  []
 
-[6 <./images/animo_simulation_workflow.pdf>] [7 <./images/mek_activity_time_tab
-les2.pdf> <./images/lowerbound.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/lowerbound.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
-> <./images/upperbound_green.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/upperbound_green.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
->] [8 <./images/JNK1_levels.png>]
-<images/drosophila_model5.png, id=171, 2195.20125pt x 1469.49pt>
-File: images/drosophila_model5.png Graphic file (type png)
-
-<use images/drosophila_model5.png>
-Package pdftex.def Info: images/drosophila_model5.png used on input line 1776.
+[6 <./Figures/S1.png>] [7 <./Figures/S2.png>] [8 <./Figures/S3.png>]
+<Figures/S4.png, id=146, 2195.20125pt x 1469.49pt>
+File: Figures/S4.png Graphic file (type png)
+ <use Figures/S4.png>
+Package pdftex.def Info: Figures/S4.png used on input line 1819.
 (pdftex.def)             Requested size: 270.75pt x 181.24173pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 1790--1790
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 1834--1834
 [][] [] 
  []
 
 \reprGraphHeight=\skip88
-<images/drosophila_model_repressilator.png, id=172, 899.36pt x 943.525pt>
+<images/drosophila_model_repressilator.png, id=147, 899.36pt x 943.525pt>
 File: images/drosophila_model_repressilator.png Graphic file (type png)
 
 <use images/drosophila_model_repressilator.png>
 Package pdftex.def Info: images/drosophila_model_repressilator.png used on inpu
-t line 1811.
+t line 1855.
 (pdftex.def)             Requested size: 134.89818pt x 141.52264pt.
 
-<images/drosophila_model_repressilator_con_grafico.png, id=173, 1000.73875pt x 
-1470.49374pt>
-File: images/drosophila_model_repressilator_con_grafico.png Graphic file (type 
-png)
- <use images/drosophila_model_repressilator_con_grafico.png>
-Package pdftex.def Info: images/drosophila_model_repressilator_con_grafico.png 
-used on input line 1817.
+<Figures/S5.png, id=148, 1000.73875pt x 1470.49374pt>
+File: Figures/S5.png Graphic file (type png)
+ <use Figures/S5.png>
+Package pdftex.def Info: Figures/S5.png used on input line 1862.
 (pdftex.def)             Requested size: 216.6022pt x 318.25916pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1813--1824
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1857--1869
  [][]$[]$ 
  []
 
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1840--1865
+Overfull \hbox (12.5pt too wide) in paragraph at lines 1885--1911
  [][]$[]$ 
  []
 
 [9
 
- <./images/drosophila_model5.png (PNG copy)>] [10 <./images/drosophila_model_re
-pressilator_con_grafico.png (PNG copy)>] [11 <./images/Circadian/ANIMOvsODE-cro
-p.pdf>] <images/large_network_tnfa2.pdf, id=204, 574.06958pt x 662.475pt>
-File: images/large_network_tnfa2.pdf Graphic file (type pdf)
+ <./Figures/S4.png (PNG copy)>] [10 <./Figures/S5.png (PNG copy)>] [11 <./Figur
+es/S6.pdf>] <Figures/S7.pdf, id=179, 574.06958pt x 662.475pt>
+File: Figures/S7.pdf Graphic file (type pdf)
 
-<use images/large_network_tnfa2.pdf>
-Package pdftex.def Info: images/large_network_tnfa2.pdf used on input line 2133
-.
+<use Figures/S7.pdf>
+Package pdftex.def Info: Figures/S7.pdf used on input line 2180.
 (pdftex.def)             Requested size: 252.6989pt x 291.6112pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2131--2137
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2177--2184
  []$[]$ 
  []
 
-<images/large_network_egf3.pdf, id=205, 549.50105pt x 652.03598pt>
-File: images/large_network_egf3.pdf Graphic file (type pdf)
-
-<use images/large_network_egf3.pdf>
-Package pdftex.def Info: images/large_network_egf3.pdf used on input line 2142.
-
+<Figures/S8.pdf, id=180, 549.50105pt x 652.03598pt>
+File: Figures/S8.pdf Graphic file (type pdf)
+ <use Figures/S8.pdf>
+Package pdftex.def Info: Figures/S8.pdf used on input line 2190.
 (pdftex.def)             Requested size: 252.6989pt x 299.85065pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2140--2147
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2187--2195
  [][]$[]$ 
  []
 
-
-<images/large_network_hypotheses7_complete.png, id=206, 1305.87875pt x 993.7125
-pt>
-File: images/large_network_hypotheses7_complete.png Graphic file (type png)
- <use images/large_network_hypotheses7_complete.png>
-Package pdftex.def Info: images/large_network_hypotheses7_complete.png used on 
-input line 2158.
+<Figures/S9.png, id=181, 1305.87875pt x 993.7125pt>
+File: Figures/S9.png Graphic file (type png)
+ <use Figures/S9.png>
+Package pdftex.def Info: Figures/S9.png used on input line 2207.
 (pdftex.def)             Requested size: 324.8978pt x 247.22964pt.
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2154--2164
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2202--2213
  [][]$[]$ 
  []
 
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2169--2190
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2218--2240
  [][]$[]$ 
  []
 
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2194--2217
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2244--2268
  [][]$[]$ 
  []
 
 
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2221--2242
+Overfull \hbox (12.5pt too wide) in paragraph at lines 2272--2294
  [][]$[]$ 
  []
 
@@ -1361,24 +1314,26 @@ AED: lastpage setting LastPage
 [12
 
 
- <./images/large_network_tnfa2.pdf>] [13 <./images/large_network_egf3.pdf> <./i
-mages/large_network_hypotheses7_complete.png (PNG copy)>] [14 <./images/TNFa-EG
-F/100TNFa-0EGF/100TNF_0EGF_ANIMOvsFuzzy-crop.pdf>] [15 <./images/TNFa-EGF/0TNFa
--100EGF/0TNF_100EGF_ANIMOvsFuzzy-crop.pdf>] [16 <./images/TNFa-EGF/100TNFa-100E
-GF/100TNF_100EGF_ANIMOvsFuzzy-crop.pdf>] (./Paper.aux)
+ <./Figures/S7.pdf>] [13 <./Figures/S8.pdf> <./Figures/S9.png (PNG copy)>]
+[14 <./Figures/S10.pdf>] [15 <./Figures/S11.pdf>] [16 <./Figures/S12.pdf>]
+\tf@ptc=\write5
+\openout5 = `Paper.ptc'.
+
+
+(./Paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15917 strings out of 493304
- 303501 string characters out of 6139871
- 418414 words of memory out of 5000000
- 18978 multiletter control sequences out of 15000+600000
+ 15828 strings out of 493304
+ 299774 string characters out of 6139871
+ 413036 words of memory out of 5000000
+ 18892 multiletter control sequences out of 15000+600000
  16631 words of font info for 62 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,17n,56p,2112b,818s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,56p,2120b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
@@ -1401,9 +1356,9 @@ nts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msam10.pfb>
-Output written on Paper.pdf (33 pages, 6563686 bytes).
+Output written on Paper.pdf (33 pages, 6490739 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
+ 353 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

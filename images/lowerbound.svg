@@ -13,8 +13,11 @@
    height="131.89468"
    id="svg5873"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="New document 10">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="lowerbound.svg"
+   inkscape:export-filename="/local/schivos/Lavoro/aspetta/Presentazioni/BMC_Biology 2015/images/lowerbound.png"
+   inkscape:export-xdpi="60"
+   inkscape:export-ydpi="60">
   <defs
      id="defs5875" />
   <sodipodi:namedview
@@ -34,11 +37,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="515"
-     inkscape:window-height="424"
-     inkscape:window-x="719"
-     inkscape:window-y="325"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1865"
+     inkscape:window-height="1056"
+     inkscape:window-x="55"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5878">
     <rdf:RDF>
@@ -62,6 +65,6 @@
        height="127.89468"
        width="115.42088"
        id="rect3757"
-       style="fill:#f2130c;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+       style="fill:#cc0000;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
   </g>
 </svg>

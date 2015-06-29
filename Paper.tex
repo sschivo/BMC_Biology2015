@@ -348,10 +348,10 @@ Interactions among nodes define how the biological entities in a network influen
 Only nodes whose activity level is larger than 0 (such nodes are called \emph{active}) can have an 
 influence on their downstream targets, and only if that influence is not counterbalanced by intervening opposite interactions.
 For example, the interaction $A\rightarrow B$ (read ``A activates B'') indicates that node A, if active,
-will increase the activity of node B. If we add an additional interaction to the example,
+will increase the activity level of node B. If we add an additional interaction to the example,
 $C \dashv$\hspace{0.1em}$B$ (``C inhibits B''), with C also active, then the activity level of B will change depending on the
 activity levels of A and C, and on their quantitative influence.
-The influence of an ANIMO interaction is quantified by a scale factor $k$, which defines the speed at which
+The influence of an ANIMO interaction is quantified by a parameter $k$, which defines the speed at which
 that interaction occurs: higher values of $k$ give faster interactions. These $k$-values are
 the only parameters needed in an ANIMO model, and can be given in either
 a quantitative (as real numbers) or a qualitative way, choosing among self-explanatory descriptions
@@ -515,7 +515,7 @@ the widely used network modelling software Cytoscape.\label{fig:animo-spectrum}}
 \subsection*{Modelling oscillation in Drosophila Melanogaster circadian clock}\label{sec:animo-drosophila}
 To demonstrate that results obtained with ANIMO are comparable to results from widely used modelling
 approaches, we present 
-an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster} (Fig.~\ref{fig:drosophila-model}).
+an ANIMO model of the circadian clock in \emph{Drosophila Melanogaster} (Suppl. Fig.~\ref{fig:drosophila-model}).
 This ANIMO model is based on~\cite{drosophila-ode-model},
 where ordinary differential equations (ODEs) were used.
 The cyclic behaviour of the circadian clock is based on the alternating formation and destruction of the
@@ -661,8 +661,8 @@ c-Fos in our model as transcriptional activators of IL-1$\alpha$ (Fig.\ref{fig:l
 {\bf(A)} %{\bf \protect\subref{fig:large-model-complete}}
 The model for the merged TNF$\alpha$ and EGF pathways
 after addition of the two hypotheses (highlighted).
-Hypothesis 1 assumes IL-1$\alpha$ expression to depend on AP-1 activity, which in turn requires
-both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis 2 assumes RAS as an activator
+Hypothesis~1 assumes IL-1$\alpha$ expression to depend on AP-1 activity, which in turn requires
+both c-Jun en c-Fos to be activated by JNK1 and ERK, respectively. Hypothesis~2 assumes RAS as an activator
 of MEKK1. Node colours represent the activity levels $15$ minutes
 after stimulation of 100 ng/ml TNF$\alpha$ + 100 ng/ml EGF.
 {\bf(B)} %{\bf \protect\subref{fig:large-model-graph2}}~
@@ -671,6 +671,7 @@ on JNK1 and ERK): production of IL-1$\alpha$ after stimulation with 100 ng/ml TN
 compared with stimulation with 100 ng/ml TGF$\alpha$ (series {\sf IL-1a~(TGFa)}) (24 hours).
 {\bf(C)} %{\bf \protect\subref{fig:large-model-graph4}}~
 After the addition of the second hypothesis (activation of MEKK1 downstream of EGFR):
+activation of JNK1 and MK2 after
 stimulation with 5 ng/ml TNF$\alpha$ + 10 $\mu$g/ml C225 (2 hours).
 Suppl. Sect.~\ref{suppl:parameters-tnf-egf} explains how the dosage of 5 ng/ml TNF$\alpha$ was represented in the model.\\
 The {\sf \_{}data} suffix identifies experimental data; all other series are computed by ANIMO.}\label{fig:large-model-complete}
@@ -682,7 +683,7 @@ The {\sf \_{}data} suffix identifies experimental data; all other series are com
 As a second example, we considered the behaviour of JNK1 and MK2. In the model, both
 proteins were located downstream of TNF$\alpha$ but not TGF$\alpha$ or EGF. Hence, the
 model did not show an effect of C225, a pharmacological inhibitor of ligand-EGFR
-binding, on activation of JNK1 or MK2 after stimulation with TNF$\alpha$. However, experimental
+binding, on activation of JNK1 or MK2 after stimulation with TNF$\alpha$ (Fig.~\ref{fig:large-model-all}C). However, experimental
 data show that C225 strongly reduces activation of JNK1 and MK2 upon stimulation with
 TNF$\alpha$~\cite{pathway-autocrine}.
 This fact is indicative of a role for EGFR in activation of JNK1 and MK2. Since both JNK1 and MK2
@@ -929,7 +930,7 @@ In this paper we discussed the placement of ANIMO among other modelling paradigm
 highlighting ANIMO's strong points.
 
 From the point of view of model precision, we position ANIMO between fuzzy logic and ODEs.
-Being less parameter-intensive than ODEs more precise than logic-based models,
+Being less parameter-intensive than ODEs and more precise than logic-based models,
 ANIMO models are flexible enough to be useful in many occasions.
 
 ANIMO adds a dynamic component to the static networks already familiar to biologists,
@@ -996,17 +997,17 @@ is not needed.
 Classical depiction of a well-studied intracellular signal transduction reaction: protein
 MAPK-ERK kinase (MEK) activates downstream protein extracellular-regulated kinase (ERK).
 {\bf(B)} %{\bf \protect\subref{subfig:erk}}~
-A \ta\ model of ERK, consisting of two states (circles), {\sf inactive\_ERK} and {\sf active\_ERK},
-and one transition (arrow) between the states. This transition will take place when it is possible to synchronize with
+A \ta\ model of ERK, consisting of two locations (circles), {\sf inactive\_ERK} and {\sf active\_ERK},
+and one transition (arrow) between the locations. This transition will take place when it is possible to synchronize with
 the corresponding action {\sf activate\_ERK!} in the MEK automaton.
 {\bf(C)} %{\bf \protect\subref{subfig:mek}}~
-A \ta\ model of active MEK, consisting of one state and one
-transition. ${\sf t} < 20$ is called an invariant on the state, allowing residence in this state as long as local
+A \ta\ model of active MEK, consisting of one location and one
+transition. ${\sf t} < 20$ is called an invariant on the location, allowing residence in this location as long as 
 clock time {\sf t} is smaller than $20$ units. ${\sf t} > 18$ is called a guard on the transition, allowing the
-transition to take place when local clock {\sf t} is greater than $18$ units. Together, the invariant and guard in this
+transition to take place when clock {\sf t} is greater than $18$ units. Together, the invariant and guard in this
 example ensure that the transition must take place in the (continuous) time interval $18 < {\sf t} < 20$. When the
 transition takes place, the action {\sf activate\_Erk!} is performed (thus allowing the ERK automaton to reach the {\sf
-active\_ERK} state) and the local clock coupled to this automaton is reset, ${\sf t} := 0$.\label{fig:abstraction-mek-erk}}
+active\_ERK} location) and the local clock coupled to this automaton is reset, ${\sf t} := 0$.\label{fig:abstraction-mek-erk}}
 \end{figure*}
 
 
@@ -1042,8 +1043,8 @@ active\_ERK} state) and the local clock coupled to this automaton is reset, ${\s
 \def\ta{TA}
 \def\tas{TA}
 
-Timed Automata have been shown to be a powerful formalism to model biological processes
-~\cite{ta-siebert,bartocci-oscillators,oded-ode-ta-discretization}. A timed automaton consists of locations
+Timed Automata have been shown to be a powerful formalism to model biological
+processes~\cite{ta-siebert,bartocci-oscillators,oded-ode-ta-discretization}. A timed automaton consists of locations
 and transitions between these locations (see Fig.~\ref{fig:abstraction-mek-erk}), and a system of timed automata can be
 used to model a system of interacting molecules. At any time, each automaton is in a specific location, and together
 these locations represent the current state of the biological system. Each timed automaton can have one or more clocks

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  29 JUN 2015 11:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.22)  29 JUN 2015 16:35
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -898,10 +898,6 @@ d PDF version <1.5>, but at most version <1.4> allowed
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/S6.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/3.pdf): PDF inclusion: found 
-PDF version <1.5>, but at most version <1.4> allowed
 \@indexfile=\write4
 \openout4 = `Paper.idx'.
 
@@ -909,18 +905,18 @@ Writing index file Paper.idx
 (./Paper.aux)
 \openout1 = `Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count191
@@ -941,7 +937,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 110.
+(lastpage)             ! on input line 109.
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1001,35 +997,35 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 110.
+Package layouts Warning: Layout scale set to 0.5 on input line 109.
 
 ABD: EveryShipout initializing macros
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 115.
+(Font)              size <12> substituted on input line 114.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <24> not available
-(Font)              size <24.88> substituted on input line 117.
+(Font)              size <24.88> substituted on input line 116.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 139.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 137.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 139.
+(Font)              size <5> substituted on input line 137.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 139.
+(Font)              size <5> substituted on input line 137.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 139.
+(Font)              size <5> substituted on input line 137.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 139.
+LaTeX Font Info:    Try loading font information for U+msa on input line 137.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 139.
+LaTeX Font Info:    Try loading font information for U+msb on input line 137.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1040,12 +1036,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 261.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 242.
 
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 335.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 306.
 
 
 
@@ -1055,285 +1051,82 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-]
-<Figures/1.png, id=30, 1407.2575pt x 862.22125pt>
-File: Figures/1.png Graphic file (type png)
- <use Figures/1.png>
-Package pdftex.def Info: Figures/1.png used on input line 364.
-(pdftex.def)             Requested size: 306.8522pt x 188.00523pt.
-
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 378--378
+] [2] [3] [4] [5] [6]
+[7] (./Paper.bbl [8] [9]) [10]
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 817--817
 [][] [] 
  []
 
-<Figures/2.png, id=31, 908.39375pt x 410.53375pt>
-File: Figures/2.png Graphic file (type png)
- <use Figures/2.png>
-Package pdftex.def Info: Figures/2.png used on input line 403.
-(pdftex.def)             Requested size: 324.8978pt x 146.8336pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 408--408
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 827--827
 [][] [] 
  []
 
-[2] [3 <./Figures/1.png> <./Figures/2.png>]
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 553--553
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 838--838
 [][] [] 
  []
 
-[4 <./Figures/3.pdf>] <Figures/4.png, id=58, 2675.9975pt x 3015.265pt>
-File: Figures/4.png Graphic file (type png)
 
-<use Figures/4.png>
-Package pdftex.def Info: Figures/4.png used on input line 597.
-(pdftex.def)             Requested size: 324.8978pt x 366.04904pt.
-
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 608--608
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 855--855
 [][] [] 
  []
 
-[5 <./Figures/4.png (PNG copy)>]
-<Figures/5.png, id=63, 2641.87pt x 2844.6275pt>
-File: Figures/5.png Graphic file (type png)
- <use Figures/5.png>
-Package pdftex.def Info: Figures/5.png used on input line 658.
-(pdftex.def)             Requested size: 324.8978pt x 349.80464pt.
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 677--677
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 880--880
 [][] [] 
  []
 
-[6] [7 <./Figures/5.png>] [8]
-Overfull \hbox (6.48907pt too wide) in paragraph at lines 829--829
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 903--903
+[][] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 927--927
+[][] [] 
+ []
+
+[11
+
+] [12]
+Overfull \hbox (6.48907pt too wide) in paragraph at lines 966--966
 []|\OT1/cmss/bx/n/7 Qualitative
  []
 
 
-Overfull \hbox (5.29321pt too wide) in paragraph at lines 829--829
+Overfull \hbox (5.29321pt too wide) in paragraph at lines 966--966
 \OT1/cmss/bx/n/7 granularity|| 
  []
 
 
-Overfull \hbox (0.82802pt too wide) in paragraph at lines 855--855
+Overfull \hbox (0.82802pt too wide) in paragraph at lines 984--984
 []|[]\OT1/cmss/m/n/7 Statecharts| 
  []
 
-[9] [10] <Figures/6.png, id=84, 2923.3215pt x 640.794pt>
-File: Figures/6.png Graphic file (type png)
- <use Figures/6.png>
-Package pdftex.def Info: Figures/6.png used on input line 993.
-(pdftex.def)             Requested size: 288.8011pt x 63.30093pt.
+[13
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 1010--1010
-[][] [] 
- []
-
-[11 <./Figures/6.png>] <Figures/7.png, id=89, 3369.58875pt x 2035.605pt>
-File: Figures/7.png Graphic file (type png)
-
-<use Figures/7.png>
-Package pdftex.def Info: Figures/7.png used on input line 1087.
-(pdftex.def)             Requested size: 324.8978pt x 196.27313pt.
-
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 1109--1109
-[][] [] 
- []
-
-[12 <./Figures/7.png>] (./Paper.bbl [13]) [14] [15
-
-] [1
-
-
-
-]
-\c@ttl@toc@appendices=\count197
- (./Paper.ptc) [2
-
-]
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1409--1416
- [] [] [] 
- []
-
-
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1416--1423
- [] [] [] 
- []
-
-
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1423--1426
- [] [] [] 
- []
-
-
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1426--1429
- [] [] [] 
- []
-
-
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1429--1451
- [] [] [] 
- []
-
-
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1451--1471
- [] [] [] 
- []
-
-
-Overfull \hbox (8.75014pt too wide) in alignment at lines 1471--1479
- [] [] [] 
- []
-
-[1
-
-
-] [2] [3
-
-] [4
-
-] <Figures/S1.png, id=127, 1233.408pt x 1100.4312pt>
-File: Figures/S1.png Graphic file (type png)
-
-<use Figures/S1.png>
-Package pdftex.def Info: Figures/S1.png used on input line 1599.
-(pdftex.def)             Requested size: 324.8978pt x 289.8666pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1596--1609
- []$[]$ 
- []
-
-[5]
-\mysquareLow=\box69
-\mysquareHigh=\box70
- <Figures/S2.png, id=131, 190.5519pt x 264.99pt>
-File: Figures/S2.png Graphic file (type png)
- <use Figures/S2.png>
-Package pdftex.def Info: Figures/S2.png used on input line 1757.
-(pdftex.def)             Requested size: 180.5pt x 251.01529pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1702--1775
- [][]$[]$ 
- []
-
-<Figures/S3.png, id=132, 1506.62875pt x 1129.21875pt>
-File: Figures/S3.png Graphic file (type png)
- <use Figures/S3.png>
-Package pdftex.def Info: Figures/S3.png used on input line 1791.
-(pdftex.def)             Requested size: 361.0pt x 270.55281pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1784--1804
- [][]$[]$ 
- []
-
-[6 <./Figures/S1.png>] [7 <./Figures/S2.png>] [8 <./Figures/S3.png>]
-<Figures/S4.png, id=146, 2195.20125pt x 1469.49pt>
-File: Figures/S4.png Graphic file (type png)
- <use Figures/S4.png>
-Package pdftex.def Info: Figures/S4.png used on input line 1820.
-(pdftex.def)             Requested size: 270.75pt x 181.24173pt.
-
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 1835--1835
-[][] [] 
- []
-
-\reprGraphHeight=\skip88
-<images/drosophila_model_repressilator.png, id=147, 899.36pt x 943.525pt>
-File: images/drosophila_model_repressilator.png Graphic file (type png)
-
-<use images/drosophila_model_repressilator.png>
-Package pdftex.def Info: images/drosophila_model_repressilator.png used on inpu
-t line 1856.
-(pdftex.def)             Requested size: 134.89818pt x 141.52264pt.
-
-<Figures/S5.png, id=148, 1000.73875pt x 1470.49374pt>
-File: Figures/S5.png Graphic file (type png)
- <use Figures/S5.png>
-Package pdftex.def Info: Figures/S5.png used on input line 1863.
-(pdftex.def)             Requested size: 216.6022pt x 318.25916pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1858--1870
- [][]$[]$ 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 1886--1912
- [][]$[]$ 
- []
-
-[9
-
- <./Figures/S4.png (PNG copy)>] [10 <./Figures/S5.png (PNG copy)>] [11 <./Figur
-es/S6.pdf>] <Figures/S7.pdf, id=179, 574.06958pt x 662.475pt>
-File: Figures/S7.pdf Graphic file (type pdf)
-
-<use Figures/S7.pdf>
-Package pdftex.def Info: Figures/S7.pdf used on input line 2181.
-(pdftex.def)             Requested size: 252.6989pt x 291.6112pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2178--2185
- []$[]$ 
- []
-
-<Figures/S8.pdf, id=180, 549.50105pt x 652.03598pt>
-File: Figures/S8.pdf Graphic file (type pdf)
- <use Figures/S8.pdf>
-Package pdftex.def Info: Figures/S8.pdf used on input line 2191.
-(pdftex.def)             Requested size: 252.6989pt x 299.85065pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2188--2196
- [][]$[]$ 
- []
-
-<Figures/S9.png, id=181, 1305.87875pt x 993.7125pt>
-File: Figures/S9.png Graphic file (type png)
- <use Figures/S9.png>
-Package pdftex.def Info: Figures/S9.png used on input line 2208.
-(pdftex.def)             Requested size: 324.8978pt x 247.22964pt.
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2203--2214
- [][]$[]$ 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2219--2241
- [][]$[]$ 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2245--2269
- [][]$[]$ 
- []
-
-
-Overfull \hbox (12.5pt too wide) in paragraph at lines 2273--2295
- [][]$[]$ 
- []
-
-
+] 
 AED: lastpage setting LastPage
-[12
+[14
 
-
- <./Figures/S7.pdf>] [13 <./Figures/S8.pdf> <./Figures/S9.png (PNG copy)>]
-[14 <./Figures/S10.pdf>] [15 <./Figures/S11.pdf>] [16 <./Figures/S12.pdf>]
-\tf@ptc=\write5
-\openout5 = `Paper.ptc'.
-
-
-(./Paper.aux)
+] (./Paper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15828 strings out of 493304
- 299774 string characters out of 6139871
- 413036 words of memory out of 5000000
- 18892 multiletter control sequences out of 15000+600000
- 16631 words of font info for 62 fonts, out of 8000000 for 9000
+ 15685 strings out of 493304
+ 297387 string characters out of 6139871
+ 417255 words of memory out of 5000000
+ 18770 multiletter control sequences out of 15000+600000
+ 16164 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,13n,56p,2120b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,13n,56p,1688b,556s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/tex
@@ -1341,24 +1134,21 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-s17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb>
-Output written on Paper.pdf (33 pages, 6516618 bytes).
+/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Paper.pdf (14 pages, 295562 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

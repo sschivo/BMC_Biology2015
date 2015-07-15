@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  8 JUL 2015 17:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  15 JUL 2015 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,12 +1085,7 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-[2] [3] [4] [5] [6] [7] (./Paper.bbl [8] [9]) [10]
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 818--818
-[] [] 
- []
-
-
+[2] [3] [4] [5] [6] [7] [8] (./Paper.bbl [9]) [10]
 Overfull \hbox (3.47444pt too wide) in paragraph at lines 829--829
 [] [] 
  []
@@ -1101,17 +1096,22 @@ Overfull \hbox (3.47444pt too wide) in paragraph at lines 840--840
  []
 
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 857--857
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 851--851
 [] [] 
  []
 
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 882--882
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 868--868
 [] [] 
  []
 
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 905--905
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 893--893
+[] [] 
+ []
+
+
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 916--916
 [] [] 
  []
 
@@ -1119,24 +1119,24 @@ Overfull \hbox (3.47444pt too wide) in paragraph at lines 905--905
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (3.47444pt too wide) in paragraph at lines 929--929
+Overfull \hbox (3.47444pt too wide) in paragraph at lines 940--940
 [] [] 
  []
 
 [11
 
 ] [12]
-Overfull \hbox (6.48907pt too wide) in paragraph at lines 968--968
+Overfull \hbox (6.48907pt too wide) in paragraph at lines 979--979
 []|\OT1/cmss/bx/n/7 Qualitative
  []
 
 
-Overfull \hbox (5.29321pt too wide) in paragraph at lines 968--968
+Overfull \hbox (5.29321pt too wide) in paragraph at lines 979--979
 \OT1/cmss/bx/n/7 granularity|| 
  []
 
 
-Overfull \hbox (0.82802pt too wide) in paragraph at lines 986--986
+Overfull \hbox (0.82802pt too wide) in paragraph at lines 997--997
 []|\OT1/cmss/m/n/7 Statecharts| 
  []
 
@@ -1153,10 +1153,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15684 strings out of 493315
- 300923 string characters out of 6137904
- 416801 words of memory out of 5000000
- 18762 multiletter control sequences out of 15000+600000
+ 15686 strings out of 493315
+ 300944 string characters out of 6137904
+ 416809 words of memory out of 5000000
+ 18764 multiletter control sequences out of 15000+600000
  16164 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,13n,56p,1677b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1180,7 +1180,7 @@ texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Paper.pdf (14 pages, 295656 bytes).
+Output written on Paper.pdf (14 pages, 296653 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Paper.aux
 The style file: bmc-mathphys.bst
@@ -23,44 +23,44 @@ Database file #1: Paper.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 27 entries,
+You've used 29 entries,
             6330 wiz_defined-function locations,
-            1212 strings with 15150 characters,
-and the built_in function-call counts, 353638 in all, are:
-= -- 60860
-> -- 1266
-< -- 590
-+ -- 33884
-- -- 316
-* -- 11821
-:= -- 63019
-add.period$ -- 36
-call.type$ -- 27
-change.case$ -- 197
-chr.to.int$ -- 1671
-cite$ -- 27
-duplicate$ -- 1604
-empty$ -- 8599
-format.name$ -- 892
-if$ -- 89390
-int.to.chr$ -- 1
-int.to.str$ -- 39
+            1219 strings with 15535 characters,
+and the built_in function-call counts, 367462 in all, are:
+= -- 62492
+> -- 1362
+< -- 604
++ -- 34085
+- -- 352
+* -- 13005
+:= -- 65821
+add.period$ -- 38
+call.type$ -- 29
+change.case$ -- 207
+chr.to.int$ -- 1708
+cite$ -- 29
+duplicate$ -- 1724
+empty$ -- 9665
+format.name$ -- 1006
+if$ -- 92350
+int.to.chr$ -- 2
+int.to.str$ -- 41
 missing$ -- 0
-newline$ -- 482
-num.names$ -- 114
-pop$ -- 751
+newline$ -- 522
+num.names$ -- 122
+pop$ -- 837
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 127
 quote$ -- 0
-skip$ -- 36777
+skip$ -- 37502
 stack$ -- 0
-substring$ -- 36977
-swap$ -- 1017
-text.length$ -- 388
+substring$ -- 39345
+swap$ -- 1079
+text.length$ -- 410
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1181
+type$ -- 1273
 warning$ -- 0
-while$ -- 1051
+while$ -- 1139
 width$ -- 0
-write$ -- 541
+write$ -- 585

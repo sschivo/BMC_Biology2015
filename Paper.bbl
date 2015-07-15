@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{29}
 % BibTex style file: bmc-mathphys.bst (version 1.01), 2012-01-06
 \ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
 \ifx \binits  \undefined \def \binits#1{#1}\fi
@@ -338,6 +338,48 @@ pp. \bfpage{35}--\blpage{47}
 \endbibitem
 
 %%% 19
+\bibitem{cellnopt}
+\begin{barticle}
+\bauthor{\bsnm{Terfve}, \binits{C.}},
+\bauthor{\bsnm{Cokelaer}, \binits{T.}},
+\bauthor{\bsnm{Henriques}, \binits{D.}},
+\bauthor{\bsnm{MacNamara}, \binits{A.}},
+\bauthor{\bsnm{Goncalves}, \binits{E.}},
+\bauthor{\bsnm{Morris}, \binits{M.}},
+\bauthor{\bsnm{Iersel}, \binits{M.v.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.}},
+\bauthor{\bsnm{Saez-Rodriguez}, \binits{J.}}:
+\batitle{Cellnoptr: a flexible toolkit to train protein signaling networks to
+  data using multiple logic formalisms}.
+\bjtitle{BMC Systems Biology}
+\bvolume{6}(\bissue{1}),
+\bfpage{133}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem{cellnoptr}
+\begin{barticle}
+\bauthor{\bsnm{Terfve}, \binits{C.}},
+\bauthor{\bsnm{Cokelaer}, \binits{T.}},
+\bauthor{\bsnm{Henriques}, \binits{D.}},
+\bauthor{\bsnm{MacNamara}, \binits{A.}},
+\bauthor{\bsnm{Goncalves}, \binits{E.}},
+\bauthor{\bsnm{Morris}, \binits{M.}},
+\bauthor{\bsnm{Iersel}, \binits{M.v.}},
+\bauthor{\bsnm{Lauffenburger}, \binits{D.}},
+\bauthor{\bsnm{Saez-Rodriguez}, \binits{J.}}:
+\batitle{Cellnoptr: a flexible toolkit to train protein signaling networks to
+  data using multiple logic formalisms}.
+\bjtitle{BMC Systems Biology}
+\bvolume{6}(\bissue{1}),
+\bfpage{133}
+(\byear{2012})
+\end{barticle}
+\endbibitem
+
+%%% 21
 \bibitem{ta-siebert}
 \begin{barticle}
 \bauthor{\bsnm{Siebert}, \binits{H.}},
@@ -350,7 +392,7 @@ pp. \bfpage{35}--\blpage{47}
 \end{barticle}
 \endbibitem
 
-%%% 20
+%%% 22
 \bibitem{bartocci-oscillators}
 \begin{barticle}
 \bauthor{\bsnm{Bartocci}, \binits{E.}},
@@ -367,7 +409,7 @@ pp. \bfpage{35}--\blpage{47}
 \end{barticle}
 \endbibitem
 
-%%% 21
+%%% 23
 \bibitem{oded-ode-ta-discretization}
 \begin{bchapter}
 \bauthor{\bsnm{Batt}, \binits{G.}},
@@ -384,7 +426,7 @@ pp. \bfpage{38}--\blpage{52}.
 \end{bchapter}
 \endbibitem
 
-%%% 22
+%%% 24
 \bibitem{animo-bibe}
 \begin{bchapter}
 \bauthor{\bsnm{Schivo}, \binits{S.}},
@@ -406,7 +448,7 @@ pp. \bfpage{447}--\blpage{453}.
 \end{bchapter}
 \endbibitem
 
-%%% 23
+%%% 25
 \bibitem{biopepa-interface}
 \begin{botherref}
 \oauthor{\bsnm{Ciocchetta}, \binits{F.}},
@@ -421,7 +463,7 @@ International Conference on Quantitative Evaluation of Systems,
 \end{botherref}
 \endbibitem
 
-%%% 24
+%%% 26
 \bibitem{cell-illustrator}
 \begin{barticle}
 \bauthor{\bsnm{Nagasaki}, \binits{M.}},
@@ -439,7 +481,7 @@ International Conference on Quantitative Evaluation of Systems,
 \end{barticle}
 \endbibitem
 
-%%% 25
+%%% 27
 \bibitem{copasi}
 \begin{botherref}
 \oauthor{\bsnm{Mendes}, \binits{P.}},
@@ -459,7 +501,7 @@ Chap. 2
 \end{botherref}
 \endbibitem
 
-%%% 26
+%%% 28
 \bibitem{ginsim}
 \begin{bchapter}
 \bauthor{\bsnm{Chaouiya}, \binits{C.}},
@@ -481,7 +523,7 @@ pp. \bfpage{830}--\blpage{832}.
 \end{bchapter}
 \endbibitem
 
-%%% 27
+%%% 29
 \bibitem{gna}
 \begin{barticle}
 \bauthor{\bparticle{de} \bsnm{Jong}, \binits{H.}},

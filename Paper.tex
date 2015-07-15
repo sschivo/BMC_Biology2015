@@ -374,7 +374,8 @@ the circadian clock to synchronize to a time zone (see Suppl. Sect.~D.2). %\ref{
 
 The output of the ANIMO model (see Suppl. Fig.S4) %~\ref{fig:drosophila-model})
 matches the original ODE model.
-In particular, the oscillations in both models show similar periods and phases (see Fig.~\ref{fig:grafici-drosophila-smaller} for
+In particular, 
+both models achieve an oscillatory behaviour with similar periods and phases (see Fig.~\ref{fig:grafici-drosophila-smaller} for
 an example, and Suppl. Fig~S6 %\ref{suppl-fig:grafici-drosophila}
 for the complete comparison).
 Details of the comparison
@@ -587,6 +588,16 @@ the basis of the following parameters:
 Table~\ref{tab:tool-comparison} shows the comparison between ANIMO and the selected tools.
 
 
+
+As related work, we also signal the powerful tool CellNOpt~\cite{cellnopt}. CellNOpt is a software which can
+ work with logic descriptions (Boolean, fuzzy) and differential equations, and automatically suggests
+  the best network topologies to match a given data set.
+  Thanks to the CytoCopteR plug-in for Cytoscape~\cite{cellnoptr}, which
+  provides an accessible user interface,
+  CellNOpt can be used in tandem with ANIMO:
+  after computing the most likely network topologies with CytoCopteR,
+  the biologist can carry on the analysis process with ANIMO, working on 
+  new hypotheses to explain the experimental data. 
 
 
 
